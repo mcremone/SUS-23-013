@@ -153,9 +153,9 @@
 \newcommand{\mSD}{\ensuremath{m_{SD}}\xspace}
 \newcommand{\Rpf}{\ensuremath{R_{\mathrm{p}/\mathrm{f}}}\xspace}
 
-%\documentclass[11pt,twoside,a4paper,cmspaper]{cms-tdr}
-%\usepackage{float}
-%\usepackage{comment}
+\documentclass[11pt,twoside,a4paper,cmspaper]{cms-tdr}
+\usepackage{float}
+\usepackage{comment}
 \def\svnVersion{32611a6}\def\svnDate{2023/09/28}
 \begin{document}
 %%%%%%%%%%%%%%%  Title page %%%%%%%%%%%%%%%%%%%%%%%%
@@ -217,7 +217,7 @@ Since DM particles, once produced, do not leave any detectable signal in the det
 
 The mono-jet DM searches at the LHC~\cite{cms_monojet,atlas_monojet} have strongly constrained the parameter space in which DM particles can obtain their relic abundance from direct annihilation into SM final states. This tension is relaxed if DM particles are not the lightest state in the dark sector, leading to new annihilation channels. If the DM mass is generated via a Higgs mechanism in the dark sector and the resulting dark Higgs boson is lighter than DM, a new annihilation channel where DM particles annihilate into a pair of dark Higgs bosons (\hs), with subsequent decay into SM states, would be possible. This would easily set the observed relic abundance. Assuming a small mixing with the SM Higgs boson, a light dark Higgs boson decays with the same branching fraction of the SM Higgs boson, which vary depending on its mass. If the dark sector includes an additional spin-1 \PZpr mediator, then the probability of the \PZpr boson being produced and radiating a dark Higgs boson (dark-Higgsstrahlung) can be large~\cite{Duerr2017}. A representative Feynman diagram for this signal model is shown in Fig.~\ref{fig:feyn}.
 
-\begin{figure}[hbtp]%[htbp]
+\begin{figure}[H]%[htbp]
     \centering
     %\subfloat[mono-dark-Higgs signal]
     {\includegraphics[width=0.45\textwidth]{figures/monodarkhiggs.pdf}}\\
@@ -292,40 +292,42 @@ In the second case, large \ptmiss is generated due to failures of the PF reconst
 Finally, a section of the HCAL was not functioning during a part of the 2018 data taking period corresponding to 65\% of the total integrated luminosity recorded in that year, leading to irrecoverable mismeasurement in a localized region of the detector ($-1.57<\phi<-0.87$, $-3.0<\eta<-1.3$). To avoid contamination from such mismeasurement, events where any jet with $\pt>30\GeV$ is found in the corresponding $\eta$-$\phi$ region are rejected in the analysis of the 2018 data set. Events where the mismeasurement is so severe that a jet is fully lost in this region are found to contribute at low values of $\ptmiss<470\GeV$ and to have a characteristic signature in $\phi(\ptvecmiss)$. Such events are rejected by requiring that $\phi(\ptvecmiss)\notin[-1.62,-0.62]$ if $\ptmiss<470\GeV$. 
 %The value of 470\GeV is the boundary of the optimal signal region binning just above this contamination region.
 Expected yields from different processes in SR are reported in Table~\ref{sr_yields}. 
-\begin{table}[hbtp]
+\begin{table}[H]
     \centering
     \def\arraystretch{1}
 
-    \caption{Expected yields from background processes in the signal region for different years of data taking. Uncertainties are statistical-only.}
+    \caption{Expected yields from background processes in the signal region. Values are pre-fit and uncertainties are statistical-only.}
     \label{sr_yields}
     \footnotesize
-    \begin{tabular}{l c c c}
+    \hspace{-1cm}\begin{tabular}{l c c c}
         \hline\hline
          & 2016 & 2017 & 2018 \\
          \hline
     H$\rightarrow b\bar{b}$            & 57.6 $\pm$ 0.3 & 72.0 $\pm$ 0.3       & 83.8 $\pm$ 0.3 \\
-    Z($\rightarrow \ell\ell$)+jets     & 19.3 $\pm$ 0.7 & 43.3 $\pm$ 2.0       & 37.1 $\pm$ 3.0 \\
+    Z($\rightarrow \ell\ell$)+jets     & 56.8 $\pm$ 2.2 & 43.3 $\pm$ 2.0       & 37.1 $\pm$ 3.0 \\
     QCD multijet                       & 93.3 $\pm$ 25.8 & 154.9 $\pm$ 41.7    & 163.2 $\pm$ 64.6 \\
     Diboson                            & 718.0 $\pm$ 17.5 & 623.4 $\pm$ 17.8   & 606.4 $\pm$ 20.8 \\
     Single t                           & 646.0 $\pm$ 10.9 & 567.4 $\pm$ 12.5   & 614.6 $\pm$ 12.8 \\
-    $t\bar{t}$                         & 5486.5 $\pm$ 199.7 & 5810.0 $\pm$ 60.0 & 6784.2 $\pm$ 133.7 \\
-    W($\rightarrow \ell\nu$)+jets      & 3997.9 $\pm$ 38.5 & 2991.0 $\pm$ 40.2 & 2826.6 $\pm$ 50.5 \\
-    Z($\rightarrow \nu\nu$)+jets       & 7514.9 $\pm$ 29.2 & 7035.1 $\pm$ 33.3 & 6978.5 $\pm$ 38.8 \\
+    $t\bar{t}$                         & 5486.5 $\pm$ 199.7 & 5810.7 $\pm$ 60.0 & 6784.2 $\pm$ 133.7 \\
+    W($\rightarrow \ell\nu$)+jets      & 3997.8 $\pm$ 38.5 & 2991.0 $\pm$ 40.2 & 2826.6 $\pm$ 50.5 \\
+    Z($\rightarrow \nu\nu$)+jets       & 7514.8 $\pm$ 29.2 & 7035.2 $\pm$ 33.3 & 6978.5 $\pm$ 38.8 \\
       \hline
-    Total expected                     & 18533.4 $\pm$ 208.1 & 17297.2 $\pm$ 92.4 & 18094.2 $\pm$ 163.4 \\
+    Total expected                     & 18570.7 $\pm$ 208.1 & 17297.9 $\pm$ 92.4 & 18094.2 $\pm$ 163.4 \\
+       \hline
+    m$_{Z'}$ = 1000 GeV, m$_{h_{s}}$ = 130 GeV, m$_{DM}$ = 150 GeV                 & 684.8 $\pm$ 4.1 & 626.7 $\pm$ 3.9 & 687.2 $\pm$ 4.6 \\
+    m$_{Z'}$ = 1000 GeV, m$_{h_{s}}$ = 130 GeV, m$_{DM}$ = 500 GeV                 & (381.6 $\pm$ 2.1)$\times 10^{-4}$ & (357.6 $\pm$ 2.0)$\times 10^{-4}$ & (399.6 $\pm$ 2.4)$\times 10^{-4}$ \\
+    m$_{Z'}$ = 1000 GeV, m$_{h_{s}}$ = 130 GeV, m$_{DM}$ = 1000 GeV                 & (1341.2 $\pm$ 6.7)$\times 10^{-8}$ & (1005.9 $\pm$ 6.7)$\times 10^{-8}$ & (1341.2 $\pm$ 10.1)$\times 10^{-8}$ \\
+    
       \hline\hline
     \end{tabular}
 \end{table}
-
 
 A control region (labelled as ``ZCR'') composed of those events that satisfy all the SR requirements, but have the leading AK15 jet failing the \textsc{DeepAK15} selection, is used to constrain \Zvvjets production in SR.
 Single-lepton CRs (labelled as ``WEPCR'' and ``WMPCR'') are used to constrain \Wlvjets events in SR. The same selection criteria are applied to these CRs as for the SR, with the exception of the charged-lepton rejection criteria being inverted to allow for exactly one muon or one electron. The \ptvecmiss vector used in the SR definition is replaced by the hadronic recoil vector \recoilvec. The hadronic recoil is defined as the vectorial sum of the \ptvecmiss vector and the transverse momentum vectors of the selected charged lepton in each event. The hadronic recoil therefore acts as a proxy of the momentum of the W boson in each CR, convolved with the \ptmiss resolution, which is equivalent to the role of \ptmiss in the SR. In order to enhance the purity of the CRs, specific additional selection criteria are applied. For the charged-lepton CRs, at least one of the leptons is required to pass a more strict set of quality criteria and have $\pt>40$ (20)\GeV electrons (muons). Additionally, in the single-electron CR are required to have $\ptmiss>100\GeV$ in order to reject contributions from QCD multijet events. Additional single-lepton CRs (labelled as ``WEFCR'' and ``WMFCR'') composed of those single-lepton events with the leading AK15 jet failing the \textsc{DeepAK15} selection are also used to constrain \Wlvjets events in SR. Finally, in order to select single-lepton events enriched in \ttbar production, additional CRs (labelled as ``TECR'' and ``TMCR'') are identified by inverting the veto on b-tagged AK4 jets outside the leading AK15 jet cone.
 
 The selection criteria that define the different SR and CRs are summarized in Table~\ref{tab:selection}.
 
-\newpage
-
-\begin{table}[hbtp]
+\begin{table}[H]
     \centering
     
     \def\arraystretch{1}
@@ -410,8 +412,7 @@ The likelihood functions obtained for the three data taking years are combined i
 
 The ML fit is performed by combining the analysis categories as well as the data sets corresponding to the different years of data taking. The \recoil-vs-$m_\text{SD}$ distributions in SR and CRs before (``pre-fit'') and after (``post-fit'') the fit are shown in Figs.~\ref{sr2016}-\ref{tmcr2018}. In all cases, good agreement is observed between the background-only post-fit result and the data.
 
-
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/postfit/2016/sr2016.png}\\
         
@@ -421,7 +422,7 @@ The ML fit is performed by combining the analysis categories as well as the data
           \label{sr2016}
     \end{center}
 \end{figure}
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/postfit/2016/wecr2016.png}\\
         
@@ -431,7 +432,7 @@ The ML fit is performed by combining the analysis categories as well as the data
           \label{wecr2016}
     \end{center}
 \end{figure}
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/postfit/2016/wmcr2016.png}\\
         
@@ -441,7 +442,7 @@ The ML fit is performed by combining the analysis categories as well as the data
           \label{wmcr2016}
     \end{center}
 \end{figure}
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/postfit/2016/tecr2016.png}\\
         
@@ -451,7 +452,7 @@ The ML fit is performed by combining the analysis categories as well as the data
           \label{tecr2016}
     \end{center}
 \end{figure}
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/postfit/2016/tmcr2016.png}\\
         
@@ -466,7 +467,7 @@ The ML fit is performed by combining the analysis categories as well as the data
 
 
 
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/postfit/2017/sr2017.png}\\
         
@@ -476,7 +477,7 @@ The ML fit is performed by combining the analysis categories as well as the data
           \label{sr2017}
     \end{center}
 \end{figure}
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/postfit/2017/wecr2017.png}\\
         
@@ -486,7 +487,7 @@ The ML fit is performed by combining the analysis categories as well as the data
           \label{wecr2017}
     \end{center}
 \end{figure}
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/postfit/2017/wmcr2017.png}\\
         
@@ -496,7 +497,7 @@ The ML fit is performed by combining the analysis categories as well as the data
           \label{wmcr2017}
     \end{center}
 \end{figure}
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/postfit/2017/tecr2017.png}\\
         
@@ -506,7 +507,7 @@ The ML fit is performed by combining the analysis categories as well as the data
           \label{tecr2017}
     \end{center}
 \end{figure}
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/postfit/2017/tmcr2017.png}\\
         
@@ -520,7 +521,7 @@ The ML fit is performed by combining the analysis categories as well as the data
 
 
 
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/postfit/2018/sr2018.png}\\
         
@@ -530,7 +531,7 @@ The ML fit is performed by combining the analysis categories as well as the data
           \label{sr2018}
     \end{center}
 \end{figure}
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/postfit/2018/wecr2018.png}\\
         
@@ -540,7 +541,7 @@ The ML fit is performed by combining the analysis categories as well as the data
           \label{wecr2018}
     \end{center}
 \end{figure}
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/postfit/2018/wmcr2018.png}\\
         
@@ -550,7 +551,7 @@ The ML fit is performed by combining the analysis categories as well as the data
           \label{wmcr2018}
     \end{center}
 \end{figure}
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/postfit/2018/tecr2018.png}\\
         
@@ -560,7 +561,7 @@ The ML fit is performed by combining the analysis categories as well as the data
           \label{tecr2018}
     \end{center}
 \end{figure}
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/postfit/2018/tmcr2018.png}\\
         
@@ -571,87 +572,40 @@ The ML fit is performed by combining the analysis categories as well as the data
     \end{center}
 \end{figure}
 
-\newpage
 
 Signal strength exclusion limits are presented for different signal hypotheses. All data sets and categories are included. The exclusion limits are calculated using the asymptotic approximation of the \CLs\ method~\cite{CLS1,CLS2,Cowan:2010js}. In this method, a signal-plus-background fit is performed for each signal hypothesis in addition to the background-only fit. In the signal fits, the nuisance parameters are profiled, and the resulting best fit nuisance parameters vary for the different signal hypotheses. Consequently, different nonzero best fit values for the signal strength can be obtained for different signals even if the background-only fit succeeds in modeling the data. In the exclusion limits, this feature is represented by differences between the observed and expected limits.
 
-Exclusion limits are calculated in the two-dimensional parameter space of the DM and mediator masses, \mdm and \mmed. The coupling between the mediator and SM quarks is set to a constant value of $\gq=0.25$, and the mediator-DM coupling is set to $\gchi=1.0$. The resulting exclusion limits at 95\% confidence level (CL) on the signal strength $\mu$ are shown in Figs.~\ref{fig:mhs50}-\ref{fig:mhs150} for different hypotheses of the dark Higgs boson mass. For small values of $\mdm\approx1\GeV$ different values of the mediator mass \mmed are expected to be excluded as a function of the dark Higgs boson mass. The excluded value of \mmed reduces with increasing values of \mdm, as the branching fraction for decays of the mediator into dark matter candidates is reduced. 
+Exclusion limits are calculated in the two-dimensional parameter space of the DM and mediator masses, \mdm and \mmed. The coupling between the mediator and SM quarks is set to a constant value of $\gq=0.25$, and the mediator-DM coupling is set to $\gchi=1.0$. The resulting exclusion limits at 95\% confidence level (CL) on the signal strength $\mu$ are shown in Figs.~\ref{fig:mhs50_70_90}-\ref{fig:mhs110_130_150} for different hypotheses of the dark Higgs boson mass. For small values of $\mdm\approx1\GeV$ different values of the mediator mass \mmed are expected to be excluded as a function of the dark Higgs boson mass. The excluded value of \mmed reduces with increasing values of \mdm, as the branching fraction for decays of the mediator into dark matter candidates is reduced. 
 
 The constraints placed on the dark Higgs boson production model imply bounds on the interaction cross section between DM candidates and nuclei. The fixed-coupling exclusion curves at 90\% CL in the \mmed-\mdm plane are translated point-by-point using the formulae described in Ref.~\cite{Boveia:2016mrp}, which depend on the coupling choices $\gq=0.25$ and $\gchi=1.0$ and on the specific signal model. The resulting curves in the \mdm-$\sigma_\text{DM-nucleon}$ plane are compared to the results from DD experiments in Figs.~\ref{fig:mhs50}-\ref{fig:mhs150}. Qualitatively, although model dependent, the results from this search depend on \mdm only weakly (as long as $\mdm<\mmed/2$), leading to stringent constraints also at low values of \mdm. The sensitivity of most DD experiments is limited in this regime as the small value of \mdm translates into a reduced signal-to-noise ratio relative to the case of more massive DM. Depending on the mediator type, the resulting couplings between DM particles and nuclei are either spin dependent (axial-vector) or independent (vector). In the spin-dependent case, the sensitivity of DD experiments is limited relative to collider searches as the DM-nucleus scattering is no longer coherent.
 
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
-        \includegraphics[width=0.39\textwidth]{figures/results/mhs50_2D.png}
-        \includegraphics[width=0.29\textwidth]{figures/results/mhs50_SD.png}
-        \includegraphics[width=0.29\textwidth]{figures/results/mhs50_SI.png}
-        \caption{Left, expected exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of \mmed for a dark Higgs boson mass of 50 GeV. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded. Middle, expected exclusion limits at 90\% CL on the spin-dependent DM-nucleon cross section as a function of \mdm for a dark Higgs boson mass hypothesis of 50 GeV. Right, expected exclusion limits at 90\% CL on the spin-independent DM-nucleon cross section as a function of \mdm for a dark Higgs boson mass hypothesis of 50 GeV.}
-          \label{fig:mhs50}
+        \includegraphics[width=0.32\textwidth]{figures/results/mhs50_2D.png}
+        \includegraphics[width=0.32\textwidth]{figures/results/mhs70_2D.png}
+        \includegraphics[width=0.32\textwidth]{figures/results/mhs90_2D.png}
+        \caption{Expected and observed exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of \mmed for a dark Higgs boson mass of 50 GeV (left), 70 GeV (middle), and 90 GeV (right). The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded.}
+          \label{fig:mhs50_70_90}
     \end{center}
 \end{figure}
 
-\begin{figure}[hbtp]
+\begin{figure}[H]
     \begin{center}
-        \includegraphics[width=0.39\textwidth]{figures/results/mhs70_2D.png}
-        \includegraphics[width=0.29\textwidth]{figures/results/mhs70_SD.png}
-        \includegraphics[width=0.29\textwidth]{figures/results/mhs70_SI.png}
-        \caption{Left, expected exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of \mmed for a dark Higgs boson mass of 70 GeV. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded. Middle, expected exclusion limits at 90\% CL on the spin-dependent DM-nucleon cross section as a function of \mdm for a dark Higgs boson mass hypothesis of 70 GeV. Right, expected exclusion limits at 90\% CL on the spin-independent DM-nucleon cross section as a function of \mdm for a dark Higgs boson mass hypothesis of 70 GeV.}
-          \label{fig:mhs70}
+        \includegraphics[width=0.32\textwidth]{figures/results/mhs110_2D.png}
+        \includegraphics[width=0.32\textwidth]{figures/results/mhs130_2D.png}
+        \includegraphics[width=0.32\textwidth]{figures/results/mhs150_2D.png}
+        \caption{Expected and observed exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of \mmed for a dark Higgs boson mass of 110 GeV (left), 130 GeV (middle), and 150 GeV (right). The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded.}
+          \label{fig:mhs110_130_150}
     \end{center}
 \end{figure}
-
-\begin{figure}[hbtp]
-    \begin{center}
-        \includegraphics[width=0.39\textwidth]{figures/results/mhs90_2D.png}
-        \includegraphics[width=0.29\textwidth]{figures/results/mhs90_SD.png}
-        \includegraphics[width=0.29\textwidth]{figures/results/mhs90_SI.png}
-        \caption{Left, expected exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of \mmed for a dark Higgs boson mass of 90 GeV. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded. Middle, expected exclusion limits at 90\% CL on the spin-dependent DM-nucleon cross section as a function of \mdm for a dark Higgs boson mass hypothesis of 90 GeV. Right, expected exclusion limits at 90\% CL on the spin-independent DM-nucleon cross section as a function of \mdm for a dark Higgs boson mass hypothesis of 90 GeV.}
-          \label{fig:mhs90}
-    \end{center}
-\end{figure}
-
-
-
-\begin{figure}[hbtp]
-    \begin{center}
-        \includegraphics[width=0.39\textwidth]{figures/results/mhs110_2D.png}
-        \includegraphics[width=0.29\textwidth]{figures/results/mhs110_SD.png}
-        \includegraphics[width=0.29\textwidth]{figures/results/mhs110_SI.png}
-        \caption{Left, expected exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of \mmed for a dark Higgs boson mass of 110 GeV. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded. Middle, expected exclusion limits at 90\% CL on the spin-dependent DM-nucleon cross section as a function of \mdm for a dark Higgs boson mass hypothesis of 110 GeV. Right, expected exclusion limits at 90\% CL on the spin-independent DM-nucleon cross section as a function of \mdm for a dark Higgs boson mass hypothesis of 110 GeV.}
-          \label{fig:mhs110}
-    \end{center}
-\end{figure}
-
-
-
-\begin{figure}[hbtp]
-    \begin{center}
-        \includegraphics[width=0.39\textwidth]{figures/results/mhs130_2D.png}
-        \includegraphics[width=0.29\textwidth]{figures/results/mhs130_SD.png}
-        \includegraphics[width=0.29\textwidth]{figures/results/mhs130_SI.png}
-        \caption{Left, expected exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of \mmed for a dark Higgs boson mass of 130 GeV. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded. Middle, expected exclusion limits at 90\% CL on the spin-dependent DM-nucleon cross section as a function of \mdm for a dark Higgs boson mass hypothesis of 130 GeV. Right, expected exclusion limits at 90\% CL on the spin-independent DM-nucleon cross section as a function of \mdm for a dark Higgs boson mass hypothesis of 130 GeV.}
-          \label{fig:mhs130}
-    \end{center}
-\end{figure}
-
-
-\begin{figure}[hbtp]
-    \begin{center}
-        \includegraphics[width=0.39\textwidth]{figures/results/mhs150_2D.png}
-        \includegraphics[width=0.29\textwidth]{figures/results/mhs150_SD.png}
-        \includegraphics[width=0.29\textwidth]{figures/results/mhs150_SI.png}
-        \caption{Left, expected exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of \mmed for a dark Higgs boson mass of 150 GeV. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded. Middle, expected exclusion limits at 90\% CL on the spin-dependent DM-nucleon cross section as a function of \mdm for a dark Higgs boson mass hypothesis of 150 GeV. Right, expected exclusion limits at 90\% CL on the spin-independent DM-nucleon cross section as a function of \mdm for a dark Higgs boson mass hypothesis of 150 GeV.}
-          \label{fig:mhs150}
-    \end{center}
-\end{figure}
-
-\newpage
 
 \section{Summary}
 A search for physics beyond the standard model in events with a large-cone energetic jet consistent with the hadronization of a resonant b-quark pair and large missing transverse momentum has been presented. A data set of proton-proton collisions at a center-of-mass energy of 13\TeV, corresponding to an integrated luminosity of 137.2\fbinv is analyzed. A joint maximum likelihood fit over a combination of signal and control regions is used to constrain standard model (SM) background processes and to extract a possible signal. 
 %The data are found to be in good agreement with the fit results, with no evidence for a significant signal contribution. 
-The result is interpreted in terms of exclusion limits at 95\% confidence level on the parameters of a model of production of a dark Higgs boson in association with dark matter particles. Values of the mediator mass of up to 3--3.5 \TeV are excluded, assuming the couplings of $\gq=0.25$ between the mediator and quarks, and $\gchi=1.0$ between the mediator and the DM particles. 
+The result is interpreted in terms of exclusion limits at 95\% confidence level on the parameters of a model of production of a dark Higgs boson in association with dark matter particles. Values of the mediator mass of up to 2.5--4.5 \TeV are excluded, depending on the mass of the dark Higgs boson and assuming the couplings of $\gq=0.25$ between the mediator and quarks, and $\gchi=1.0$ between the mediator and the DM particles. 
 %Assuming a fixed ratio $\mdm=\mmed/3$, coupling values as low as $\gq=0.018$ and $\gchi=0.070$ can be excluded for $\mmed=100\GeV$. In a similar model with a pseudoscalar spin-0 mediator, \mmed values less than $470\GeV$ are excluded. 
-These constraints represent the most stringent bounds to date for dark Higgs boson masses below 160 \GeV.
+
+%These constraints represent the most stringent bounds to date for dark Higgs boson masses below 160 \GeV.
 
 
 % >> acknowledgments (for journal papers only)
@@ -672,4 +626,4 @@ These constraints represent the most stringent bounds to date for dark Higgs bos
 %\section{Appendix name}
 %%% DO NOT ADD \end{document}!
 
-%\end{document}
+\end{document}
