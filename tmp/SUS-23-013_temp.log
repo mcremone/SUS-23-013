@@ -1,17 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.29)  29 OCT 2024 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.29)  21 JAN 2025 19:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-01
-3/tmp/SUS-23-013_temp.tex
-
-(/Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013
-/tmp/SUS-23-013_temp.tex
+**/Users/eertorer/Desktop/SUS-23-013/tmp/SUS-23-013_temp.tex
+(/Users/eertorer/Desktop/SUS-23-013/tmp/SUS-23-013_temp.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
-
-(/Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013
-/utils/general/cms-tdr.cls
+(/Users/eertorer/Desktop/SUS-23-013/utils/general/cms-tdr.cls
 =======================================================
  
  CMS TDR/NOTE style. Version 2.0.1
@@ -27,6 +22,7 @@ Using article 11pt\ option
 Using article twoside\ option
 Using article a4paper\ option
 Not using cms note sub-class
+Using line numbers
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/size11.clo
@@ -532,19 +528,13 @@ Package zref Info: New property: mdf@pagevalue on input line 895.
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/seqsplit/seqsplit.sty
 Package: seqsplit 2006/08/07 v0.1 Splitting long sequences (DNA, RNA, proteins,
  etc.) 
-)
-(/Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013
-/utils/general/subdepth.sty
+) (/Users/eertorer/Desktop/SUS-23-013/utils/general/subdepth.sty
 Package: subdepth 2007/09/02 v0.1 Unify subscript depths
-)
-(/Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013
-/utils/general/heppennames2.sty
+) (/Users/eertorer/Desktop/SUS-23-013/utils/general/heppennames2.sty
 Package: heppennames2 2019/04/29 Elementary Particle Naming Scheme - Version (1
 .9-CMS)
 Using pazoGreek: .T. -- .T.
-
-(/Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013
-/utils/general/hepparticles.sty
+(/Users/eertorer/Desktop/SUS-23-013/utils/general/hepparticles.sty
 Package: hepparticles 2020/02/13 HEP particle typesetting (v2.1)
 LaTeX Font Info:    Overwriting math alphabet `\mathup' in version `bold'
 (Font)                  OT1/ppl/m/n --> OT1/ppl/bx/n on input line 92.
@@ -559,9 +549,7 @@ ht, however.
 \symugrf@r=\mathgroup8
 LaTeX Info: Redefining \PKst on input line 734.
 LaTeX Info: Redefining \PBst on input line 845.
-)
-(/Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013
-/utils/general/pdfdraftcopy.sty
+) (/Users/eertorer/Desktop/SUS-23-013/utils/general/pdfdraftcopy.sty
 Package: pdfdraftcopy 2003/08/11 1.2 Draft copy in PDF (CVR)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
@@ -576,9 +564,7 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 )
 \Gin@req@height=\dimen192
 \Gin@req@width=\dimen193
-)
-(/Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013
-/utils/general/changepage.sty
+) (/Users/eertorer/Desktop/SUS-23-013/utils/general/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count326
 \cp@tempcnt=\count327
@@ -622,10 +608,11 @@ File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
 \AM@lof@heading=\toks36
 \c@AM@survey=\count333
 \AM@templatesizebox=\box119
-)
-(/Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013
-/utils/general/ptdr-definitions.sty
+) (/Users/eertorer/Desktop/SUS-23-013/utils/general/ptdr-definitions.sty
 Package: ptdr-definitions  2021/01/12 CMS Additional Macro Definitions v2
+LaTeX Info: Redefining \Pepm on input line 211.
+LaTeX Info: Redefining \Pemp on input line 212.
+LaTeX Info: Redefining \PGmpm on input line 213.
 )
 \parskipsaved=\skip150
 (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty
@@ -744,6 +731,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count347
 )
+Patching amsLaTeX equation handling to deal with the presence of line numbers
 \cmsinstskip=\skip156
 \cmsauthskip=\skip157
 Defining CMS Note commands
@@ -756,9 +744,7 @@ LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 4
 LaTeX Font Info:    <567INP ot1ppl.fd> on input line 4.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
-)
-(/Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013
-/tmp/SUS-23-013_temp.aux)
+) (/Users/eertorer/Desktop/SUS-23-013/tmp/SUS-23-013_temp.aux)
 \openout1 = `SUS-23-013_temp.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -836,281 +822,11 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package hyperref Info: Link coloring OFF on input line 4.
 <567INP SUS-23-013_temp.out>
-
-(/Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013
-/tmp/SUS-23-013_temp.out)
+(/Users/eertorer/Desktop/SUS-23-013/tmp/SUS-23-013_temp.out)
 <567INP SUS-23-013_temp.out>
-
-(/Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013
-/tmp/SUS-23-013_temp.out)
+(/Users/eertorer/Desktop/SUS-23-013/tmp/SUS-23-013_temp.out)
 \@outlinefile=\write4
 \openout4 = `SUS-23-013_temp.out'.
-
-
-! LaTeX Error: Command \msd already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 ...\msd}{\ensuremath{m_{\textrm{SD}}}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \Zll already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.58 ...\ensuremath{\mathrm{Z}\to\ell\ell}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \Zvv already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 ...}{\ensuremath{\mathrm{Z}\to\nu\nu}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \Wlv already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 ...\ensuremath{\mathrm{W}\to \ell\nu}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \Zjets already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 ...suremath{\mathrm{Z}+\textrm{jets}}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \Vjets already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 ...suremath{\mathrm{V}+\textrm{jets}}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \Zlljets already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 ...mathrm{Z}(\ell\ell)+\textrm{jets}}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \Wjets already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.68 ...suremath{\mathrm{W}+\textrm{jets}}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \Wlvjets already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 ...\mathrm{W}(\ell\nu)+\textrm{jets}}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \phojets already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.75 ...{\ensuremath{\gamma+\textrm{jets}}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \ptvecjet already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.90 ...{\mathrm{T}}^{\kern1pt\text{jet}}}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \dpfcalo already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 ...ptmiss(\mathrm{PF},\mathrm{Calo})}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \dphitkpf already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.97 ...elta\phi(\mathrm{PF},\mathrm{Tk})}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \gq already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.142 \newcommand \gq{\ensuremath{g_{q}}\xspace}
-                                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \gchi already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 ...mmand \gchi{\ensuremath{g_{\chi}}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \mmed already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.150 ...{\mmed}{\ensuremath{m_\text{med}}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \mdm already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.151 ...nd{\mdm}{\ensuremath{m_\text{DM}}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \mlq already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.152 ...nd{\mlq}{\ensuremath{m_\text{LQ}}\xspace}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \dmsimp already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156 \newcommand \dmsimp{\textsc{DMsimp}\xspace}
-                                                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 
 ! LaTeX Error: Can be used only in preamble.
@@ -1119,191 +835,179 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 \begin{document}
+l.164 \begin{document}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-194.
-LaTeX Font Info:    <567INP omlzplm.fd> on input line 194.
+191.
+LaTeX Font Info:    <567INP omlzplm.fd> on input line 191.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-194.
-LaTeX Font Info:    <567INP omszplm.fd> on input line 194.
+191.
+LaTeX Font Info:    <567INP omszplm.fd> on input line 191.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-194.
-LaTeX Font Info:    <567INP omxzplm.fd> on input line 194.
+191.
+LaTeX Font Info:    <567INP omxzplm.fd> on input line 191.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-194.
-LaTeX Font Info:    <567INP ot1zplm.fd> on input line 194.
+191.
+LaTeX Font Info:    <567INP ot1zplm.fd> on input line 191.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 194.
+(Font)              scaled to size 11.40997pt on input line 191.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 194.
+(Font)              scaled to size 8.33606pt on input line 191.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 194.
+(Font)              scaled to size 6.25204pt on input line 191.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 194.
+(Font)              scaled to size 11.40997pt on input line 191.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 194.
+(Font)              scaled to size 8.33606pt on input line 191.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 194.
+(Font)              scaled to size 6.25204pt on input line 191.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 10.95pt on input line 194.
+(Font)              scaled to size 10.95pt on input line 191.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 8.0pt on input line 194.
+(Font)              scaled to size 8.0pt on input line 191.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 6.0pt on input line 194.
+(Font)              scaled to size 6.0pt on input line 191.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 10.95pt on input line 194.
+(Font)              scaled to size 10.95pt on input line 191.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 8.0pt on input line 194.
+(Font)              scaled to size 8.0pt on input line 191.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 6.0pt on input line 194.
+(Font)              scaled to size 6.0pt on input line 191.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 210.
+(Font)              scaled to size 15.0049pt on input line 207.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 210.
+(Font)              scaled to size 10.42007pt on input line 207.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 210.
+(Font)              scaled to size 15.0049pt on input line 207.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 210.
+(Font)              scaled to size 10.42007pt on input line 207.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 14.4pt on input line 210.
+(Font)              scaled to size 14.4pt on input line 207.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 10.0pt on input line 210.
+(Font)              scaled to size 10.0pt on input line 207.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 14.4pt on input line 210.
+(Font)              scaled to size 14.4pt on input line 207.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 10.0pt on input line 210.
+(Font)              scaled to size 10.0pt on input line 207.
 <789FIG cms_draft_paper 0>
-<cms_draft_paper.pdf, id=36, 455.24379pt x 102.42967pt>
+<cms_draft_paper.pdf, id=40, 455.24379pt x 102.42967pt>
 File: cms_draft_paper.pdf Graphic file (type pdf)
 <use cms_draft_paper.pdf>
-Package pdftex.def Info: cms_draft_paper.pdf  used on input line 210.
+Package pdftex.def Info: cms_draft_paper.pdf  used on input line 207.
 (pdftex.def)             Requested size: 455.24268pt x 102.42941pt.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 210.
+(Font)              scaled to size 12.50409pt on input line 207.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 210.
+(Font)              scaled to size 9.37807pt on input line 207.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 210.
+(Font)              scaled to size 7.29405pt on input line 207.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 210.
+(Font)              scaled to size 12.50409pt on input line 207.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 210.
+(Font)              scaled to size 9.37807pt on input line 207.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 210.
+(Font)              scaled to size 7.29405pt on input line 207.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 12.0pt on input line 210.
+(Font)              scaled to size 12.0pt on input line 207.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 9.0pt on input line 210.
+(Font)              scaled to size 9.0pt on input line 207.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 7.0pt on input line 210.
+(Font)              scaled to size 7.0pt on input line 207.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 12.0pt on input line 210.
+(Font)              scaled to size 12.0pt on input line 207.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 9.0pt on input line 210.
+(Font)              scaled to size 9.0pt on input line 207.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 7.0pt on input line 210.
+(Font)              scaled to size 7.0pt on input line 207.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 18.00587pt on input line 210.
+(Font)              scaled to size 18.00587pt on input line 207.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 18.00587pt on input line 210.
+(Font)              scaled to size 18.00587pt on input line 207.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 17.28pt on input line 210.
+(Font)              scaled to size 17.28pt on input line 207.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 17.28pt on input line 210.
+(Font)              scaled to size 17.28pt on input line 207.
 
-Overfull \hbox (16.25952pt too wide) in paragraph at lines 210--210
+Overfull \hbox (16.25952pt too wide) in paragraph at lines 207--207
 [] [][][] 
  []
 
 <789FIG BigDraft 0>
-<BigDraft.pdf, id=37, 597.50829pt x 845.0471pt>
+<BigDraft.pdf, id=41, 597.50829pt x 845.0471pt>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 210.
+Package pdftex.def Info: BigDraft.pdf  used on input line 207.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc} </Users/eertorer/Deskto
-p/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013/utils/general/BigDraft
-.pdf> </Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-
-23-013/utils/general/cms_draft_paper.pdf>]
+p/SUS-23-013/utils/general/BigDraft.pdf> </Users/eertorer/Desktop/SUS-23-013/ut
+ils/general/cms_draft_paper.pdf>]
 <789FIG BigDraft 0>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 210.
+Package pdftex.def Info: BigDraft.pdf  used on input line 207.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [2
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 2
-22.
-LaTeX Font Info:    <567INP ot1phv.fd> on input line 222.
+17.
+LaTeX Font Info:    <567INP ot1phv.fd> on input line 217.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.227 \begin{figure}[H]
-                       %[htbp]
-Option `H' ignored and `p' used.
-
 <789FIG figures/monodarkhiggs.pdf 0>
-<figures/monodarkhiggs.pdf, id=92, 658.46pt x 397.84633pt>
+<figures/monodarkhiggs.pdf, id=98, 621.32124pt x 433.98134pt>
 File: figures/monodarkhiggs.pdf Graphic file (type pdf)
 <use figures/monodarkhiggs.pdf>
-Package pdftex.def Info: figures/monodarkhiggs.pdf  used on input line 230.
-(pdftex.def)             Requested size: 204.85844pt x 123.77423pt.
+Package pdftex.def Info: figures/monodarkhiggs.pdf  used on input line 236.
+(pdftex.def)             Requested size: 204.85844pt x 143.08846pt.
 <789FIG BigDraft 1>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 247.
+Package pdftex.def Info: BigDraft.pdf  used on input line 248.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[1]
+[1 </Users/eertorer/Desktop/SUS-23-013/figures/monodarkhiggs.pdf>]
 <789FIG BigDraft 1>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 260.
+Package pdftex.def Info: BigDraft.pdf  used on input line 265.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [2]
 <789FIG BigDraft 1>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 280.
+Package pdftex.def Info: BigDraft.pdf  used on input line 273.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [3]
-Overfull \hbox (47.4643pt too wide) in paragraph at lines 281--284
-[]\OT1/ppl/m/n/10.95 The MC sam-ples for the dark Higgs bo-son sig-nal pro-cess
- are gen-er-ated with the \OT1/ppl/m/sc/10.95 Mad-Graph\OT1/ppl/m/n/10.95 5[]a\
-OT1/ppl/m/sc/10.95 mc@nlo
+Overfull \hbox (5.92628pt too wide) in paragraph at lines 317--319
+\OT1/ppl/m/n/10.95 Signal re-gion (or ``SR'') events are se-lected us-ing trig-
+gers that re-quire large $\U/fsy/m/i/10.95 p[]$ \OT1/ppl/m/n/10.95 (at least $1
+20 []$)
  []
 
 <789FIG BigDraft 1>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 293.
+Package pdftex.def Info: BigDraft.pdf  used on input line 319.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [4]
 
@@ -1313,36 +1017,29 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.302 \begin{table}[H]
+l.332 \begin{table}[H]
                       
 Option `H' ignored and `p' used.
 
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 309.
+(Font)              scaled to size 5.21004pt on input line 339.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 309.
+(Font)              scaled to size 5.21004pt on input line 339.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 5.0pt on input line 309.
+(Font)              scaled to size 5.0pt on input line 339.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 5.0pt on input line 309.
+(Font)              scaled to size 5.0pt on input line 339.
 
-Overfull \hbox (35.84286pt too wide) in paragraph at lines 309--330
+Overfull \hbox (35.84286pt too wide) in paragraph at lines 339--360
  [] 
  []
 
 <789FIG BigDraft 1>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 334.
+Package pdftex.def Info: BigDraft.pdf  used on input line 361.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [5]
-<789FIG BigDraft 1>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 334.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[6 </Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-
-013/figures/monodarkhiggs.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1350,31 +1047,36 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.337 \begin{table}[H]
+l.367 \begin{table}[H]
                       
 Option `H' ignored and `p' used.
 
-
-Overfull \hbox (49.29509pt too wide) detected at line 385
+<789FIG BigDraft 1>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 398.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[6]
+<789FIG BigDraft 1>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 398.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[7]
+Overfull \hbox (49.29509pt too wide) detected at line 419
 []
  []
 
 <789FIG BigDraft 1>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 385.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[7]
-<789FIG BigDraft 1>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 393.
+Package pdftex.def Info: BigDraft.pdf  used on input line 423.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [8]
 <789FIG BigDraft 1>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 415.
+Package pdftex.def Info: BigDraft.pdf  used on input line 449.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [9]
 
@@ -1384,468 +1086,156 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.422 \begin{figure}[H]
-                       
+l.452 \begin{table}[H]
+                      
 Option `H' ignored and `p' used.
 
-<789FIG figures/postfit/2016/sr2016.png 1>
-<figures/postfit/2016/sr2016.png, id=268, 2890.8pt x 1445.4pt>
-File: figures/postfit/2016/sr2016.png Graphic file (type png)
-<use figures/postfit/2016/sr2016.png>
-Package pdftex.def Info: figures/postfit/2016/sr2016.png  used on input line 42
-4.
-(pdftex.def)             Requested size: 450.69414pt x 225.33592pt.
 
-! LaTeX Error: Unknown float option `H'.
+Overfull \hbox (50.57967pt too wide) in paragraph at lines 461--519
+[] [] 
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.432 \begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<789FIG figures/postfit/2016/wecr2016.png 2>
-<figures/postfit/2016/wecr2016.png, id=270, 2890.8pt x 1445.4pt>
-File: figures/postfit/2016/wecr2016.png Graphic file (type png)
-<use figures/postfit/2016/wecr2016.png>
-Package pdftex.def Info: figures/postfit/2016/wecr2016.png  used on input line 
-434.
-(pdftex.def)             Requested size: 450.69414pt x 225.33592pt.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.442 \begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<789FIG figures/postfit/2016/wmcr2016.png 3>
-<figures/postfit/2016/wmcr2016.png, id=271, 2890.8pt x 1445.4pt>
-File: figures/postfit/2016/wmcr2016.png Graphic file (type png)
-<use figures/postfit/2016/wmcr2016.png>
-Package pdftex.def Info: figures/postfit/2016/wmcr2016.png  used on input line 
-444.
-(pdftex.def)             Requested size: 450.69414pt x 225.33592pt.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.452 \begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<789FIG figures/postfit/2016/tecr2016.png 4>
-<figures/postfit/2016/tecr2016.png, id=272, 2890.8pt x 722.7pt>
-File: figures/postfit/2016/tecr2016.png Graphic file (type png)
-<use figures/postfit/2016/tecr2016.png>
-Package pdftex.def Info: figures/postfit/2016/tecr2016.png  used on input line 
-454.
-(pdftex.def)             Requested size: 450.69414pt x 112.66795pt.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.462 \begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<789FIG figures/postfit/2016/tmcr2016.png 5>
-<figures/postfit/2016/tmcr2016.png, id=273, 2890.8pt x 722.7pt>
-File: figures/postfit/2016/tmcr2016.png Graphic file (type png)
-<use figures/postfit/2016/tmcr2016.png>
-Package pdftex.def Info: figures/postfit/2016/tmcr2016.png  used on input line 
-464.
-(pdftex.def)             Requested size: 450.69414pt x 112.66795pt.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.477 \begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<789FIG figures/postfit/2017/sr2017.png 6>
-<figures/postfit/2017/sr2017.png, id=274, 2890.8pt x 1445.4pt>
-File: figures/postfit/2017/sr2017.png Graphic file (type png)
-<use figures/postfit/2017/sr2017.png>
-Package pdftex.def Info: figures/postfit/2017/sr2017.png  used on input line 47
-9.
-(pdftex.def)             Requested size: 450.69414pt x 225.33592pt.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.487 \begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<789FIG figures/postfit/2017/wecr2017.png 7>
-<figures/postfit/2017/wecr2017.png, id=275, 2890.8pt x 1445.4pt>
-File: figures/postfit/2017/wecr2017.png Graphic file (type png)
-<use figures/postfit/2017/wecr2017.png>
-Package pdftex.def Info: figures/postfit/2017/wecr2017.png  used on input line 
-489.
-(pdftex.def)             Requested size: 450.69414pt x 225.33592pt.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.497 \begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<789FIG figures/postfit/2017/wmcr2017.png 8>
-<figures/postfit/2017/wmcr2017.png, id=276, 2890.8pt x 1445.4pt>
-File: figures/postfit/2017/wmcr2017.png Graphic file (type png)
-<use figures/postfit/2017/wmcr2017.png>
-Package pdftex.def Info: figures/postfit/2017/wmcr2017.png  used on input line 
-499.
-(pdftex.def)             Requested size: 450.69414pt x 225.33592pt.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.507 \begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<789FIG figures/postfit/2017/tecr2017.png 9>
-<figures/postfit/2017/tecr2017.png, id=277, 2890.8pt x 722.7pt>
-File: figures/postfit/2017/tecr2017.png Graphic file (type png)
-<use figures/postfit/2017/tecr2017.png>
-Package pdftex.def Info: figures/postfit/2017/tecr2017.png  used on input line 
-509.
-(pdftex.def)             Requested size: 450.69414pt x 112.66795pt.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.517 \begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<789FIG figures/postfit/2017/tmcr2017.png 10>
-<figures/postfit/2017/tmcr2017.png, id=278, 2890.8pt x 722.7pt>
-File: figures/postfit/2017/tmcr2017.png Graphic file (type png)
-<use figures/postfit/2017/tmcr2017.png>
-Package pdftex.def Info: figures/postfit/2017/tmcr2017.png  used on input line 
-519.
-(pdftex.def)             Requested size: 450.69414pt x 112.66795pt.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.531 \begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<789FIG figures/postfit/2018/sr2018.png 11>
-<figures/postfit/2018/sr2018.png, id=279, 2890.8pt x 1445.4pt>
-File: figures/postfit/2018/sr2018.png Graphic file (type png)
-<use figures/postfit/2018/sr2018.png>
-Package pdftex.def Info: figures/postfit/2018/sr2018.png  used on input line 53
-3.
-(pdftex.def)             Requested size: 450.69414pt x 225.33592pt.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.541 \begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<789FIG figures/postfit/2018/wecr2018.png 12>
-<figures/postfit/2018/wecr2018.png, id=280, 2890.8pt x 1445.4pt>
-File: figures/postfit/2018/wecr2018.png Graphic file (type png)
-<use figures/postfit/2018/wecr2018.png>
-Package pdftex.def Info: figures/postfit/2018/wecr2018.png  used on input line 
-543.
-(pdftex.def)             Requested size: 450.69414pt x 225.33592pt.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.551 \begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<789FIG figures/postfit/2018/wmcr2018.png 13>
-<figures/postfit/2018/wmcr2018.png, id=281, 2890.8pt x 1445.4pt>
-File: figures/postfit/2018/wmcr2018.png Graphic file (type png)
-<use figures/postfit/2018/wmcr2018.png>
-Package pdftex.def Info: figures/postfit/2018/wmcr2018.png  used on input line 
-553.
-(pdftex.def)             Requested size: 450.69414pt x 225.33592pt.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.561 \begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<789FIG figures/postfit/2018/tecr2018.png 14>
-<figures/postfit/2018/tecr2018.png, id=282, 2890.8pt x 722.7pt>
-File: figures/postfit/2018/tecr2018.png Graphic file (type png)
-<use figures/postfit/2018/tecr2018.png>
-Package pdftex.def Info: figures/postfit/2018/tecr2018.png  used on input line 
-563.
-(pdftex.def)             Requested size: 450.69414pt x 112.66795pt.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.571 \begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<789FIG figures/postfit/2018/tmcr2018.png 15>
-<figures/postfit/2018/tmcr2018.png, id=283, 2890.8pt x 722.7pt>
-File: figures/postfit/2018/tmcr2018.png Graphic file (type png)
-<use figures/postfit/2018/tmcr2018.png>
-Package pdftex.def Info: figures/postfit/2018/tmcr2018.png  used on input line 
-573.
-(pdftex.def)             Requested size: 450.69414pt x 112.66795pt.
-
-LaTeX Warning: Reference `fig:mhs50' on page 10 undefined on input line 587.
-
-
-LaTeX Warning: Reference `fig:mhs150' on page 10 undefined on input line 587.
-
-<789FIG BigDraft 16>
+<789FIG figures/postfit/2016/sr_pass2016.png 1>
+<figures/postfit/2016/sr_pass2016.png, id=283, 3134.71124pt x 697.60625pt>
+File: figures/postfit/2016/sr_pass2016.png Graphic file (type png)
+<use figures/postfit/2016/sr_pass2016.png>
+Package pdftex.def Info: figures/postfit/2016/sr_pass2016.png  used on input li
+ne 534.
+(pdftex.def)             Requested size: 450.69414pt x 100.29341pt.
+<789FIG figures/postfit/2017/sr_pass2017.png 2>
+<figures/postfit/2017/sr_pass2017.png, id=285, 3134.71124pt x 697.60625pt>
+File: figures/postfit/2017/sr_pass2017.png Graphic file (type png)
+<use figures/postfit/2017/sr_pass2017.png>
+Package pdftex.def Info: figures/postfit/2017/sr_pass2017.png  used on input li
+ne 545.
+(pdftex.def)             Requested size: 450.69414pt x 100.29341pt.
+<789FIG figures/postfit/2018/sr_pass2018.png 3>
+<figures/postfit/2018/sr_pass2018.png, id=286, 3134.71124pt x 697.60625pt>
+File: figures/postfit/2018/sr_pass2018.png Graphic file (type png)
+<use figures/postfit/2018/sr_pass2018.png>
+Package pdftex.def Info: figures/postfit/2018/sr_pass2018.png  used on input li
+ne 560.
+(pdftex.def)             Requested size: 450.69414pt x 100.29341pt.
+<789FIG BigDraft 4>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 588.
+Package pdftex.def Info: BigDraft.pdf  used on input line 573.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [10]
-<789FIG BigDraft 16>
+<789FIG BigDraft 4>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 588.
+Package pdftex.def Info: BigDraft.pdf  used on input line 573.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[11 </Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23
--013/figures/postfit/2016/sr2016.png>]
-<789FIG BigDraft 16>
+[11 </Users/eertorer/Desktop/SUS-23-013/figures/postfit/2016/sr_pass2016.png>]
+<789FIG BigDraft 4>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 588.
+Package pdftex.def Info: BigDraft.pdf  used on input line 573.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[12 </Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23
--013/figures/postfit/2016/wecr2016.png> </Users/eertorer/Desktop/CMS_Group/Dark
-_Higgs/Latest_DraftPaper_Repo/SUS-23-013/figures/postfit/2016/wmcr2016.png>]
-<789FIG BigDraft 16>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 588.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[13 </Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23
--013/figures/postfit/2016/tecr2016.png> </Users/eertorer/Desktop/CMS_Group/Dark
-_Higgs/Latest_DraftPaper_Repo/SUS-23-013/figures/postfit/2016/tmcr2016.png> </U
-sers/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013/fi
-gures/postfit/2017/sr2017.png>]
-<789FIG BigDraft 16>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 588.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[14 </Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23
--013/figures/postfit/2017/wecr2017.png> </Users/eertorer/Desktop/CMS_Group/Dark
-_Higgs/Latest_DraftPaper_Repo/SUS-23-013/figures/postfit/2017/wmcr2017.png>]
-<789FIG BigDraft 16>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 588.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[15 </Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23
--013/figures/postfit/2017/tecr2017.png> </Users/eertorer/Desktop/CMS_Group/Dark
-_Higgs/Latest_DraftPaper_Repo/SUS-23-013/figures/postfit/2017/tmcr2017.png> </U
-sers/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013/fi
-gures/postfit/2018/sr2018.png>]
-<789FIG BigDraft 16>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 588.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[16 </Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23
--013/figures/postfit/2018/wecr2018.png> </Users/eertorer/Desktop/CMS_Group/Dark
-_Higgs/Latest_DraftPaper_Repo/SUS-23-013/figures/postfit/2018/wmcr2018.png>]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.589 \begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<789FIG figures/results/mhs50_2D.png 16>
-<figures/results/mhs50_2D.png, id=352, 1011.78pt x 722.7pt>
+[12 </Users/eertorer/Desktop/SUS-23-013/figures/postfit/2017/sr_pass2017.png> <
+/Users/eertorer/Desktop/SUS-23-013/figures/postfit/2018/sr_pass2018.png>]
+<789FIG figures/results/mhs50_2D.png 4>
+<figures/results/mhs50_2D.png, id=316, 883.3pt x 643.40375pt>
 File: figures/results/mhs50_2D.png Graphic file (type png)
 <use figures/results/mhs50_2D.png>
-Package pdftex.def Info: figures/results/mhs50_2D.png  used on input line 591.
-(pdftex.def)             Requested size: 145.68143pt x 104.05548pt.
-<789FIG figures/results/mhs70_2D.png 16>
-<figures/results/mhs70_2D.png, id=353, 1011.78pt x 722.7pt>
+Package pdftex.def Info: figures/results/mhs50_2D.png  used on input line 579.
+(pdftex.def)             Requested size: 145.68143pt x 106.10794pt.
+<789FIG figures/results/mhs70_2D.png 4>
+<figures/results/mhs70_2D.png, id=317, 882.29625pt x 642.4pt>
 File: figures/results/mhs70_2D.png Graphic file (type png)
 <use figures/results/mhs70_2D.png>
-Package pdftex.def Info: figures/results/mhs70_2D.png  used on input line 592.
-(pdftex.def)             Requested size: 145.68143pt x 104.05548pt.
-<789FIG figures/results/mhs90_2D.png 16>
-<figures/results/mhs90_2D.png, id=354, 1011.78pt x 722.7pt>
+Package pdftex.def Info: figures/results/mhs70_2D.png  used on input line 580.
+(pdftex.def)             Requested size: 145.68143pt x 106.06984pt.
+<789FIG figures/results/mhs90_2D.png 4>
+<figures/results/mhs90_2D.png, id=318, 880.28876pt x 642.4pt>
 File: figures/results/mhs90_2D.png Graphic file (type png)
 <use figures/results/mhs90_2D.png>
-Package pdftex.def Info: figures/results/mhs90_2D.png  used on input line 593.
-(pdftex.def)             Requested size: 145.68143pt x 104.05548pt.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.599 \begin{figure}[H]
-                       
-Option `H' ignored and `p' used.
-
-<789FIG figures/results/mhs110_2D.png 17>
-<figures/results/mhs110_2D.png, id=355, 1011.78pt x 722.7pt>
+Package pdftex.def Info: figures/results/mhs90_2D.png  used on input line 581.
+(pdftex.def)             Requested size: 145.68143pt x 106.3051pt.
+<789FIG figures/results/mhs110_2D.png 5>
+<figures/results/mhs110_2D.png, id=319, 880.28876pt x 642.4pt>
 File: figures/results/mhs110_2D.png Graphic file (type png)
 <use figures/results/mhs110_2D.png>
-Package pdftex.def Info: figures/results/mhs110_2D.png  used on input line 601.
+Package pdftex.def Info: figures/results/mhs110_2D.png  used on input line 589.
 
-(pdftex.def)             Requested size: 145.68143pt x 104.05548pt.
-<789FIG figures/results/mhs130_2D.png 17>
-<figures/results/mhs130_2D.png, id=356, 1011.78pt x 722.7pt>
+(pdftex.def)             Requested size: 145.68143pt x 106.3051pt.
+<789FIG figures/results/mhs130_2D.png 5>
+<figures/results/mhs130_2D.png, id=320, 881.2925pt x 644.4075pt>
 File: figures/results/mhs130_2D.png Graphic file (type png)
 <use figures/results/mhs130_2D.png>
-Package pdftex.def Info: figures/results/mhs130_2D.png  used on input line 602.
+Package pdftex.def Info: figures/results/mhs130_2D.png  used on input line 590.
 
-(pdftex.def)             Requested size: 145.68143pt x 104.05548pt.
-<789FIG figures/results/mhs150_2D.png 17>
-<figures/results/mhs150_2D.png, id=357, 1011.78pt x 722.7pt>
+(pdftex.def)             Requested size: 145.68143pt x 106.5193pt.
+<789FIG figures/results/mhs150_2D.png 5>
+<figures/results/mhs150_2D.png, id=321, 883.3pt x 642.4pt>
 File: figures/results/mhs150_2D.png Graphic file (type png)
 <use figures/results/mhs150_2D.png>
-Package pdftex.def Info: figures/results/mhs150_2D.png  used on input line 603.
+Package pdftex.def Info: figures/results/mhs150_2D.png  used on input line 591.
 
-(pdftex.def)             Requested size: 145.68143pt x 104.05548pt.
+(pdftex.def)             Requested size: 145.68143pt x 105.94241pt.
+<789FIG BigDraft 6>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 602.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[13 </Users/eertorer/Desktop/SUS-23-013/figures/results/mhs50_2D.png> </Users/e
+ertorer/Desktop/SUS-23-013/figures/results/mhs70_2D.png> </Users/eertorer/Deskt
+op/SUS-23-013/figures/results/mhs90_2D.png> </Users/eertorer/Desktop/SUS-23-013
+/figures/results/mhs110_2D.png> </Users/eertorer/Desktop/SUS-23-013/figures/res
+ults/mhs130_2D.png> </Users/eertorer/Desktop/SUS-23-013/figures/results/mhs150_
+2D.png>]
 <567INP SUS-23-013_temp.bbl>
-
-(/Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013
-/tmp/SUS-23-013_temp.bbl
+(/Users/eertorer/Desktop/SUS-23-013/tmp/SUS-23-013_temp.bbl
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
 1.
 LaTeX Font Info:    <567INP ot1pcr.fd> on input line 11.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<789FIG BigDraft 18>
+<789FIG BigDraft 6>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 63.
+Package pdftex.def Info: BigDraft.pdf  used on input line 102.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[17]
-<789FIG BigDraft 18>
+[14]
+<789FIG BigDraft 6>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 63.
+Package pdftex.def Info: BigDraft.pdf  used on input line 213.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[18 </Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23
--013/figures/postfit/2018/tecr2018.png> </Users/eertorer/Desktop/CMS_Group/Dark
-_Higgs/Latest_DraftPaper_Repo/SUS-23-013/figures/postfit/2018/tmcr2018.png> </U
-sers/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013/fi
-gures/results/mhs50_2D.png> </Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Lates
-t_DraftPaper_Repo/SUS-23-013/figures/results/mhs70_2D.png> </Users/eertorer/Des
-ktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013/figures/results/mhs
-90_2D.png> </Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo
-/SUS-23-013/figures/results/mhs110_2D.png> </Users/eertorer/Desktop/CMS_Group/D
-ark_Higgs/Latest_DraftPaper_Repo/SUS-23-013/figures/results/mhs130_2D.png> </Us
-ers/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013/fig
-ures/results/mhs150_2D.png>]
-<789FIG BigDraft 18>
+[15]
+<789FIG BigDraft 6>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 179.
+Package pdftex.def Info: BigDraft.pdf  used on input line 313.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[19]
-<789FIG BigDraft 18>
+[16])
+<789FIG BigDraft 6>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 279.
+Package pdftex.def Info: BigDraft.pdf  used on input line 624.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[20])
-<789FIG BigDraft 18>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 636.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[21]
-(/Users/eertorer/Desktop/CMS_Group/Dark_Higgs/Latest_DraftPaper_Repo/SUS-23-013
-/tmp/SUS-23-013_temp.aux)
+[17] (/Users/eertorer/Desktop/SUS-23-013/tmp/SUS-23-013_temp.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `SUS-23-013_temp.out' has not changed.
-(rerunfilecheck)             Checksum: 6B457702AEDB3EBAE4920FEB3E654165;498.
+(rerunfilecheck)             Checksum: 4705AD59BEF21DD25C295C3F6E720536;547.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 167 (\begingroup)
+### semi simple group (level 1) entered at line 164 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 20266 strings out of 474116
- 308889 string characters out of 5743681
- 1970187 words of memory out of 5000000
- 42142 multiletter control sequences out of 15000+600000
- 624506 words of font info for 198 fonts, out of 8000000 for 9000
+ 20221 strings out of 474116
+ 304953 string characters out of 5743681
+ 1966187 words of memory out of 5000000
+ 42095 multiletter control sequences out of 15000+600000
+ 628396 words of font info for 207 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 99i,21n,107p,2467b,825s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,21n,107p,2458b,844s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
@@ -1862,10 +1252,10 @@ ve/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024
 /texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2024/texmf-
 dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on SUS-23-013_temp.pdf (23 pages, 2782148 bytes).
+Output written on SUS-23-013_temp.pdf (19 pages, 1456147 bytes).
 PDF statistics:
- 569 PDF objects out of 1000 (max. 8388607)
- 442 compressed objects within 5 object streams
- 104 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 552 PDF objects out of 1000 (max. 8388607)
+ 451 compressed objects within 5 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
