@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.29)  27 JAN 2025 21:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.29)  15 APR 2025 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -836,124 +836,137 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.170 \begin{document}
+l.169 \begin{document}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-201.
-LaTeX Font Info:    <567INP omlzplm.fd> on input line 201.
+196.
+LaTeX Font Info:    <567INP omlzplm.fd> on input line 196.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-201.
-LaTeX Font Info:    <567INP omszplm.fd> on input line 201.
+196.
+LaTeX Font Info:    <567INP omszplm.fd> on input line 196.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-201.
-LaTeX Font Info:    <567INP omxzplm.fd> on input line 201.
+196.
+LaTeX Font Info:    <567INP omxzplm.fd> on input line 196.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-201.
-LaTeX Font Info:    <567INP ot1zplm.fd> on input line 201.
+196.
+LaTeX Font Info:    <567INP ot1zplm.fd> on input line 196.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 201.
+(Font)              scaled to size 11.40997pt on input line 196.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 201.
+(Font)              scaled to size 8.33606pt on input line 196.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 201.
+(Font)              scaled to size 6.25204pt on input line 196.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 201.
+(Font)              scaled to size 11.40997pt on input line 196.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 201.
+(Font)              scaled to size 8.33606pt on input line 196.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 201.
+(Font)              scaled to size 6.25204pt on input line 196.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 10.95pt on input line 201.
+(Font)              scaled to size 10.95pt on input line 196.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 8.0pt on input line 201.
+(Font)              scaled to size 8.0pt on input line 196.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 6.0pt on input line 201.
+(Font)              scaled to size 6.0pt on input line 196.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 10.95pt on input line 201.
+(Font)              scaled to size 10.95pt on input line 196.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 8.0pt on input line 201.
+(Font)              scaled to size 8.0pt on input line 196.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 6.0pt on input line 201.
+(Font)              scaled to size 6.0pt on input line 196.
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 }
+       
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 217.
+(Font)              scaled to size 15.0049pt on input line 212.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 217.
+(Font)              scaled to size 10.42007pt on input line 212.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 217.
+(Font)              scaled to size 15.0049pt on input line 212.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 217.
+(Font)              scaled to size 10.42007pt on input line 212.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 14.4pt on input line 217.
+(Font)              scaled to size 14.4pt on input line 212.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 10.0pt on input line 217.
+(Font)              scaled to size 10.0pt on input line 212.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 14.4pt on input line 217.
+(Font)              scaled to size 14.4pt on input line 212.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 10.0pt on input line 217.
+(Font)              scaled to size 10.0pt on input line 212.
 <789FIG cms_draft_paper 0>
-<cms_draft_paper.pdf, id=40, 455.24379pt x 102.42967pt>
+<cms_draft_paper.pdf, id=8, 455.24379pt x 102.42967pt>
 File: cms_draft_paper.pdf Graphic file (type pdf)
 <use cms_draft_paper.pdf>
-Package pdftex.def Info: cms_draft_paper.pdf  used on input line 217.
+Package pdftex.def Info: cms_draft_paper.pdf  used on input line 212.
 (pdftex.def)             Requested size: 455.24268pt x 102.42941pt.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 217.
+(Font)              scaled to size 12.50409pt on input line 212.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 217.
+(Font)              scaled to size 9.37807pt on input line 212.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 217.
+(Font)              scaled to size 7.29405pt on input line 212.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 217.
+(Font)              scaled to size 12.50409pt on input line 212.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 217.
+(Font)              scaled to size 9.37807pt on input line 212.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 217.
+(Font)              scaled to size 7.29405pt on input line 212.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 12.0pt on input line 217.
+(Font)              scaled to size 12.0pt on input line 212.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 9.0pt on input line 217.
+(Font)              scaled to size 9.0pt on input line 212.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 7.0pt on input line 217.
+(Font)              scaled to size 7.0pt on input line 212.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 12.0pt on input line 217.
+(Font)              scaled to size 12.0pt on input line 212.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 9.0pt on input line 217.
+(Font)              scaled to size 9.0pt on input line 212.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 7.0pt on input line 217.
+(Font)              scaled to size 7.0pt on input line 212.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 18.00587pt on input line 217.
+(Font)              scaled to size 18.00587pt on input line 212.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 18.00587pt on input line 217.
+(Font)              scaled to size 18.00587pt on input line 212.
 LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 17.28pt on input line 217.
+(Font)              scaled to size 17.28pt on input line 212.
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 17.28pt on input line 217.
+(Font)              scaled to size 17.28pt on input line 212.
 
-Overfull \hbox (16.25952pt too wide) in paragraph at lines 217--217
+Overfull \hbox (16.25952pt too wide) in paragraph at lines 212--212
 [] [][][] 
  []
 
 <789FIG BigDraft 0>
-<BigDraft.pdf, id=41, 597.50829pt x 845.0471pt>
+<BigDraft.pdf, id=9, 597.50829pt x 845.0471pt>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 217.
+Package pdftex.def Info: BigDraft.pdf  used on input line 212.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [1
 
@@ -964,301 +977,129 @@ ils/general/cms_draft_paper.pdf>]
 <789FIG BigDraft 0>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 217.
+Package pdftex.def Info: BigDraft.pdf  used on input line 212.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[2
-
-]
+[2]
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 2
-27.
-LaTeX Font Info:    <567INP ot1phv.fd> on input line 227.
+22.
+LaTeX Font Info:    <567INP ot1phv.fd> on input line 222.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
+
+Package natbib Warning: Citation `ArkaniHamed:2008qn' on page 1 undefined on in
+put line 224.
+
+
+Package natbib Warning: Citation `Bertone:2004pz' on page 1 undefined on input 
+line 226.
+
+
+Package natbib Warning: Citation `Abercrombie:2015wmb' on page 1 undefined on i
+nput line 228.
+
+
+Package natbib Warning: Citation `CMS:2021far' on page 1 undefined on input lin
+e 231.
+
+
+Package natbib Warning: Citation `ATLAS:2021kxv' on page 1 undefined on input l
+ine 231.
+
+
+Package natbib Warning: Citation `Duerr:2017uap' on page 1 undefined on input l
+ine 233.
+
+
+Package natbib Warning: Citation `Bell:2016fqf' on page 1 undefined on input li
+ne 234.
+
+
+Package natbib Warning: Citation `Kahlhoefer:2015bea' on page 1 undefined on in
+put line 234.
+
+
+Package natbib Warning: Citation `Bell:2016uhg' on page 1 undefined on input li
+ne 234.
+
+
+Package natbib Warning: Citation `Albert:2017onk' on page 1 undefined on input 
+line 242.
+
+
+Package natbib Warning: Citation `Frandsen:2012rk' on page 1 undefined on input
+ line 244.
+
+
+Package natbib Warning: Citation `Kahlhoefer:2015bea' on page 1 undefined on in
+put line 244.
+
+
+Package natbib Warning: Citation `CMS:2022dwd' on page 1 undefined on input lin
+e 244.
+
+<789FIG BigDraft 0>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 245.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[1
+
+]
+
+LaTeX Warning: Reference `fig:feyn' on page 2 undefined on input line 246.
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.248 \begin{figure}[H]
+                       %[htbp]
+Option `H' ignored and `p' used.
+
 <789FIG figures/monodarkhiggs.pdf 0>
-<figures/monodarkhiggs.pdf, id=98, 621.32124pt x 433.98134pt>
+<figures/monodarkhiggs.pdf, id=66, 621.32124pt x 433.98134pt>
 File: figures/monodarkhiggs.pdf Graphic file (type pdf)
 <use figures/monodarkhiggs.pdf>
-Package pdftex.def Info: figures/monodarkhiggs.pdf  used on input line 246.
+Package pdftex.def Info: figures/monodarkhiggs.pdf  used on input line 251.
 (pdftex.def)             Requested size: 204.85844pt x 143.08846pt.
-<789FIG BigDraft 1>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 258.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[1 </Users/eertorer/Desktop/SUS-23-013/figures/monodarkhiggs.pdf>]
-<789FIG BigDraft 1>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 272.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[2]
-<789FIG BigDraft 1>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 285.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[3]
-Overfull \hbox (5.92628pt too wide) in paragraph at lines 333--335
-\OT1/ppl/m/n/10.95 Signal re-gion (or ``SR'') events are se-lected us-ing trig-
-gers that re-quire large $\U/fsy/m/i/10.95 p[]$ \OT1/ppl/m/n/10.95 (at least $1
-20 []$)
- []
 
-<789FIG BigDraft 1>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 335.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[4]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.348 \begin{table}[H]
-                      
-Option `H' ignored and `p' used.
-
-<789FIG BigDraft 1>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 376.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[5]
-<789FIG BigDraft 1>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 379.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[6]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.382 \begin{table}[H]
-                      
-Option `H' ignored and `p' used.
-
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 391.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 391.
-LaTeX Font Info:    Font shape `U/fsy/m/i' will be
-(Font)              scaled to size 5.0pt on input line 391.
-LaTeX Font Info:    Font shape `U/fsy/m/n' will be
-(Font)              scaled to size 5.0pt on input line 391.
-
-Overfull \hbox (49.29509pt too wide) detected at line 434
-[]
- []
-
-<789FIG BigDraft 1>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 438.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[7]
-<789FIG BigDraft 1>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 438.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[8]
-<789FIG BigDraft 1>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 464.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[9]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.467 \begin{table}[H]
-                      
-Option `H' ignored and `p' used.
+Package natbib Warning: Citation `ATLAS:2022bzt' on page 2 undefined on input l
+ine 259.
 
 
-Overfull \hbox (50.57967pt too wide) in paragraph at lines 476--534
-[] [] 
- []
+Package natbib Warning: Citation `CMS:2023dof' on page 2 undefined on input lin
+e 259.
 
-<789FIG figures/postfit/2016/sr_pass2016.png 1>
-<figures/postfit/2016/sr_pass2016.png, id=299, 3134.71124pt x 697.60625pt>
-File: figures/postfit/2016/sr_pass2016.png Graphic file (type png)
-<use figures/postfit/2016/sr_pass2016.png>
-Package pdftex.def Info: figures/postfit/2016/sr_pass2016.png  used on input li
-ne 549.
-(pdftex.def)             Requested size: 450.69414pt x 100.29341pt.
-<789FIG figures/postfit/2017/sr_pass2017.png 2>
-<figures/postfit/2017/sr_pass2017.png, id=301, 3134.71124pt x 697.60625pt>
-File: figures/postfit/2017/sr_pass2017.png Graphic file (type png)
-<use figures/postfit/2017/sr_pass2017.png>
-Package pdftex.def Info: figures/postfit/2017/sr_pass2017.png  used on input li
-ne 560.
-(pdftex.def)             Requested size: 450.69414pt x 100.29341pt.
-<789FIG figures/postfit/2018/sr_pass2018.png 3>
-<figures/postfit/2018/sr_pass2018.png, id=302, 3134.71124pt x 697.60625pt>
-File: figures/postfit/2018/sr_pass2018.png Graphic file (type png)
-<use figures/postfit/2018/sr_pass2018.png>
-Package pdftex.def Info: figures/postfit/2018/sr_pass2018.png  used on input li
-ne 575.
-(pdftex.def)             Requested size: 450.69414pt x 100.29341pt.
-<789FIG BigDraft 4>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 590.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[10]
-<789FIG BigDraft 4>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 590.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[11 </Users/eertorer/Desktop/SUS-23-013/figures/postfit/2016/sr_pass2016.png>]
-<789FIG BigDraft 4>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 590.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[12 </Users/eertorer/Desktop/SUS-23-013/figures/postfit/2017/sr_pass2017.png> <
-/Users/eertorer/Desktop/SUS-23-013/figures/postfit/2018/sr_pass2018.png>]
-<789FIG figures/results/mhs50_2D.png 4>
-<figures/results/mhs50_2D.png, id=332, 883.3pt x 643.40375pt>
-File: figures/results/mhs50_2D.png Graphic file (type png)
-<use figures/results/mhs50_2D.png>
-Package pdftex.def Info: figures/results/mhs50_2D.png  used on input line 598.
-(pdftex.def)             Requested size: 145.68143pt x 106.10794pt.
-<789FIG figures/results/mhs70_2D.png 4>
-<figures/results/mhs70_2D.png, id=333, 882.29625pt x 642.4pt>
-File: figures/results/mhs70_2D.png Graphic file (type png)
-<use figures/results/mhs70_2D.png>
-Package pdftex.def Info: figures/results/mhs70_2D.png  used on input line 599.
-(pdftex.def)             Requested size: 145.68143pt x 106.06984pt.
-<789FIG figures/results/mhs90_2D.png 4>
-<figures/results/mhs90_2D.png, id=334, 880.28876pt x 642.4pt>
-File: figures/results/mhs90_2D.png Graphic file (type png)
-<use figures/results/mhs90_2D.png>
-Package pdftex.def Info: figures/results/mhs90_2D.png  used on input line 600.
-(pdftex.def)             Requested size: 145.68143pt x 106.3051pt.
-<789FIG figures/results/mhs110_2D.png 5>
-<figures/results/mhs110_2D.png, id=335, 880.28876pt x 642.4pt>
-File: figures/results/mhs110_2D.png Graphic file (type png)
-<use figures/results/mhs110_2D.png>
-Package pdftex.def Info: figures/results/mhs110_2D.png  used on input line 608.
 
-(pdftex.def)             Requested size: 145.68143pt x 106.3051pt.
-<789FIG figures/results/mhs130_2D.png 5>
-<figures/results/mhs130_2D.png, id=336, 881.2925pt x 644.4075pt>
-File: figures/results/mhs130_2D.png Graphic file (type png)
-<use figures/results/mhs130_2D.png>
-Package pdftex.def Info: figures/results/mhs130_2D.png  used on input line 609.
+Package natbib Warning: Citation `ATLAS:2024npu' on page 2 undefined on input l
+ine 259.
 
-(pdftex.def)             Requested size: 145.68143pt x 106.5193pt.
-<789FIG figures/results/mhs150_2D.png 5>
-<figures/results/mhs150_2D.png, id=337, 883.3pt x 642.4pt>
-File: figures/results/mhs150_2D.png Graphic file (type png)
-<use figures/results/mhs150_2D.png>
-Package pdftex.def Info: figures/results/mhs150_2D.png  used on input line 610.
+<567INP newDetector>
 
-(pdftex.def)             Requested size: 145.68143pt x 105.94241pt.
-<789FIG BigDraft 6>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 624.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[13 </Users/eertorer/Desktop/SUS-23-013/figures/results/mhs50_2D.png> </Users/e
-ertorer/Desktop/SUS-23-013/figures/results/mhs70_2D.png> </Users/eertorer/Deskt
-op/SUS-23-013/figures/results/mhs90_2D.png> </Users/eertorer/Desktop/SUS-23-013
-/figures/results/mhs110_2D.png> </Users/eertorer/Desktop/SUS-23-013/figures/res
-ults/mhs130_2D.png> </Users/eertorer/Desktop/SUS-23-013/figures/results/mhs150_
-2D.png>]
-<567INP SUS-23-013_temp.bbl>
-(/Users/eertorer/Desktop/SUS-23-013/tmp/SUS-23-013_temp.bbl
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
-1.
-LaTeX Font Info:    <567INP ot1pcr.fd> on input line 11.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-<789FIG BigDraft 6>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 82.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[14]
-<789FIG BigDraft 6>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 182.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[15]
-<789FIG BigDraft 6>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 299.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[16]
-<789FIG BigDraft 6>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 395.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[17])
-<789FIG BigDraft 6>
-File: BigDraft.pdf Graphic file (type pdf)
-<use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 646.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[18] (/Users/eertorer/Desktop/SUS-23-013/tmp/SUS-23-013_temp.aux)
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
- ***********
-Package rerunfilecheck Info: File `SUS-23-013_temp.out' has not changed.
-(rerunfilecheck)             Checksum: 4705AD59BEF21DD25C295C3F6E720536;547.
- )
-(\end occurred inside a group at level 1)
+! LaTeX Error: File `newDetector.tex' not found.
 
-### semi simple group (level 1) entered at line 170 (\begingroup)
-### bottom level 
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.266 \input{newDetector}
+                         ^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
 Here is how much of TeX's memory you used:
- 20250 strings out of 474116
- 305452 string characters out of 5743681
- 1972187 words of memory out of 5000000
- 42122 multiletter control sequences out of 15000+600000
- 625440 words of font info for 199 fonts, out of 8000000 for 9000
+ 19751 strings out of 474116
+ 295436 string characters out of 5743681
+ 1947187 words of memory out of 5000000
+ 41770 multiletter control sequences out of 15000+600000
+ 598800 words of font info for 141 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 99i,21n,107p,2457b,896s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/mathpazo/fplmbi.p
-fb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/loca
-l/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texli
-ve/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024
-/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2024/texmf-
-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fo
-nts/type1/urw/palatino/uplri8a.pfb>
-Output written on SUS-23-013_temp.pdf (20 pages, 1459588 bytes).
-PDF statistics:
- 592 PDF objects out of 1000 (max. 8388607)
- 490 compressed objects within 5 object streams
- 108 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 99i,12n,107p,1100b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

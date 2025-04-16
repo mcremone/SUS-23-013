@@ -1264,8 +1264,7 @@ FUNCTION {unpublished}
   format.eprint output
   new.sentence
   note output
-  new.sentence
-  format.SLACcitation output
+  format.doi output
   fin.entry
 }
 
