@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.29)  15 APR 2025 21:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.29)  15 APR 2025 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -920,7 +920,7 @@ LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 LaTeX Font Info:    Font shape `U/fsy/m/n' will be
 (Font)              scaled to size 10.0pt on input line 212.
 <789FIG cms_draft_paper 0>
-<cms_draft_paper.pdf, id=8, 455.24379pt x 102.42967pt>
+<cms_draft_paper.pdf, id=36, 455.24379pt x 102.42967pt>
 File: cms_draft_paper.pdf Graphic file (type pdf)
 <use cms_draft_paper.pdf>
 Package pdftex.def Info: cms_draft_paper.pdf  used on input line 212.
@@ -963,7 +963,7 @@ Overfull \hbox (16.25952pt too wide) in paragraph at lines 212--212
  []
 
 <789FIG BigDraft 0>
-<BigDraft.pdf, id=9, 597.50829pt x 845.0471pt>
+<BigDraft.pdf, id=37, 597.50829pt x 845.0471pt>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf  used on input line 212.
@@ -986,58 +986,6 @@ LaTeX Font Info:    <567INP ot1phv.fd> on input line 222.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-
-Package natbib Warning: Citation `ArkaniHamed:2008qn' on page 1 undefined on in
-put line 224.
-
-
-Package natbib Warning: Citation `Bertone:2004pz' on page 1 undefined on input 
-line 226.
-
-
-Package natbib Warning: Citation `Abercrombie:2015wmb' on page 1 undefined on i
-nput line 228.
-
-
-Package natbib Warning: Citation `CMS:2021far' on page 1 undefined on input lin
-e 231.
-
-
-Package natbib Warning: Citation `ATLAS:2021kxv' on page 1 undefined on input l
-ine 231.
-
-
-Package natbib Warning: Citation `Duerr:2017uap' on page 1 undefined on input l
-ine 233.
-
-
-Package natbib Warning: Citation `Bell:2016fqf' on page 1 undefined on input li
-ne 234.
-
-
-Package natbib Warning: Citation `Kahlhoefer:2015bea' on page 1 undefined on in
-put line 234.
-
-
-Package natbib Warning: Citation `Bell:2016uhg' on page 1 undefined on input li
-ne 234.
-
-
-Package natbib Warning: Citation `Albert:2017onk' on page 1 undefined on input 
-line 242.
-
-
-Package natbib Warning: Citation `Frandsen:2012rk' on page 1 undefined on input
- line 244.
-
-
-Package natbib Warning: Citation `Kahlhoefer:2015bea' on page 1 undefined on in
-put line 244.
-
-
-Package natbib Warning: Citation `CMS:2022dwd' on page 1 undefined on input lin
-e 244.
-
 <789FIG BigDraft 0>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
@@ -1046,60 +994,243 @@ Package pdftex.def Info: BigDraft.pdf  used on input line 245.
 [1
 
 ]
-
-LaTeX Warning: Reference `fig:feyn' on page 2 undefined on input line 246.
-
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.248 \begin{figure}[H]
-                       %[htbp]
-Option `H' ignored and `p' used.
-
 <789FIG figures/monodarkhiggs.pdf 0>
-<figures/monodarkhiggs.pdf, id=66, 621.32124pt x 433.98134pt>
+<figures/monodarkhiggs.pdf, id=118, 621.32124pt x 433.98134pt>
 File: figures/monodarkhiggs.pdf Graphic file (type pdf)
 <use figures/monodarkhiggs.pdf>
 Package pdftex.def Info: figures/monodarkhiggs.pdf  used on input line 251.
 (pdftex.def)             Requested size: 204.85844pt x 143.08846pt.
-
-Package natbib Warning: Citation `ATLAS:2022bzt' on page 2 undefined on input l
-ine 259.
-
-
-Package natbib Warning: Citation `CMS:2023dof' on page 2 undefined on input lin
-e 259.
-
-
-Package natbib Warning: Citation `ATLAS:2024npu' on page 2 undefined on input l
-ine 259.
-
 <567INP newDetector>
+(/Users/eertorer/Desktop/SUS-23-013/newDetector.tex
+<789FIG BigDraft 1>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 4.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[2 </Users/eertorer/Desktop/SUS-23-013/figures/monodarkhiggs.pdf>]
+<789FIG BigDraft 1>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 18.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[3]
+<789FIG BigDraft 1>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 27.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[4])
+<789FIG BigDraft 1>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 284.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[5]
+<789FIG BigDraft 1>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 319.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[6]
+<789FIG BigDraft 1>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 359.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[7]
+<789FIG BigDraft 1>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 385.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[8]
+<789FIG BigDraft 1>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 388.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[9]
+<789FIG BigDraft 1>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 477.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[10]
+<789FIG figures/sr.png 1>
+<figures/sr.png, id=314, 3276.24pt x 1146.2825pt>
+File: figures/sr.png Graphic file (type png)
+<use figures/sr.png>
+Package pdftex.def Info: figures/sr.png  used on input line 481.
+(pdftex.def)             Requested size: 450.69414pt x 157.67992pt.
 
-! LaTeX Error: File `newDetector.tex' not found.
+LaTeX Warning: Reference `fig:mhs50_70_90' on page 11 undefined on input line 4
+95.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.266 \input{newDetector}
-                         ^^M
-*** (cannot \read from terminal in nonstop modes)
+LaTeX Warning: Reference `fig:mhs110_130_150' on page 11 undefined on input lin
+e 495.
 
- 
+<789FIG BigDraft 2>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 498.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[11 </Users/eertorer/Desktop/SUS-23-013/figures/sr.png>]
+<789FIG figures/results/mhs50_2D.png 2>
+<figures/results/mhs50_2D.png, id=324, 1011.78pt x 722.7pt>
+File: figures/results/mhs50_2D.png Graphic file (type png)
+<use figures/results/mhs50_2D.png>
+Package pdftex.def Info: figures/results/mhs50_2D.png  used on input line 502.
+(pdftex.def)             Requested size: 450.69414pt x 321.9258pt.
+<789FIG BigDraft 3>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 508.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[12 </Users/eertorer/Desktop/SUS-23-013/figures/results/mhs50_2D.png>]
+<789FIG figures/results/mhs70_2D.png 3>
+<figures/results/mhs70_2D.png, id=332, 1011.78pt x 722.7pt>
+File: figures/results/mhs70_2D.png Graphic file (type png)
+<use figures/results/mhs70_2D.png>
+Package pdftex.def Info: figures/results/mhs70_2D.png  used on input line 512.
+(pdftex.def)             Requested size: 450.69414pt x 321.9258pt.
+<789FIG BigDraft 4>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 518.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[13 </Users/eertorer/Desktop/SUS-23-013/figures/results/mhs70_2D.png>]
+<789FIG figures/results/mhs90_2D.png 4>
+<figures/results/mhs90_2D.png, id=339, 1011.78pt x 722.7pt>
+File: figures/results/mhs90_2D.png Graphic file (type png)
+<use figures/results/mhs90_2D.png>
+Package pdftex.def Info: figures/results/mhs90_2D.png  used on input line 522.
+(pdftex.def)             Requested size: 450.69414pt x 321.9258pt.
+<789FIG BigDraft 5>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 528.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[14 </Users/eertorer/Desktop/SUS-23-013/figures/results/mhs90_2D.png>]
+<789FIG figures/results/mhs110_2D.png 5>
+<figures/results/mhs110_2D.png, id=346, 1011.78pt x 722.7pt>
+File: figures/results/mhs110_2D.png Graphic file (type png)
+<use figures/results/mhs110_2D.png>
+Package pdftex.def Info: figures/results/mhs110_2D.png  used on input line 532.
+
+(pdftex.def)             Requested size: 450.69414pt x 321.9258pt.
+<789FIG BigDraft 6>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 538.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[15 </Users/eertorer/Desktop/SUS-23-013/figures/results/mhs110_2D.png>]
+<789FIG figures/results/mhs130_2D.png 6>
+<figures/results/mhs130_2D.png, id=353, 1011.78pt x 722.7pt>
+File: figures/results/mhs130_2D.png Graphic file (type png)
+<use figures/results/mhs130_2D.png>
+Package pdftex.def Info: figures/results/mhs130_2D.png  used on input line 542.
+
+(pdftex.def)             Requested size: 450.69414pt x 321.9258pt.
+<789FIG BigDraft 7>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 548.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[16 </Users/eertorer/Desktop/SUS-23-013/figures/results/mhs130_2D.png>]
+<789FIG figures/results/mhs150_2D.png 7>
+<figures/results/mhs150_2D.png, id=361, 1011.78pt x 722.7pt>
+File: figures/results/mhs150_2D.png Graphic file (type png)
+<use figures/results/mhs150_2D.png>
+Package pdftex.def Info: figures/results/mhs150_2D.png  used on input line 552.
+
+(pdftex.def)             Requested size: 450.69414pt x 321.9258pt.
+<789FIG BigDraft 8>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 569.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[17 </Users/eertorer/Desktop/SUS-23-013/figures/results/mhs150_2D.png>]
+<567INP SUS-23-013_temp.bbl>
+(/Users/eertorer/Desktop/SUS-23-013/tmp/SUS-23-013_temp.bbl
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+0.
+LaTeX Font Info:    <567INP ot1pcr.fd> on input line 10.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+<789FIG BigDraft 8>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 110.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[18]
+<789FIG BigDraft 8>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 203.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[19]
+<789FIG BigDraft 8>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 314.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[20]
+<789FIG BigDraft 8>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 419.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[21])
+<789FIG BigDraft 8>
+File: BigDraft.pdf Graphic file (type pdf)
+<use BigDraft.pdf>
+Package pdftex.def Info: BigDraft.pdf  used on input line 589.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+[22] (/Users/eertorer/Desktop/SUS-23-013/tmp/SUS-23-013_temp.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `SUS-23-013_temp.out' has not changed.
+(rerunfilecheck)             Checksum: E0A7B65E0F82B48F46C877A676CFB57C;475.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 169 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 19751 strings out of 474116
- 295436 string characters out of 5743681
- 1947187 words of memory out of 5000000
- 41770 multiletter control sequences out of 15000+600000
- 598800 words of font info for 141 fonts, out of 8000000 for 9000
+ 20221 strings out of 474116
+ 304928 string characters out of 5743681
+ 1953187 words of memory out of 5000000
+ 42107 multiletter control sequences out of 15000+600000
+ 611685 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 99i,12n,107p,1100b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 99i,18n,107p,1510b,916s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+></usr/local/texlive/2024/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></us
+r/local/texlive/2024/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/lo
+cal/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texl
+ive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/202
+4/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/texmf
+-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2024/texmf-dist/f
+onts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/ty
+pe1/urw/palatino/uplri8a.pfb>
+Output written on SUS-23-013_temp.pdf (24 pages, 1417243 bytes).
+PDF statistics:
+ 607 PDF objects out of 1000 (max. 8388607)
+ 506 compressed objects within 6 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 115 words of extra memory for PDF output out of 10000 (max. 10000000)
+

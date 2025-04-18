@@ -2,61 +2,62 @@ This is BibTeX, Version 0.99d (TeX Live 2024)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: SUS-23-013_temp.aux
 The style file: cms_unsrt.bst
-I found no \bibdata command---while reading file SUS-23-013_temp.aux
-Warning--I didn't find a database entry for "ArkaniHamed:2008qn"
-Warning--I didn't find a database entry for "Bertone:2004pz"
-Warning--I didn't find a database entry for "Abercrombie:2015wmb"
-Warning--I didn't find a database entry for "CMS:2021far"
-Warning--I didn't find a database entry for "ATLAS:2021kxv"
-Warning--I didn't find a database entry for "Duerr:2017uap"
-Warning--I didn't find a database entry for "Bell:2016fqf"
-Warning--I didn't find a database entry for "Kahlhoefer:2015bea"
-Warning--I didn't find a database entry for "Bell:2016uhg"
-Warning--I didn't find a database entry for "Albert:2017onk"
-Warning--I didn't find a database entry for "Frandsen:2012rk"
-Warning--I didn't find a database entry for "CMS:2022dwd"
-Warning--I didn't find a database entry for "ATLAS:2022bzt"
-Warning--I didn't find a database entry for "CMS:2023dof"
-Warning--I didn't find a database entry for "ATLAS:2024npu"
-You've used 0 entries,
+Database file #1: auto_generated.bib
+Repeated entry---line 2272 of file auto_generated.bib
+ : @article{Abercrombie:2015wmb
+ :                             ,
+I'm skipping whatever remains of this entry
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+Reallocated buffer (elt_size=1) to 60000 items from 40000.
+Reallocated sv_buffer (elt_size=1) to 60000 items from 40000.
+Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
+Reallocated out_buf (elt_size=1) to 60000 items from 40000.
+Reallocated name_tok (elt_size=4) to 60000 items from 40000.
+Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
+You've used 66 entries,
             2556 wiz_defined-function locations,
-            648 strings with 5337 characters,
-and the built_in function-call counts, 31 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 5
-:= -- 9
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            1156 strings with 18726 characters,
+and the built_in function-call counts, 20783 in all, are:
+= -- 2288
+> -- 362
+< -- 5
++ -- 134
+- -- 68
+* -- 1965
+:= -- 2435
+add.period$ -- 100
+call.type$ -- 66
+change.case$ -- 66
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 66
+duplicate$ -- 1486
+empty$ -- 2091
+format.name$ -- 76
+if$ -- 5502
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 7
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 66
+missing$ -- 178
+newline$ -- 262
+num.names$ -- 35
+pop$ -- 362
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1
+skip$ -- 848
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 564
+swap$ -- 712
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 6
+while$ -- 98
+width$ -- 68
+write$ -- 874
 (There was 1 error message)

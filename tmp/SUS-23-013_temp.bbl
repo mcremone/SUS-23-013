@@ -1,7 +1,475 @@
-\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{}%
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}%
 \makeatletter
 \providecommand{\hrefCMSnoop }[0]{\@secondoftwo}%
 \makeatother
 \providecommand{\doi}{\texttt{doi:}\begingroup \urlstyle{tt}\Url}
+
+\bibitem{ArkaniHamed:2008qn}
+\hrefCMSnoop {}{N.~Arkani-Hamed {et~al.}, ``{A theory of dark matter}'',}
+  \textit{ Phys. Rev. D} \textbf{ 79} (2009) 015014,
+  \href{http://dx.doi.org/10.1103/PhysRevD.79.015014}{\doi{10.1103/PhysRevD.79.015014}}.
+
+\bibitem{Bertone:2004pz}
+\hrefCMSnoop {}{G.~Bertone, D.~Hooper, and J.~Silk, ``{Particle dark matter:
+  Evidence, candidates and constraints}'',} \textit{ Phys. Rept.} \textbf{ 405}
+  (2005) 279--390,
+  \href{http://dx.doi.org/10.1016/j.physrep.2004.08.031}{\doi{10.1016/j.physrep.2004.08.031}},
+  \href{http://www.arXiv.org/abs/hep-ph/0404175}{\texttt{arXiv:hep-ph/0404175}}.
+
+\bibitem{Abercrombie:2015wmb}
+\hrefCMSnoop {}{D.~Abercrombie {et~al.}, ``{Dark matter benchmark models for
+  early LHC Run-2 searches: report of the ATLAS/CMS dark matter forum}'',}
+  2015.
+\href{http://www.arXiv.org/abs/1507.00966}{\texttt{arXiv:1507.00966}}.
+%%CITATION = ARXIV:1507.00966;%%.
+
+\bibitem{CMS:2021far}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Search for new particles in events with
+  energetic jets and large missing transverse momentum in proton-proton
+  collisions at $ \sqrt{s} $ = 13 TeV}'',} \textit{ JHEP} \textbf{ 11} (2021)
+  153,
+  \href{http://dx.doi.org/10.1007/JHEP11(2021)153}{\doi{10.1007/JHEP11(2021)153}},
+  \href{http://www.arXiv.org/abs/2107.13021}{\texttt{arXiv:2107.13021}}.
+
+\bibitem{ATLAS:2021kxv}
+\hrefCMSnoop {}{{ATLAS} Collaboration, ``{Search for new phenomena in events
+  with an energetic jet and missing transverse momentum in $pp$ collisions at
+  $\sqrt {s}$ =13 TeV with the ATLAS detector}'',} \textit{ Phys. Rev. D}
+  \textbf{ 103} (2021), no.~11, 112006,
+  \href{http://dx.doi.org/10.1103/PhysRevD.103.112006}{\doi{10.1103/PhysRevD.103.112006}},
+  \href{http://www.arXiv.org/abs/2102.10874}{\texttt{arXiv:2102.10874}}.
+
+\bibitem{Duerr:2017uap}
+M.~Duerr\hrefCMSnoop {}{ {et~al.}, ``{Hunting the dark Higgs}'',} \textit{
+  JHEP} \textbf{ 04} (2017) 143,
+  \href{http://dx.doi.org/10.1007/JHEP04(2017)143}{\doi{10.1007/JHEP04(2017)143}},
+  \href{http://www.arXiv.org/abs/1701.08780}{\texttt{arXiv:1701.08780}}.
+
+\bibitem{Bell:2016fqf}
+\hrefCMSnoop {}{N.~F. Bell, Y.~Cai, and R.~K. Leane, ``{Dark Forces in the Sky:
+  Signals from Z' and the Dark Higgs}'',} \textit{ JCAP} \textbf{ 08} (2016)
+  001,
+  \href{http://dx.doi.org/10.1088/1475-7516/2016/08/001}{\doi{10.1088/1475-7516/2016/08/001}},
+  \href{http://www.arXiv.org/abs/1605.09382}{\texttt{arXiv:1605.09382}}.
+
+\bibitem{Kahlhoefer:2015bea}
+\hrefCMSnoop {}{F.~Kahlhoefer, K.~Schmidt-Hoberg, T.~Schwetz, and S.~Vogl,
+  ``{Implications of unitarity and gauge invariance for simplified dark matter
+  models}'',} \textit{ JHEP} \textbf{ 02} (2016) 016,
+  \href{http://dx.doi.org/10.1007/JHEP02(2016)016}{\doi{10.1007/JHEP02(2016)016}},
+\href{http://www.arXiv.org/abs/1510.02110}{\texttt{arXiv:1510.02110}}.
+%%CITATION = ARXIV:1510.02110;%%.
+
+\bibitem{Bell:2016uhg}
+\hrefCMSnoop {}{N.~F. Bell, Y.~Cai, and R.~K. Leane, ``{Impact of mass
+  generation for spin-1 mediator simplified models}'',} \textit{ JCAP} \textbf{
+  01} (2017) 039,
+  \href{http://dx.doi.org/10.1088/1475-7516/2017/01/039}{\doi{10.1088/1475-7516/2017/01/039}},
+  \href{http://www.arXiv.org/abs/1610.03063}{\texttt{arXiv:1610.03063}}.
+
+\bibitem{Albert:2017onk}
+\hrefCMSnoop {}{{LHC Dark Matter Working Group}, ``Recommendations of the {LHC}
+  dark matter working group: Comparing {LHC} searches for dark matter mediators
+  in visible and invisible decay channels and calculations of the thermal relic
+  density'',} \textit{ Phys. Dark Univ.} \textbf{ 26} (2019) 100377,
+  \href{http://dx.doi.org/10.1016/j.dark.2019.100377}{\doi{10.1016/j.dark.2019.100377}},
+  \href{http://www.arXiv.org/abs/1703.05703}{\texttt{arXiv:1703.05703}}.
+
+\bibitem{Frandsen:2012rk}
+M.~T. Frandsen\hrefCMSnoop {}{ {et~al.}, ``{LHC and Tevatron Bounds on the Dark
+  Matter Direct Detection Cross-Section for Vector Mediators}'',} \textit{
+  JHEP} \textbf{ 07} (2012) 123,
+  \href{http://dx.doi.org/10.1007/JHEP07(2012)123}{\doi{10.1007/JHEP07(2012)123}},
+\href{http://www.arXiv.org/abs/1204.3839}{\texttt{arXiv:1204.3839}}.
+%%CITATION = ARXIV:1204.3839;%%.
+
+\bibitem{CMS:2022dwd}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{A portrait of the Higgs boson by the
+  CMS experiment ten years after the discovery.}'',} \textit{ Nature} \textbf{
+  607} (2022), no.~7917, 60,
+  \href{http://dx.doi.org/10.1038/s41586-022-04892-x}{\doi{10.1038/s41586-022-04892-x}},
+  \href{http://www.arXiv.org/abs/2207.00043}{\texttt{arXiv:2207.00043}}.
+  [Erratum: \DOI{10.1038/s41586-023-06164-8}].
+
+\bibitem{ATLAS:2022bzt}
+\hrefCMSnoop {}{{ATLAS} Collaboration, ``{Search for dark matter produced in
+  association with a dark Higgs boson decaying into $W^{+}W^{-}$ in the
+  one-lepton final state at $\sqrt{s}$=13 TeV using 139 fb$^{-1}$ of $pp$
+  collisions recorded with the ATLAS detector}'',} \textit{ JHEP} \textbf{ 07}
+  (2023) 116,
+  \href{http://dx.doi.org/10.1007/JHEP07(2023)116}{\doi{10.1007/JHEP07(2023)116}},
+  \href{http://www.arXiv.org/abs/2211.07175}{\texttt{arXiv:2211.07175}}.
+
+\bibitem{CMS:2023dof}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Search for dark matter particles in
+  W$^{+}$W$^{-}$ events with transverse momentum imbalance in proton-proton
+  collisions at $ \sqrt{s} $ = 13 TeV}'',} \textit{ JHEP} \textbf{ 03} (2024)
+  134,
+  \href{http://dx.doi.org/10.1007/JHEP03(2024)134}{\doi{10.1007/JHEP03(2024)134}},
+  \href{http://www.arXiv.org/abs/2310.12229}{\texttt{arXiv:2310.12229}}.
+
+\bibitem{ATLAS:2024npu}
+\hrefCMSnoop {}{{ATLAS} Collaboration, ``{Search for dark matter produced in
+  association with a dark Higgs boson in the $b\bar{b}$ final state using $pp$
+  collisions at $\sqrt{s}=13$ TeV with the ATLAS detector}'',}
+  \href{http://www.arXiv.org/abs/2407.10549}{\texttt{arXiv:2407.10549}}.
+
+\bibitem{CMS:2008xjf}
+\hrefCMSnoop {}{{CMS} Collaboration, ``The {CMS} experiment at the {CERN}
+  {LHC}'',} \textit{ JINST} \textbf{ 3} (2008) S08004,
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08004}{\doi{10.1088/1748-0221/3/08/S08004}}.
+
+\bibitem{CMS:2023gfb}
+\hrefCMSnoop {}{{CMS} Collaboration, ``Development of the {CMS} detector for
+  the {CERN LHC Run 3}'',} \textit{ JINST} \textbf{ 19} (2024) P05064,
+  \href{http://dx.doi.org/10.1088/1748-0221/19/05/P05064}{\doi{10.1088/1748-0221/19/05/P05064}}.
+
+\bibitem{CMS:2020cmk}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Performance of the CMS Level-1 trigger
+  in proton-proton collisions at $\sqrt{s} =$ 13 TeV}'',} \textit{ JINST}
+  \textbf{ 15} (2020), no.~10, P10017,
+  \href{http://dx.doi.org/10.1088/1748-0221/15/10/P10017}{\doi{10.1088/1748-0221/15/10/P10017}},
+  \href{http://www.arXiv.org/abs/2006.10165}{\texttt{arXiv:2006.10165}}.
+
+\bibitem{CMS:2016ngn}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{The CMS trigger system}'',} \textit{
+  JINST} \textbf{ 12} (2017), no.~01, P01020,
+  \href{http://dx.doi.org/10.1088/1748-0221/12/01/P01020}{\doi{10.1088/1748-0221/12/01/P01020}},
+  \href{http://www.arXiv.org/abs/1609.02366}{\texttt{arXiv:1609.02366}}.
+
+\bibitem{CMS:2024aqx}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Performance of the CMS high-level
+  trigger during LHC Run 2}'',} \textit{ JINST} \textbf{ 19} (2024), no.~11,
+  P11021,
+  \href{http://dx.doi.org/10.1088/1748-0221/19/11/P11021}{\doi{10.1088/1748-0221/19/11/P11021}},
+  \href{http://www.arXiv.org/abs/2410.17038}{\texttt{arXiv:2410.17038}}.
+
+\bibitem{CMS:2020uim}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Electron and photon reconstruction and
+  identification with the CMS experiment at the CERN LHC}'',} \textit{ JINST}
+  \textbf{ 16} (2021), no.~05, P05014,
+  \href{http://dx.doi.org/10.1088/1748-0221/16/05/P05014}{\doi{10.1088/1748-0221/16/05/P05014}},
+  \href{http://www.arXiv.org/abs/2012.06888}{\texttt{arXiv:2012.06888}}.
+
+\bibitem{CMS:2018rym}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Performance of the CMS muon detector
+  and muon reconstruction with proton-proton collisions at $\sqrt{s}=$ 13
+  TeV}'',} \textit{ JINST} \textbf{ 13} (2018) P06015,
+  \href{http://dx.doi.org/10.1088/1748-0221/13/06/P06015}{\doi{10.1088/1748-0221/13/06/P06015}},
+  \href{http://www.arXiv.org/abs/1804.04528}{\texttt{arXiv:1804.04528}}.
+
+\bibitem{CMS:2014pgm}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Description and performance of track
+  and primary-vertex reconstruction with the CMS tracker}'',} \textit{ JINST}
+  \textbf{ 9} (2014) P10009,
+  \href{http://dx.doi.org/10.1088/1748-0221/9/10/P10009}{\doi{10.1088/1748-0221/9/10/P10009}},
+  \href{http://www.arXiv.org/abs/1405.6569}{\texttt{arXiv:1405.6569}}.
+
+\bibitem{Phase1Pixel}
+\hrefCMSnoop {}{{CMS Tracker Group} Collaboration, ``The {CMS} phase-1 pixel
+  detector upgrade'',} \textit{ JINST} \textbf{ 16} (2021) P02027,
+  \href{http://dx.doi.org/10.1088/1748-0221/16/02/P02027}{\doi{10.1088/1748-0221/16/02/P02027}},
+  \href{http://www.arXiv.org/abs/2012.14304}{\texttt{arXiv:2012.14304}}.
+
+\bibitem{DP-2020-049}
+\href {https://cds.cern.ch/record/2743740}{{CMS} Collaboration, ``Track impact
+  parameter resolution for the full pseudo rapidity coverage in the 2017
+  dataset with the {CMS} phase-1 pixel detector'',} CMS Detector Performance
+  Summary CMS-DP-2020-049, 2020.
+
+\bibitem{DP-2017-015}
+\href {https://cds.cern.ch/record/2290524}{{CMS} Collaboration, ``2017 tracking
+  performance plots'',} CMS Detector Performance Summary CMS-DP-2017-015, 2017.
+
+\bibitem{CMS-TDR-15-02}
+\href {http://cds.cern.ch/record/2020886}{{{CMS}} Collaboration, ``Technical
+  proposal for the {Phase-II} upgrade of the {Compact Muon Solenoid}'',} CMS
+  Technical Proposal CERN-LHCC-2015-010, CMS-TDR-15-02, 2015.
+
+\bibitem{CMS:2017yfk}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Particle-flow reconstruction and global
+  event description with the CMS detector}'',} \textit{ JINST} \textbf{ 12}
+  (2017), no.~10, P10003,
+  \href{http://dx.doi.org/10.1088/1748-0221/12/10/P10003}{\doi{10.1088/1748-0221/12/10/P10003}},
+  \href{http://www.arXiv.org/abs/1706.04965}{\texttt{arXiv:1706.04965}}.
+
+\bibitem{Khachatryan:2015dfa}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Reconstruction and identification of
+  $\tau$ lepton decays to hadrons and $\nu_\tau$ at CMS}'',} \textit{ JINST}
+  \textbf{ 11} (2016) P01019,
+  \href{http://dx.doi.org/10.1088/1748-0221/11/01/P01019}{\doi{10.1088/1748-0221/11/01/P01019}},
+\href{http://www.arXiv.org/abs/1510.07488}{\texttt{arXiv:1510.07488}}.
+%%CITATION = ARXIV:1510.07488;%%.
+
+\bibitem{deeptau}
+\hrefCMSnoop {}{C.~Collaboration, ``{Identification of hadronic tau lepton
+  decays using a deep neural network}'',} \textit{ JINST} \textbf{ 17} (2022)
+  P07023,
+  \href{http://dx.doi.org/10.1088/1748-0221/17/07/P07023}{\doi{10.1088/1748-0221/17/07/P07023}},
+  \href{http://www.arXiv.org/abs/2201.08458}{\texttt{arXiv:2201.08458}}.
+
+\bibitem{Cacciari:2008gp}
+\hrefCMSnoop {}{M.~Cacciari, G.~P. Salam, and G.~Soyez, ``The anti-\kt jet
+  clustering algorithm'',} \textit{ JHEP} \textbf{ 04} (2008) 063,
+  \href{http://dx.doi.org/10.1088/1126-6708/2008/04/063}{\doi{10.1088/1126-6708/2008/04/063}},
+  \href{http://www.arXiv.org/abs/0802.1189}{\texttt{arXiv:0802.1189}}.
+
+\bibitem{Cacciari:2011ma}
+\hrefCMSnoop {}{M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{FastJet user
+  manual}'',} \textit{ Eur. Phys. J. C} \textbf{ 72} (2012) 1896,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-012-1896-2}{\doi{10.1140/epjc/s10052-012-1896-2}},
+\href{http://www.arXiv.org/abs/1111.6097}{\texttt{arXiv:1111.6097}}.
+%%CITATION = ARXIV:1111.6097;%%.
+
+\bibitem{CMS:2016lmd}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Jet energy scale and resolution in the
+  CMS experiment in pp collisions at 8 TeV}'',} \textit{ JINST} \textbf{ 12}
+  (2017) P02014,
+  \href{http://dx.doi.org/10.1088/1748-0221/12/02/P02014}{\doi{10.1088/1748-0221/12/02/P02014}},
+\href{http://www.arXiv.org/abs/1607.03663}{\texttt{arXiv:1607.03663}}.
+%%CITATION = ARXIV:1607.03663;%%.
+
+\bibitem{Sirunyan:2020foa}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Pileup mitigation at CMS in 13 TeV
+  data}'',} \textit{ JINST} \textbf{ 15} (2020) P09018,
+  \href{http://dx.doi.org/10.1088/1748-0221/15/09/p09018}{\doi{10.1088/1748-0221/15/09/p09018}},
+  \href{http://www.arXiv.org/abs/2003.00503}{\texttt{arXiv:2003.00503}}.
+
+\bibitem{Bertolini:2014bba}
+\hrefCMSnoop {}{D.~Bertolini, P.~Harris, M.~Low, and N.~Tran, ``Pileup per
+  particle identification'',} \textit{ JHEP} \textbf{ 10} (2014) 059,
+  \href{http://dx.doi.org/10.1007/JHEP10(2014)059}{\doi{10.1007/JHEP10(2014)059}},
+\href{http://www.arXiv.org/abs/1407.6013}{\texttt{arXiv:1407.6013}}.
+%%CITATION = ARXIV:1407.6013;%%.
+
+\bibitem{Bols:2020bkb}
+E.~Bols\hrefCMSnoop {}{ {et~al.}, ``{Jet Flavour Classification Using
+  DeepJet}'',} \textit{ JINST} \textbf{ 15} (2020), no.~12, P12012,
+  \href{http://dx.doi.org/10.1088/1748-0221/15/12/P12012}{\doi{10.1088/1748-0221/15/12/P12012}},
+  \href{http://www.arXiv.org/abs/2008.10519}{\texttt{arXiv:2008.10519}}.
+
+\bibitem{Dasgupta:2013ihk}
+\hrefCMSnoop {}{M.~Dasgupta, A.~Fregoso, S.~Marzani, and G.~P. Salam, ``Towards
+  an understanding of jet substructure'',} \textit{ JHEP} \textbf{ 09} (2013)
+  029,
+  \href{http://dx.doi.org/10.1007/JHEP09(2013)029}{\doi{10.1007/JHEP09(2013)029}},
+\href{http://www.arXiv.org/abs/1307.0007}{\texttt{arXiv:1307.0007}}.
+%%CITATION = ARXIV:1307.0007;%%.
+
+\bibitem{Butterworth:2008iy}
+\hrefCMSnoop {}{J.~M. Butterworth, A.~R. Davison, M.~Rubin, and G.~P. Salam,
+  ``Jet substructure as a new {Higgs} search channel at the {LHC}'',} \textit{
+  Phys. Rev. Lett.} \textbf{ 100} (2008) 242001,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.100.242001}{\doi{10.1103/PhysRevLett.100.242001}},
+\href{http://www.arXiv.org/abs/0802.2470}{\texttt{arXiv:0802.2470}}.
+%%CITATION = ARXIV:0802.2470;%%.
+
+\bibitem{Larkoski:2014wba}
+\hrefCMSnoop {}{A.~J. Larkoski, S.~Marzani, G.~Soyez, and J.~Thaler, ``Soft
+  drop'',} \textit{ JHEP} \textbf{ 05} (2014) 146,
+  \href{http://dx.doi.org/10.1007/JHEP05(2014)146}{\doi{10.1007/JHEP05(2014)146}},
+\href{http://www.arXiv.org/abs/1402.2657}{\texttt{arXiv:1402.2657}}.
+%%CITATION = ARXIV:1402.2657;%%.
+
+\bibitem{Sirunyan:2020lcu}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Identification of heavy, energetic,
+  hadronically decaying particles using machine-learning techniques}'',}
+  \textit{ JINST} \textbf{ 15} (2020), no.~06, P06005,
+  \href{http://dx.doi.org/10.1088/1748-0221/15/06/P06005}{\doi{10.1088/1748-0221/15/06/P06005}},
+  \href{http://www.arXiv.org/abs/2004.08262}{\texttt{arXiv:2004.08262}}.
+
+\bibitem{Sirunyan:2019kia}
+\hrefCMSnoop {}{{CMS Collaboration}, ``Performance of missing transverse
+  momentum reconstruction in proton-proton collisions at $\sqrt{s} = 13$\,{TeV}
+  using the {CMS} detector'',} \textit{ JINST} \textbf{ 14} (2019) P07004,
+  \href{http://dx.doi.org/10.1088/1748-0221/14/07/P07004}{\doi{10.1088/1748-0221/14/07/P07004}},
+\href{http://www.arXiv.org/abs/1903.06078}{\texttt{arXiv:1903.06078}}.
+%%CITATION = ARXIV:1903.06078;%%.
+
+\bibitem{Sjostrand:2014zea}
+T.~Sj{\"o}strand\hrefCMSnoop {}{ {et~al.}, ``An introduction to {PYTHIA}
+  8.2'',} \textit{ Comput. Phys. Commun.} \textbf{ 191} (2015) 159,
+  \href{http://dx.doi.org/10.1016/j.cpc.2015.01.024}{\doi{10.1016/j.cpc.2015.01.024}},
+\href{http://www.arXiv.org/abs/1410.3012}{\texttt{arXiv:1410.3012}}.
+%%CITATION = ARXIV:1410.3012;%%.
+
+\bibitem{CMS:2019csb}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Extraction and validation of a new set
+  of CMS PYTHIA8 tunes from underlying-event measurements}'',} \textit{ Eur.
+  Phys. J. C} \textbf{ 80} (2020), no.~1, 4,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-019-7499-4}{\doi{10.1140/epjc/s10052-019-7499-4}},
+  \href{http://www.arXiv.org/abs/1903.12179}{\texttt{arXiv:1903.12179}}.
+
+\bibitem{Agostinelli:2002hh}
+\hrefCMSnoop {}{{GEANT4} Collaboration, ``{\GEANTfour}---a simulation
+  toolkit'',} \textit{ Nucl. Instrum. Meth. A} \textbf{ 506} (2003) 250,
+\href{http://dx.doi.org/10.1016/S0168-9002(03)01368-8}{\doi{10.1016/S0168-9002(03)01368-8}}.
+%%CITATION = NUIMA,A506,250;%%.
+
+\bibitem{Ball:2014uwa}
+\hrefCMSnoop {}{{NNPDF} Collaboration, ``Parton distributions for the {LHC} run
+  {II}'',} \textit{ JHEP} \textbf{ 04} (2015) 040,
+  \href{http://dx.doi.org/10.1007/JHEP04(2015)040}{\doi{10.1007/JHEP04(2015)040}},
+  \href{http://www.arXiv.org/abs/1410.8849}{\texttt{arXiv:1410.8849}}.
+
+\bibitem{Ball:2017nwa}
+\hrefCMSnoop {}{{NNPDF} Collaboration, ``{Parton distributions from
+  high-precision collider data}'',} \textit{ Eur. Phys. J.} \textbf{ C77}
+  (2017), no.~10, 663,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-017-5199-5}{\doi{10.1140/epjc/s10052-017-5199-5}},
+\href{http://www.arXiv.org/abs/1706.00428}{\texttt{arXiv:1706.00428}}.
+%%CITATION = ARXIV:1706.00428;%%.
+
+\bibitem{Alwall:2014hca}
+J.~Alwall\hrefCMSnoop {}{ {et~al.}, ``The automated computation of tree-level
+  and next-to-leading order differential cross sections, and their matching to
+  parton shower simulations'',} \textit{ JHEP} \textbf{ 07} (2014) 079,
+  \href{http://dx.doi.org/10.1007/JHEP07(2014)079}{\doi{10.1007/JHEP07(2014)079}},
+\href{http://www.arXiv.org/abs/1405.0301}{\texttt{arXiv:1405.0301}}.
+%%CITATION = ARXIV:1405.0301;%%.
+
+\bibitem{Mangano:2006rw}
+\hrefCMSnoop {}{M.~L. Mangano, M.~Moretti, F.~Piccinini, and M.~Treccani,
+  ``{Matching matrix elements and shower evolution for top-quark production in
+  hadronic collisions}'',} \textit{ JHEP} \textbf{ 01} (2007) 013,
+  \href{http://dx.doi.org/10.1088/1126-6708/2007/01/013}{\doi{10.1088/1126-6708/2007/01/013}},
+\href{http://www.arXiv.org/abs/hep-ph/0611129}{\texttt{arXiv:hep-ph/0611129}}.
+%%CITATION = HEP-PH/0611129;%%.
+
+\bibitem{Frederix:2012ps}
+\hrefCMSnoop {}{R.~Frederix and S.~Frixione, ``{Merging meets matching in
+  MC@NLO}'',} \textit{ JHEP} \textbf{ 12} (2012) 061,
+  \href{http://dx.doi.org/10.1007/JHEP12(2012)061}{\doi{10.1007/JHEP12(2012)061}},
+\href{http://www.arXiv.org/abs/1209.6215}{\texttt{arXiv:1209.6215}}.
+%%CITATION = ARXIV:1209.6215;%%.
+
+\bibitem{Czakon:2013goa}
+\hrefCMSnoop {}{M.~Czakon, P.~Fiedler, and A.~Mitov, ``Total top-quark
+  pair-production cross section at hadron colliders through $o(\alpha^4_s)$'',}
+  \textit{ Phys. Rev. Lett.} \textbf{ 110} (2013) 252004,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.110.252004}{\doi{10.1103/PhysRevLett.110.252004}},
+  \href{http://www.arXiv.org/abs/1303.6254}{\texttt{arXiv:1303.6254}}.
+
+\bibitem{Alioli:2009je}
+\hrefCMSnoop {}{S.~Alioli, P.~Nason, C.~Oleari, and E.~Re, ``{NLO} single-top
+  production matched with shower in {POWHEG}: $s$- and $t$-channel
+  contributions'',} \textit{ JHEP} \textbf{ 09} (2009) 111,
+  \href{http://dx.doi.org/10.1088/1126-6708/2009/09/111}{\doi{10.1088/1126-6708/2009/09/111}},
+  \href{http://www.arXiv.org/abs/0907.4076}{\texttt{arXiv:0907.4076}}.
+[Erratum: \doi{10.1007/JHEP02(2010)011}].
+%%CITATION = ARXIV:0907.4076;%%.
+
+\bibitem{Re:2010bp}
+\hrefCMSnoop {}{E.~Re, ``Single-top {Wt}-channel production matched with parton
+  showers using the {POWHEG} method'',} \textit{ Eur. Phys. J. C} \textbf{ 71}
+  (2011) 1547,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-011-1547-z}{\doi{10.1140/epjc/s10052-011-1547-z}},
+\href{http://www.arXiv.org/abs/1009.2450}{\texttt{arXiv:1009.2450}}.
+%%CITATION = ARXIV:1009.2450;%%.
+
+\bibitem{Aliev:2010zk}
+M.~Aliev\hrefCMSnoop {}{ {et~al.}, ``{HATHOR}: {HAdronic} {Top} and {Heavy}
+  quarks cr{O}ss section calculato{R}'',} \textit{ Comput. Phys. Commun.}
+  \textbf{ 182} (2011) 1034,
+  \href{http://dx.doi.org/10.1016/j.cpc.2010.12.040}{\doi{10.1016/j.cpc.2010.12.040}},
+  \href{http://www.arXiv.org/abs/1007.1327}{\texttt{arXiv:1007.1327}}.
+
+\bibitem{Kant:2014oha}
+P.~Kant\hrefCMSnoop {}{ {et~al.}, ``{HATHOR} for single top-quark production:
+  Updated predictions and uncertainty estimates for single top-quark production
+  in hadronic collisions'',} \textit{ Comput. Phys. Commun.} \textbf{ 191}
+  (2015) 74,
+  \href{http://dx.doi.org/10.1016/j.cpc.2015.02.001}{\doi{10.1016/j.cpc.2015.02.001}},
+  \href{http://www.arXiv.org/abs/1406.4403}{\texttt{arXiv:1406.4403}}.
+
+\bibitem{Gehrmann:2014fva}
+T.~Gehrmann\hrefCMSnoop {}{ {et~al.}, ``{W$^+$W$^-$} production at hadron
+  colliders in next to next to leading order {QCD}'',} \textit{ Phys. Rev.
+  Lett.} \textbf{ 113} (2014) 212001,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.113.212001}{\doi{10.1103/PhysRevLett.113.212001}},
+\href{http://www.arXiv.org/abs/1408.5243}{\texttt{arXiv:1408.5243}}.
+%%CITATION = ARXIV:1408.5243;%%.
+
+\bibitem{Campbell:1999ah}
+\hrefCMSnoop {}{J.~M. Campbell and R.~K. Ellis, ``An update on vector boson
+  pair production at hadron colliders'',} \textit{ Phys. Rev. D} \textbf{ 60}
+  (1999) 113006,
+  \href{http://dx.doi.org/10.1103/PhysRevD.60.113006}{\doi{10.1103/PhysRevD.60.113006}},
+\href{http://www.arXiv.org/abs/hep-ph/9905386}{\texttt{arXiv:hep-ph/9905386}}.
+%%CITATION = HEP-PH/9905386;%%.
+
+\bibitem{Lindert:2017olm}
+\hrefCMSnoop {}{J.~M. Lindert {et~al.}, ``Precise predictions for {V}+jets dark
+  matter backgrounds'',} \textit{ Eur. Phys. J. C} \textbf{ 77} (2017) 829,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-017-5389-1}{\doi{10.1140/epjc/s10052-017-5389-1}},
+\href{http://www.arXiv.org/abs/1705.04664}{\texttt{arXiv:1705.04664}}.
+%%CITATION = ARXIV:1705.04664;%%.
+
+\bibitem{CMS:2021xjt}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Precision luminosity measurement in
+  proton-proton collisions at $\sqrt{s} =$ 13 TeV in 2015 and 2016 at CMS}'',}
+  \textit{ Eur. Phys. J. C} \textbf{ 81} (2021), no.~9, 800,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-021-09538-2}{\doi{10.1140/epjc/s10052-021-09538-2}},
+  \href{http://www.arXiv.org/abs/2104.01927}{\texttt{arXiv:2104.01927}}.
+
+\bibitem{CMS-PAS-LUM-17-004}
+\href {https://cds.cern.ch/record/2621960/}{{{CMS}} Collaboration, ``{CMS}
+  luminosity measurement for the 2017 data-taking period at $\sqrt{s}$ = 13
+  {TeV}'',} CMS Physics Analysis Summary CMS-PAS-LUM-17-004, 2018.
+
+\bibitem{CMS-PAS-LUM-18-002}
+\href {https://cds.cern.ch/record/2676164/}{{{CMS}} Collaboration, ``{CMS}
+  luminosity measurement for the 2018 data-taking period at $\sqrt{s}$ = 13
+  {TeV}'',} CMS Physics Analysis Summary CMS-PAS-LUM-18-002, 2019.
+
+\bibitem{Khachatryan:2014gga}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Performance of the CMS missing
+  transverse momentum reconstruction in pp data at $\sqrt{s}$ = 8 TeV}'',}
+  \textit{ JINST} \textbf{ 10} (2015) P02006,
+  \href{http://dx.doi.org/10.1088/1748-0221/10/02/P02006}{\doi{10.1088/1748-0221/10/02/P02006}},
+\href{http://www.arXiv.org/abs/1411.0511}{\texttt{arXiv:1411.0511}}.
+%%CITATION = ARXIV:1411.0511;%%.
+
+\bibitem{Sirunyan:2017jix}
+\hrefCMSnoop {}{{CMS Collaboration}, ``Search for new physics in final states
+  with an energetic jet or a hadronically decaying ${\PW}$ or ${\PZ}$ boson and
+  transverse momentum imbalance at {$\sqrt{s}=13\TeV$}'',} \textit{ Phys. Rev.
+  D} \textbf{ 97} (2018) 092005,
+  \href{http://dx.doi.org/10.1103/PhysRevD.97.092005}{\doi{10.1103/PhysRevD.97.092005}},
+\href{http://www.arXiv.org/abs/1712.02345}{\texttt{arXiv:1712.02345}}.
+%%CITATION = ARXIV:1712.02345;%%.
+
+\bibitem{Conway:2011in}
+\hrefCMSnoop {}{J.~S. Conway, ``{Incorporating Nuisance Parameters in
+  Likelihoods for Multisource Spectra}'',} in \textit{ {PHYSTAT 2011}},
+  pp.~115--120.
+\newblock 2011.
+\newblock \href{http://www.arXiv.org/abs/1103.0354}{\texttt{arXiv:1103.0354}}.
+\newblock
+  \href{http://dx.doi.org/10.5170/CERN-2011-006.115}{\doi{10.5170/CERN-2011-006.115}}.
+
+\bibitem{CLS1}
+\hrefCMSnoop {}{A.~L. Read, ``Presentation of search results: The
+  {CL$_{\text{s}}$} technique'',} \textit{ J. Phys. G} \textbf{ 28} (2002)
+  2693,
+\href{http://dx.doi.org/10.1088/0954-3899/28/10/313}{\doi{10.1088/0954-3899/28/10/313}}.
+%%CITATION = JPAGA,G28,2693;%%.
+
+\bibitem{CLS2}
+\hrefCMSnoop {}{T.~Junk, ``Confidence level computation for combining searches
+  with small statistics'',} \textit{ Nucl. Instrum. Meth. A} \textbf{ 434}
+  (1999) 435,
+  \href{http://dx.doi.org/10.1016/S0168-9002(99)00498-2}{\doi{10.1016/S0168-9002(99)00498-2}},
+\href{http://www.arXiv.org/abs/hep-ex/9902006}{\texttt{arXiv:hep-ex/9902006}}.
+%%CITATION = HEP-EX/9902006;%%.
+
+\bibitem{Cowan:2010js}
+\hrefCMSnoop {}{G.~Cowan, K.~Cranmer, E.~Gross, and O.~Vitells, ``Asymptotic
+  formulae for likelihood-based tests of new physics'',} \textit{ Eur. Phys. J.
+  C} \textbf{ 71} (2011) 1554,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-011-1554-0}{\doi{10.1140/epjc/s10052-011-1554-0}},
+  \href{http://www.arXiv.org/abs/1007.1727}{\texttt{arXiv:1007.1727}}.
+[Erratum: \DOI{10.1140/epjc/s10052-013-2501-z}].
+%%CITATION = ARXIV:1007.1727;%%.
 
 \end{thebibliography}\endgroup
