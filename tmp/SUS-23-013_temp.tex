@@ -1,6 +1,6 @@
 % skeleton_start
 \documentclass[11pt,twoside,a4paper,cmspaper]{cms-tdr}
-\def\svnVersion{3841a07-D}\def\svnDate{2025/04/16}
+\def\svnVersion{d11e1a5-D}\def\svnDate{2025/04/21}
 \begin{document}\cmsNoteHeader{SUS-23-013}
 
 %%% BEGIN EDITABLE REGION %%%
@@ -29,8 +29,8 @@
 \newcommand{\dpfcalo}{\ensuremath{\Delta\ptmiss(\text{PF--calorimeter})}\xspace}
 \newcommand{\recoilvec}{\ensuremath{\vec{U}}\xspace}
 
-\newcommand{\lambdalq}{\ensuremath{\lambda_\mathrm{LQ}}\xspace}
-\newcommand{\lambdafp}{\ensuremath{\lambda_\mathrm{FP}}\xspace}
+%\newcommand{\lambdalq}{\ensuremath{\lambda_\mathrm{LQ}}\xspace}
+%\newcommand{\lambdafp}{\ensuremath{\lambda_\mathrm{FP}}\xspace}
 \newcommand{\gq}{\ensuremath{g_\PQq}\xspace}
 \newcommand{\gDM}{\ensuremath{g_{\text{DM}}}\xspace}
 \newcommand{\gchi}{\ensuremath{g_\chi}\xspace}
@@ -39,7 +39,7 @@
 \newcommand{\mlq}{\ensuremath{m_\text{LQ}}\xspace}
 \newcommand{\mdm}{\ensuremath{m_\text{DM}}\xspace}
 \newcommand{\mphi}{\ensuremath{m_\Phi}\xspace}
-%%\renewcommand{\MD}{\ensuremath{M_\text{D}}\xspace}
+\newcommand{\mchi}{\ensuremath{m_\chi}\xspace}
 
 \newcommand{\delphes}{{\textsc{Delphes}}\xspace}
 \newcommand{\madanalysis}{{\textsc{MadAnalysis}}\xspace}
@@ -48,31 +48,33 @@
 %\newcommand{\hs}{\ensuremath{h_{s}}\xspace}
 \newcommand{\darkHiggs}{\ensuremath{\PH_{\text{D}}}\xspace}
 \newcommand{\mdh}{\ensuremath{m_{\darkHiggs}}\xspace}
-\newcommand{\maz}{\ensuremath{M_{AZ}}}
-\newcommand{\mzp}{\ensuremath{M_{\PZpr}}}
-\newcommand{\gzp}{\ensuremath{g_{\PZpr}}}
+%\newcommand{\maz}{\ensuremath{M_{AZ}}}
+\newcommand{\mzp}{\ensuremath{m_{\PZpr}}\xspace}
+\newcommand{\gzp}{\ensuremath{g_{\PZpr}}\xspace}
 
 % Commands we always use
 \newcommand{\ZHbb}{\ensuremath{\texttt{ZHbbvsQCD}}\xspace}
-\newcommand{\Zmm}{\ensuremath{\mathrm{Z}\to\mu^+\mu^-}\xspace}
-\newcommand{\Zee}{\ensuremath{\mathrm{Z}\to e^+e^-}\xspace}
-%%\newcommand{\Zll}{\ensuremath{\mathrm{Z}\to\ell\ell}\xspace}
-%%\newcommand{\Zvv}{\ensuremath{\mathrm{Z}\to\nu\nu}\xspace}
-%%\newcommand{\Wlv}{\ensuremath{\mathrm{W}\to \ell\nu}\xspace}
-\newcommand{\Wmn}{\ensuremath{\mathrm{W}\to \mu\nu}\xspace}
-\newcommand{\Wen}{\ensuremath{\mathrm{W}\to e\nu}\xspace}
-\newcommand{\Zmmjets}{\ensuremath{\mathrm{Z}(\mu\mu)+\textrm{jets}}\xspace}
-%%\newcommand{\Zjets}{\ensuremath{\mathrm{Z}+\textrm{jets}}\xspace}
-%%\newcommand{\Vjets}{\ensuremath{\mathrm{V}+\textrm{jets}}\xspace}
-\newcommand{\Zeejets}{\ensuremath{\mathrm{Z}(ee)+\textrm{jets}}\xspace}
-%%\newcommand{\Zlljets}{\ensuremath{\mathrm{Z}(\ell\ell)+\textrm{jets}}\xspace}
-%%\newcommand{\Wjets}{\ensuremath{\mathrm{W}+\textrm{jets}}\xspace}
-\newcommand{\Zvvjets}{\ensuremath{\mathrm{Z}(\nu\nu)+\textrm{jets}}\xspace}
-%%\newcommand{\Wlvjets}{\ensuremath{\mathrm{W}(\ell\nu)+\textrm{jets}}\xspace}
-\newcommand{\Wmvjets}{\ensuremath{\mathrm{W}(\mu\nu)+\textrm{jets}}\xspace}
-\newcommand{\Wmnjets}{\ensuremath{\mathrm{W}(\mu\nu)+\textrm{jets}}\xspace}
-\newcommand{\Wevjets}{\ensuremath{\mathrm{W}(e\nu)+\textrm{jets}}\xspace}
-\newcommand{\Wenjets}{\ensuremath{\mathrm{W}(e\nu)+\textrm{jets}}\xspace}
+\newcommand{\Zee}{\ensuremath{\PZ\to\PGep\PGem}\xspace}
+\newcommand{\Zmm}{\ensuremath{\PZ\to\PGmp\PGmm}\xspace}
+%%\newcommand{\Zll}{\ensuremath{\PZ\to\ell\ell}\xspace}
+%%\newcommand{\Zvv}{\ensuremath{\PZ\to\PGn\PGn}\xspace}
+\newcommand{\Wen}{\ensuremath{\PW\to\PGe\PGn}\xspace}
+\newcommand{\Wmn}{\ensuremath{\PW\to\PGm\PGn}\xspace}
+%%\newcommand{\Wlv}{\ensuremath{\PW\to\ell\PGn}\xspace}
+\newcommand{\Zeejets}{\ensuremath{\PZ(\PGe\PGe)+\textrm{jets}}\xspace}
+\newcommand{\Zmmjets}{\ensuremath{\PZ(\PGm\PGm)+\textrm{jets}}\xspace}
+\newcommand{\Zvvjets}{\ensuremath{\PZ(\PGn\PGn)+\textrm{jets}}\xspace}
+%%\newcommand{\Zjets}{\ensuremath{\PZ+\textrm{jets}}\xspace}
+%%\newcommand{\Vjets}{\ensuremath{\PV+\textrm{jets}}\xspace}
+%%\newcommand{\Zlljets}{\ensuremath{\PZ(\ell\ell)+\textrm{jets}}\xspace}
+%%\newcommand{\Wjets}{\ensuremath{\PW+\textrm{jets}}\xspace}
+%%\newcommand{\Wlvjets}{\ensuremath{\PW(\ell\PGn)+\textrm{jets}}\xspace}
+%%\newcommand{\Wmvjets}{\ensuremath{\PW(\PGm\PGn)+\textrm{jets}}\xspace}
+\newcommand{\Wmvjets}{\ensuremath{\PW(\PGm\PGn)+\textrm{jets}}\xspace}
+\newcommand{\Wmnjets}{\Wmvjets}
+\newcommand{\Wevjets}{\ensuremath{\PW(\PGe\PGn)+\textrm{jets}}\xspace}
+\newcommand{\Wenjets}{\Wevjets}
+\newcommand{\mSD}{\ensuremath{m_{\text{SD}}}\xspace}
 %%\newcommand{\phojets}{\ensuremath{\gamma+\textrm{jets}}\xspace}
 \newcommand{\brhiggs}{\ensuremath{0.62}}
 \newcommand{\higgsbr}{\ensuremath{0.62}}
@@ -114,30 +116,6 @@
 \newcommand{\phimiss}{\ensuremath{\phi(\ptvecmiss)}\xspace}
 \newcommand{\ptv}{\ensuremath{p_{\mathrm{T},V}}\xspace}
 
-
-\newcommand{\pg}{\ensuremath{\mathrm{g}}\xspace}
-\newcommand{\pq}{\ensuremath{\mathrm{q}}\xspace}
-\newcommand{\pqbar}{\ensuremath{\mathrm{\bar{q}}}\xspace}
-\newcommand{\pchi}{\ensuremath{\chi}\xspace}
-\newcommand{\pZp}{\ensuremath{Z'}\xspace}
-\newcommand{\pZ}{\ensuremath{\mathrm{Z}}\xspace}
-\newcommand{\pW}{\ensuremath{\mathrm{W}}\xspace}
-\newcommand{\pA}{\ensuremath{\mathrm{A}}\xspace}
-\newcommand{\pa}{\ensuremath{\mathrm{a}}\xspace}
-\newcommand{\pb}{\ensuremath{\mathrm{b}}\xspace}
-\newcommand{\pH}{\ensuremath{\mathrm{H}}\xspace}
-\newcommand{\ph}{\ensuremath{\mathrm{h}}\xspace}
-\newcommand{\pHc}{\ensuremath{\mathrm{H}^{\pm}}\xspace}
-\newcommand{\pepm}{\ensuremath{\mathrm{e}^{\pm}}\xspace}
-\newcommand{\pepem}{\ensuremath{\mathrm{e}^{+}\mathrm{e}^{-}}\xspace}
-\newcommand{\pe}{\ensuremath{\mathrm{e}}\xspace}
-\newcommand{\ptau}{\ensuremath{\tau}\xspace}
-\newcommand{\pmu}{\ensuremath{\upmu}\xspace}
-\newcommand{\pmupm}{\ensuremath{\mathrm{\upmu}^{\pm}}\xspace}
-\newcommand{\pmupmum}{\ensuremath{\mathrm{\upmu}^{+}\mathrm{\upmu}^{-}}\xspace}
-\newcommand{\chione}{\ensuremath{\chi_{1}}\xspace}
-\newcommand{\chitwo}{\ensuremath{\chi_{2}}\xspace}
-
 \newcommand{\mtop}{\ensuremath{m_{top}}\xspace}
 
 %%\newcommand \gq{\ensuremath{g_{q}}\xspace}
@@ -145,7 +123,6 @@
 \newcommand \gqa{\ensuremath{g_{q}^{A}}\xspace}
 
 \newcommand \gdm{\ensuremath{g_{DM}}\xspace}
-%%\newcommand \gchi{\ensuremath{g_{\chi}}\xspace}
 \newcommand \gdmv{\ensuremath{g_{DM}^{V}}\xspace}
 \newcommand \gdma{\ensuremath{g_{DM}^{A}}\xspace}
 %%\newcommand{$m_{Z'}$}{\ensuremath{m_\text{med}}\xspace}
@@ -158,10 +135,9 @@
 \newcommand \Gtot{\ensuremath{\Gamma_{tot}}\xspace}
 \newcommand \Gq{\ensuremath{\Gamma_{q}}\xspace}
 \newcommand \Gchi{\ensuremath{\Gamma_{\chi}}\xspace}
-\newcommand{\mSD}{\ensuremath{m_{SD}}\xspace}
 \newcommand{\Rpf}{\ensuremath{R_{\mathrm{p}/\mathrm{f}}}\xspace}
 
-%%% See https://twiki.cern.ch/twiki/bin/view/CMS/Internal/PaperSubmissionPrepTablbvees
+%%% See https://twiki.cern.ch/twiki/bin/view/CMS/Internal/PaperSubmissionPrepTables
 \newlength\cmsTabSkip\setlength{\cmsTabSkip}{1ex}
 \providecommand{\cmsTable}[1]{\resizebox{\textwidth}{!}{#1}}
 
@@ -191,9 +167,8 @@
 % 2. **DO NOT use %**                  to comment out sections of the abstract: the extractor will still grab those lines (and they won't be comments any longer!).
 % 3. For PASs: **DO NOT use CMS tex macros.**...in the abstract: CDS MathJax processor used on the abstract doesn't understand them _and_ will only look within $$. The abstracts for papers are hand formatted so macros are okay.
 \abstract{
-    A search for dark matter produced in association with a resonant bottom quark pair has been performed in proton-proton collisions at a center-of-mass energy of 13\TeV collected with the CMS detector during the 2016--2018 data taking period at the CERN LHC. The analyzed data sample corresponds to an integrated luminosity of 138\fbinv.
-    The results are interpreted in terms of a novel theoretical model of dark matter production that, together with a spin-1 gauge boson mediator, predicts the existence a Higgs-boson-like particle in the dark sector (i.e., a dark Higgs boson). The model provides simultaneously a mechanism to generate the masses of particles in the dark sector and a new annihilation channel that helps relax the constraints on dark matter relic abundance. If such a dark Higgs boson mixes with the standard model Higgs boson, its decay into a bottom quark pair can be identified in hadronic jets. This search focuses on final states where the dark Higgs boson is produced in association with the dark matter mediator. It gives rise to an experimental signature with a large missing transverse momentum.  Limits at 95\% confidence level on the signal strength for dark Higgs boson mass hypotheses below 160 GeV are set for the first time with CMS data. Values of the mediator mass up to 2.5--4.5\TeV are excluded depending on the dark Higgs boson mass.
-}
+    A search for dark matter produced in association with a resonant bottom quark pair has been performed in proton-proton collisions at a center-of-mass energy of 13\TeV collected with the CMS detector during the 2016--2018 data-taking period at the CERN LHC. The analyzed data sample corresponds to an integrated luminosity of 138\fbinv.
+    The results are interpreted in terms of a novel theoretical model of dark matter production that, together with a spin-1 gauge boson mediator, predicts the existence of a Higgs-boson-like particle in the dark sector (i.e., a dark Higgs boson). The model simultaneously provides a mechanism to generate the masses of particles in the dark sector and a new annihilation channel that helps relax the constraints on dark matter relic abundance. If such a dark Higgs boson mixes with the standard model Higgs boson, its decay into a bottom quark pair can be identified in hadronic jets. This search focuses on final states where the dark Higgs boson is produced in association with the dark matter mediator. It gives rise to an experimental signature with a large missing transverse momentum.  Limits at the 95\% confidence level on the signal strength for dark Higgs boson mass hypotheses below 160\GeV are set for the first time with CMS data. Values of the mediator mass up to 2.5--4.5\TeV are excluded depending on the dark Higgs boson mass.}
 
 % >> PDF Metadata
 % Do not comment out the following hypersetup lines (metadata). They will disappear in NODRAFT mode and are needed by CDS.
@@ -223,40 +198,40 @@ pdfkeywords={CMS, physics, software, computing}} % limit six total
 
 The predictions of the standard model (SM) of particle physics have been confirmed by decades of experiments. Despite these successes, the SM is still not able to explain phenomena such as the existence of dark matter (DM). While astrophysical observations have established that most of the matter in the Universe is composed of DM~\cite{ArkaniHamed:2008qn}, details of its nature remain elusive. 
 
-One theoretically attractive model of DM is that of a thermally produced weakly interacting massive particle (WIMP). The existence of such a particle, with the right mass and couplings, could explain the abundance of DM in the universe, as well as many of the observed phenomena commonly ascribed to DM~\cite{Bertone:2004pz}. If non-gravitational interactions exist between DM and SM particles, then the new interaction would imply the existence of a new mediator, and the Large Hadron Collider (LHC) would have the unique possibility to directly produce it along with the DM particles themselves, and study their properties. 
+One theoretically attractive model of DM is that of a thermally produced weakly interacting massive particle (WIMP). The existence of such a particle, with the right mass and couplings, could explain the abundance of DM in the universe, as well as many of the observed phenomena commonly ascribed to DM~\cite{Bertone:2004pz}. If non-gravitational interactions exist between DM and SM particles, then the new interaction would imply the existence of a new mediator, and the Large Hadron Collider (LHC) would have the unique possibility to directly produce it along with the DM particles, and study their properties. 
 
-Simplified models of DM production at the LHC~\cite{Abercrombie:2015wmb} have become increasingly popular in recent years. These models predict that the pair production of DM particles in hadron collisions proceeds through a spin-0 or spin-1 bosonic mediator produced in the s-channel. Such a mediator is then accompanied by some other SM visible particle, often emitted as initial-state radiation (ISR). This gives rise to experimental signatures where the mediator decays into weakly interacting DM particles, appearing as an imbalance in the transverse momentum. Such signatures are commonly referred to as ``mono-X'', where X denotes either the SM particle produced in association with DM (such as a mono-photon or mono-W/Z) or its detector manifestation (such as a mono-jet). 
+Simplified models of DM production at the LHC~\cite{Abercrombie:2015wmb} have become increasingly popular in recent years. These models predict that the pair production of DM particles in hadron collisions proceeds through a spin-0 or spin-1 bosonic mediator produced in the s-channel. Such a mediator is then accompanied by some other visible SM particle, often emitted as initial-state radiation (ISR). This gives rise to experimental signatures where the mediator decays into weakly interacting DM particles, appearing as an imbalance in the transverse momentum. Such signatures are commonly referred to as ``mono-X'', where X denotes either the SM particle produced in association with DM (such as a monophoton or mono-W/Z) or its detector manifestation (such as a monojet). 
 
 %In the context of LHC searches, s-channel DM production processes are considered particularly promising due to their relatively large cross sections and clear experimental signatures~\cite{2024}. 
-Among these, mono-jet final states—where a gluon or quark is emitted as initial-state radiation and appears in the detector as a hadronic jet—offer a favorable topology due to the high rate of radiation of quarks and gluons in the initial state. Mono-jet searches at the LHC~\cite{CMS:2021far,ATLAS:2021kxv} have strongly constrained the DM parameter space, in models where DM relic particles in the cosmos would annihilate directly into final state SM particles. The tension with astrophysical measurements of the abundance of DM is relaxed if the DM particles are not the lightest dark sector particles, leading to new annihilation channels. 
+Among these, monojet final states -- where a gluon or quark is emitted as initial-state radiation and appears in the detector as a hadronic jet -- offer a favorable topology due to the high rate of radiation of quarks and gluons in the initial state. Monojet searches at the LHC~\cite{CMS:2021far,ATLAS:2021kxv} have strongly constrained the DM parameter space, in models where DM relic particles in the cosmos would annihilate directly into final-state SM particles. The tension with astrophysical measurements of the abundance of DM is relaxed if the DM particles are not the lightest dark sector particles, leading to new annihilation channels. 
 
-The theoretical framework can therefore be extended by models where, together with a spin-1 gauge boson $\PZpr$, a new complex Higgs field is introduced, whose vacuum expectation value spontaneously breaks the gauge symmetry in the dark sector~\cite{Duerr:2017uap}, giving rise to a new physical ``dark'' Higgs boson \darkHiggs. If the \darkHiggs boson is sufficiently light, DM particles can annihilate into a \darkHiggs boson pair. %This would easily set the observed relic abundance. \cite{Bell_2016,Kahlhoefer:2015bea,Bell_2017}.
+The theoretical framework can therefore be extended by models in which, together with a spin-1 gauge boson $\PZpr$, a new complex Higgs field is introduced, whose vacuum expectation value spontaneously breaks the gauge symmetry in the dark sector~\cite{Duerr:2017uap}, giving rise to a new physical ``dark'' Higgs boson \darkHiggs. If the \darkHiggs boson is sufficiently light, DM particles can annihilate into a pair of \darkHiggs bosons. %This would easily set the observed relic abundance. \cite{Bell_2016,Kahlhoefer:2015bea,Bell_2017}.
 This new annihilation channel would allow the model to easily match the observed relic abundance~\cite{Bell:2016fqf,Kahlhoefer:2015bea,Bell:2016uhg}. In this model, the DM particle $\chi$ is taken to be a Majorana fermion that couples axially to the gauge boson $\PZpr$. The $\PZpr$ boson also has a vector-like coupling with SM quarks. The relevant part of the spin-1 sector of the model Lagrangian is:
 \[
   \mathcal{L}_{\mathrm{spin\text{-}1}}
   \;\supset\;
-  -\,g_{\chi}\,\PZpr_{\!\!\mu}\,\overline{\chi}\,\gamma^\mu\gamma^5\,\chi
+  -\,\gchi\,\PZpr_{\!\!\mu}\,\overline{\chi}\,\gamma^\mu\gamma^5\,\chi
   \;-\;
   \gq\,\PZpr_{\!\!\mu}\,\sum_{q}\,\bar{q}\,\gamma^\mu\,q,
 \]
-where $g_{\chi}$ is the coupling between $\PZpr$ mediator and the $\chi$ particles, while $\gq$ is the coupling between the $\PZpr$ mediator and the SM quarks. These two parameters are set to 1.0 and 0.25, respectively, in accordance with the LHC Dark Matter Working Group recommendations~\cite{Albert:2017onk}.
+where $g_{\chi}$ is the coupling between the $\PZpr$ mediator and the $\chi$ particles, while $\gq$ is the coupling between the $\PZpr$ mediator and the SM quarks. These two parameters are set to 1.0 and 0.25, respectively, in accordance with the LHC Dark Matter Working Group recommendations~\cite{Albert:2017onk}.
 
-As the lightest state in the dark sector, the \darkHiggs boson does not decay into $\chi$ particles, but it can decay into visible SM particles via mixing with the SM Higgs (H) boson~\cite{Frandsen:2012rk,Kahlhoefer:2015bea}. For this reason, the decay into a b-quark pair is expected to be dominant for \darkHiggs bosons with masses below 135 GeV, and is significant for masses up to 160 GeV. The mixing angle $\theta_{\text{h}}$ between the \darkHiggs boson and the SM H boson is set to 0.01, a value that is large enough to ensure prompt decay of the \darkHiggs boson while being small enough to have no observable effect on the the SM Higgs boson couplings~\cite{CMS:2022dwd}.
+As the lightest state in the dark sector, the \darkHiggs boson does not decay into $\chi$ particles, but it can decay into visible SM particles by mixing with the SM Higgs boson (H)~\cite{Frandsen:2012rk,Kahlhoefer:2015bea}. For this reason, the decay into a pair of \PQb quarks is expected to be dominant for \darkHiggs bosons with masses below 135\GeV, and it is significant for masses up to 160\GeV. The mixing angle $\theta_{\text{h}}$ between the \darkHiggs boson and the SM \PH boson is set to 0.01, a value that is large enough to ensure prompt decay of the \darkHiggs boson while small enough to have no observable effect on the couplings of the SM Higgs boson~\cite{CMS:2022dwd}.
 
-In this paper, we present a search for DM in events where $\chi$ particles are produced in association with a \darkHiggs boson decaying into a b-quark pair. The production mechanism is shown in Fig.~\ref{fig:feyn}. A $\PZpr$ boson is produced by a quark-antiquark interaction in the initial state. It radiates a \darkHiggs boson via dark-Higgsstrahlung before decaying into a pair of $\chi$ particles. 
+In this paper, we present a search for DM in events where $\chi$ particles are produced in association with a \darkHiggs boson decaying into a pair of \PQb quarks. The production mechanism is shown in Fig.~\ref{fig:feyn}. A $\PZpr$ boson is produced by a quark-antiquark interaction in the initial state. It radiates a \darkHiggs boson via dark-Higgsstrahlung before decaying into a pair of $\chi$ particles. 
 
 \begin{figure}[!htbp]%[htbp]
     \centering
     %\subfloat[mono-dark-Higgs signal]
     {\includegraphics[width=0.45\textwidth]{figures/monodarkhiggs.pdf}}\\
-    %\subfloat[mono-jet signal]{\includegraphics[width=0.65\textwidth]{figures/models/monojet.pdf}}\\
+    %\subfloat[monojet signal]{\includegraphics[width=0.65\textwidth]{figures/models/monojet.pdf}}\\
     %\subfloat[mono-V signal]{\includegraphics[width=0.65\textwidth]{figures/models/monoV.pdf}}
-    \caption{Feynman diagram for the associated production of a \darkHiggs boson and $\chi$ particles. The interaction with SM quarks is mediated by a \PZpr boson, and the \darkHiggs boson mixes with the SM Higgs boson through the $\theta_{\text{h}}$ mixing angle. In this paper we focus on the decay of the \darkHiggs boson into a b-quark pair, which is dominant at lower masses.} 
+    \caption{Feynman diagram for the associated production of a \darkHiggs boson and $\chi$ particles. The interaction with SM quarks is mediated by a \PZpr boson, and the \darkHiggs boson mixes with the SM Higgs boson through the $\theta_{\text{h}}$ mixing angle. In this paper we focus on the decay of the \darkHiggs boson into a pair of \PQb quarks, which is dominant at lower masses.} 
     \label{fig:feyn}
 \end{figure}
 
 
-Searches for \darkHiggs bosons produced in association with DM have already been performed by the ATLAS~\cite{ATLAS:2022bzt} and CMS~\cite{CMS:2023dof} collaborations. These searches focus on heavier \darkHiggs boson mass hypotheses, larger than 160\GeV. For a \darkHiggs boson of such a mass the decay into a pair of \PW bosons is dominant. The ATLAS collaboration has also recently published a search for lower mass \darkHiggs bosons decaying into a b-quark pair~\cite{ATLAS:2024npu}. In this paper, we describe a similar search which uses the full dataset collected by the CMS experiment at a center-of-mass energy of 13 TeV during the 2016--2018 data taking period, corresponding to an integrated luminosity of 138~fb$^{-1}$. 
+Searches for \darkHiggs bosons produced in association with DM have already been performed by the ATLAS~\cite{ATLAS:2022bzt} and CMS~\cite{CMS:2023dof} collaborations. These searches focus on heavier \darkHiggs boson mass hypotheses, larger than 160\GeV. For a \darkHiggs boson of such a mass, the decay into a pair of \PW bosons is dominant. The ATLAS Collaboration has also recently published a search for lower-mass \darkHiggs bosons decaying into a pair of \PQb quarks~\cite{ATLAS:2024npu}. In this paper, we describe a similar search which uses the full dataset collected by the CMS experiment at a center-of-mass energy of 13\TeV during the 2016--2018 data taking period, corresponding to an integrated luminosity of 138\fbinv. 
 %The final state results in a distinctive signature of large $p_T^{miss}$ arising from the decay of the \PZpr mediator into DM, and a highly-boosted large-radius jet, originated by the hadronization of two \PQb quarks from the \darkHiggs boson decay.
 
 \section{The CMS detector and event reconstruction}
@@ -268,17 +243,17 @@ Searches for \darkHiggs bosons produced in association with DM have already been
 \section{Simulated samples}
 
 Samples of Monte Carlo (MC) simulated events are used to predict the signal and background contributions. In all cases, parton showering, hadronization, and underlying event properties are modeled using \PYTHIA~\cite{Sjostrand:2014zea} version 8.202 or later with the underlying event tune CUETP8M1 or CP5~\cite{CMS:2019csb}, based on the year of data taking. 
-Simulation of interactions between particles and the CMS detector is based on \GEANTfour~\cite{Agostinelli:2002hh}. 
-The NNPDF 3.0 next-to-next-to-leading order (NNLO)~\cite{Ball:2014uwa} and the NNPDF 3.1 NNLO~\cite{Ball:2017nwa} parton distribution functions (PDFs) are used for the generation of all samples based on the year of data taking.
-The same reconstruction algorithms used for the data are applied to simulated samples. 
+The simulation of the interactions between the particles and the CMS detector is based on \GEANTfour~\cite{Agostinelli:2002hh}. 
+The NNPDF 3.0 next-to-next-to-leading order (NNLO)~\cite{Ball:2014uwa} and NNPDF 3.1 NNLO~\cite{Ball:2017nwa} parton distribution functions (PDFs) are used for the generation of all samples based on the year of data collection.
+The same reconstruction algorithms used for the data are applied to the simulated samples. 
 
-For the associated production of SM vector bosons and jets (\Vjets production), predictions with up to two partons in the final state are obtained at leading order (LO) in QCD using \MGvATNLO~\cite{Alwall:2014hca} with the MLM matching scheme~\cite{Mangano:2006rw} between the jets from the matrix element calculations and the parton shower.
+For the associated production of SM vector bosons and jets (\Vjets production), predictions with up to two partons in the final state are obtained at leading order (LO) in QCD using \MGvATNLO~\cite{Alwall:2014hca} with the MLM matching scheme~\cite{Mangano:2006rw} between the jets from the calculations of the matrix elements and the parton shower.
 Samples of events with top quark pairs (\ttbar production) are generated at next-to-leading (NLO) in QCD with up to two additional partons in the matrix element calculations using \MGvATNLO and the FxFx jet matching scheme~\cite{Frederix:2012ps}. Their cross sections are normalized to the inclusive cross section of \ttbar production at NNLO in QCD~\cite{Czakon:2013goa}. 
-Events with electroweakly produced single top quarks (single t production) are simulated using \POWHEG 2.0~\cite{Alioli:2009je,Re:2010bp} and normalized to the inclusive cross section calculated at  
+Events with electroweakly produced single top quarks (single top production) are simulated using \POWHEG 2.0~\cite{Alioli:2009je,Re:2010bp} and normalized to the inclusive cross section calculated at  
 %NNLO in QCD~\cite{Kidonakis:2010ux} for single top quarks produced in association with a \PW boson, and 
 NLO in QCD~\cite{Aliev:2010zk,Kant:2014oha}.
 %for production in association with a quark.
-The associated production of vector bosons (VV production) is simulated at NLO in QCD using \PYTHIA, and normalized to the cross sections at NNLO precision for $\PW\PW$ production~\cite{Gehrmann:2014fva}, and at NLO precision for $\PW\PZ$ and $\PZ\PZ$ production~\cite{Campbell:1999ah}. Several production mechanisms of SM H bosons decaying into a b-quark pair (H$\rightarrow b\bar{b}$ production) are also produced at LO with the \POWHEG generator. Samples of QCD multijet production events are generated at LO using \MGvATNLO.
+The associated production of vector bosons (VV production) is simulated at NLO in QCD using \PYTHIA, and normalized to the cross sections at NNLO precision for $\PW\PW$ production~\cite{Gehrmann:2014fva}, and at NLO precision for $\PW\PZ$ and $\PZ\PZ$ production~\cite{Campbell:1999ah}. Several production mechanisms of SM H bosons decaying into a pair of \PQb quarks (H$\rightarrow \bbbar$ production) are also produced at LO with the \POWHEG generator. Samples of QCD multijet production events are generated at LO using \MGvATNLO.
 
 Simulated samples of \darkHiggs boson production are generated with \MGvATNLO~\cite{Alwall:2014hca} at LO, including up to one additional parton in the matrix element calculations, with the MLM matching scheme. Separate samples are generated for different mass hypotheses for the $\PZpr$ mediator, $\chi$ particles, and \darkHiggs bosons.
 
@@ -286,9 +261,10 @@ Simulated samples of \darkHiggs boson production are generated with \MGvATNLO~\c
 %Separate samples are generated for different mass hypotheses for the mediator, DM particles, and \darkHiggs.
 %In all samples we set $\theta_{\text{h}} = 0.01$, a value that is large enough to ensure prompt decay of \darkHiggs while being 
 %small enough to have no observable effect on the the SM-like Higgs boson couplings~\cite{CMS:2022dwd}.
-%The assumptions on the couplings reduce the number of free parameters to three: the mass of DM particles ($m_{DM}$), the mass of the Z' boson ($m_{Z'}$ or $m_{med}$), and the mass of \darkHiggs ($m_{h_s}$). Values of these parameters are scanned.
+%The assumptions on the couplings reduce the number of free parameters to three: the mass of DM particles ($m_{DM}$), the mass of the Z' boson ($\mzp$ or $m_{med}$), and the mass of \darkHiggs ($m_{h_s}$). Values of these parameters are scanned.
 
 \section{Event selection}
+\label{selection}
 
 %\textcolor{red}{Signal region (or ``SR'') events are selected using triggers that require large \ptmiss 
 %(at least $120\GeV$) and large \mht (i.e., the magnitude of the negative vector sum of jet \pt) 
@@ -296,32 +272,27 @@ Simulated samples of \darkHiggs boson production are generated with \MGvATNLO~\c
 %(i.e., dR $< 1.5$) high-\pt jet, clustered via the anti-\kt algorithm, and large \ptmiss.}
 
 The signal targeted in this analysis displays a 
-large \ptmiss and an AK15 jet that is identified as originating from a $\darkHiggs \to \bbbar$ decay. Events with these characteristics comprise the signal region (SR).
+large U and an AK15 jet that is identified as originating from a $\darkHiggs \to \bbbar$ decay. Events with these characteristics comprise the signal region (SR).
 %%% Thiago: I think this next sentence is content-free
 %The key feature of the analysis is the extensive use of control data samples for the purpose of precise prediction of the background contributions in the SRs. 
 %%%
-The leading SM background 
-contributions originate from \Zvvjets (hereafter referred to as \Zjets), and W(e$\nu$)/\Wmvjets production (collectively referred to as \Wjets), the properties of 
-which are constrained using control regions (CRs) with zero or one charged lepton, that are 
-enriched in \Zjets and \Wjets events, respectively. Additionally, CRs enriched in \ttbar events are also defined. The \Vjets and \ttbar events in these CRs share many kinematic properties of the processes in the SRs and are used to constrain the latter. The CR and SR 
-definitions share as many of the SR selection criteria as possible, in order to ensure that minimal selection biases are introduced. Seven CRs are defined: six single-electron and single-muon CRs 
-enriched in \Wjets and \ttbar events, and a seventh CR enriched in \Zjets events. Additional contributions from minor background processes such as H$\rightarrow b\bar{b}$, Z($\ell\ell$)+jets (hereafter referred to as DY+jets), QCD multijet, VV, and single t production are modelled using MC simulation.
+%The leading SM background contributions originate from \Zvvjets (hereafter referred to as \Zjets), and $\PW(\Pe\PGn)$/\Wmvjets production (collectively referred to as \Wjets), the properties of which are constrained using control regions (CRs) with zero or one charged lepton, that are enriched in \Zjets and \Wjets events, respectively. Additionally, CRs enriched in \ttbar events are also defined. The \Vjets and \ttbar events in these CRs share many kinematic properties of the processes in the SRs and are used to constrain the latter. The CR and SR definitions share as many of the SR selection criteria as possible, in order to ensure that minimal selection biases are introduced. Seven CRs are defined: six single-electron and single-muon CRs enriched in \Wjets and \ttbar events, and a seventh CR enriched in \Zjets events. Additional contributions from minor background processes such as H$\rightarrow \bbbar$, Z($\ell\ell$)+jets (hereafter referred to as DY+jets), QCD multijet, VV, and single top production are modeled using MC simulation.
 
-Events in the SR are collected by trigger selections based on two variables. The first is \ptmiss, which is calculated using all PF candidates reconstructed at the HLT except for muons. The second variable, called \mht, is defined as the magnitude of the negative vector sum of \ptvec of the hadronic jets in the event, using the AK4 jets clustered by the HLT reconstruction. The trigger selects events with both \ptmiss and $\mht > 120\GeV$. At the HLT, events with high-\pt muons are therefore also assigned large \ptmiss, and the same trigger is used to collect data populating the single-muon CRs. 
+Events in the SR are collected by trigger selections based on two variables. The first is \ptmiss, which is calculated using all PF candidates reconstructed at the HLT except for muons. The second variable, called \mht, is defined as the magnitude of the negative vector sum of \ptvec of the hadronic jets in the event, using the AK4 jets clustered by the HLT reconstruction. The trigger selects events with both \ptmiss and $\mht > 120\GeV$. 
 
-The control samples with electrons are selected using two single-electron 
-triggers: one that requires \(\pt>27\) (2016), 35 (2017), 32 (2018)\GeV, while the other requires \(\pt>105\) (2016), 115 (2017--2018)\GeV. Additionally, a single-photon trigger with 
-\(\pt>200\GeV\) is used in 2017 and 2018. The single-electron triggers differ in their isolation requirements: while the lower threshold trigger requires electrons to be well isolated, the higher-threshold trigger does not, which improves the efficiency at high \pt. Similarly, the single-photon trigger avoids reliance on the HLT track reconstruction and increases the overall efficiency for electrons with $\pt>200\GeV$. During the 2016 and 2017 data taking, a gradual shift in the timing of the inputs of the ECAL L1 trigger in the region $\abs{\eta} > 2.0$ caused a specific trigger inefficiency, known as L1 pre-firing. Correction factors are computed from data and applied to the acceptance evaluated by simulation for the 2016 and 2017 samples.
+%At the HLT, events with high-\pt muons are therefore also assigned large \ptmiss, and the same trigger is used to collect data populating the single-muon CRs. The control samples with electrons are selected using two single-electron triggers: one that requires \(\pt>27\) (2016), 35 (2017), 32 (2018)\GeV, while the other requires \(\pt>105\) (2016), 115 (2017--2018)\GeV. Additionally, a single-photon trigger with \(\pt>200\GeV\) is used in 2017 and 2018. The single-electron triggers differ in their isolation requirements: while the lower threshold trigger requires electrons to be well isolated, the higher-threshold trigger does not, which improves the efficiency at high \pt. Similarly, the single-photon trigger avoids reliance on the HLT track reconstruction and increases the overall efficiency for electrons with $\pt>200\GeV$. During the 2016 and 2017 data taking, a gradual shift in the timing of the inputs of the ECAL L1 trigger in the region $\abs{\eta} > 2.0$ caused a specific trigger inefficiency, known as L1 pre-firing. Correction factors are computed from data and applied to the acceptance evaluated by simulation for the 2016 and 2017 samples.
 
-Events in SR are selected with a requirement of $\ptmiss>250\GeV$. The soft-drop corrected mass ($m_\text{SD}$) of the leading AK15 jet in \pt must satisfy the requirement $m_\text{SD}\in[40,300]$. In order to preferentially select events where the leading AK15 jet originates from the hadronic decay of a \darkHiggs boson, the jet is further required to satisfy a minimum requirement in the \textsc{DeepAK15} score. A different threshold is used for each year of data-taking, optimized against signal sensitivity.
+Events in SR are selected with a requirement of U $>$ 250 \GeV. The soft-drop corrected mass ($\mSD$) of the leading AK15 jet in \pt must satisfy the requirement $\mSD\in[40,300]$. In order to preferentially select events where the leading AK15 jet originates from the hadronic decay of a \darkHiggs boson, the jet is further required to satisfy a minimum requirement in the \textsc{DeepAK15} score. A different threshold is used for each year of data-taking, optimized against signal sensitivity.
 
-The main background processes in this search are from \Zjets, \Wjets, and \ttbar production. The \Zjets process is the largest background and is irreducible. In contrast, the background from \Wjets and \ttbar processes are suppressed by rejecting events if they contain a well-reconstructed and isolated lepton. For electrons, the veto working point is used in their identification, while the loose working point is used in the identification of muons. Events that contain a loose photon are also rejected. This helps to suppress electroweak backgrounds in which a photon is radiated from the initial state. The \ttbar process is further suppressed by vetoing events with \PQb-tagged AK4 jets that do not overlap with the leading AK15 jet. Finally, to reject QCD multijet events with large \ptmiss arising from mismeasurements of the jet momenta, a minimum requirement is imposed on the azimuthal separation between the \ptvecmiss direction and each AK4 jet in the event to be larger than 0.5 radians. Similarly, the azimuthal angle between the \ptvecmiss direction and each AK15 jet in the event must be larger than 1.5 radians. 
+After this basic pre-selection, the main background processes in this search are from \Zvvjets (hereafter referred to as \Zjets), $\PW(\Pe\PGn)$/\Wmvjets (collectively referred to as \Wjets), \ttbar and QCD multijet production. The \Zjets process is the largest background and is irreducible. In contrast, the background from \Wjets and \ttbar processes is suppressed by rejecting events if they contain a well-reconstructed and isolated lepton. For electrons, the "veto" working point (defined in Sect.~\ref{objects}) is used in their identification, while the "loose" working point is used in the identification of muons. Events that contain a "loose" photon are also rejected. This helps to suppress electroweak backgrounds in which a photon is radiated from the initial state. The \ttbar process is further suppressed by vetoing events with \PQb-tagged AK4 jets that do not overlap with the leading AK15 jet. Finally, to reject QCD multijet events with large U arising from mismeasurements of the jet momenta, a minimum requirement is imposed on the azimuthal separation between the $\vec{\mathrm{U}}$ direction and each AK4 jet in the event to be larger than 0.5 radians. Similarly, the azimuthal angle between the $\vec{\mathrm{U}}$ direction and each AK15 jet in the event must be larger than 1.5 radians. 
 
 %\textcolor{red}{Additional backgrounds arise from single top quark and diboson (VV) production. In single top events, the W boson produced in the top quark decay further decays leptonically, resulting in genuine \ptmiss. Diboson events, including WW, WZ, and ZZ production, also contribute, particularly in cases where one boson decays leptonically (\Wlv, \Zvv) and the other hadronically, thus producing both jets and \ptmiss in the final state.}
 
-To avoid events with anomalous \ptmiss due to reconstruction failures of the PF algorithm, events are required to have $\abs{\ptmiss(\text{PF})/\ptmiss(\text{calorimeter}) - 1}\ <$ 0.5, where \ptmiss(\text{calorimeter}) is the missing transverse momentum calculated using  the information from calorimeter towers. To mitigate mismeasurement from a nonfunctioning HCAL section in 2018 data, events with jets in that region or with $\phi(\ptvecmiss)\in[-1.62,-0.62]$ at low \ptmiss are rejected.
+To avoid events with anomalous U due to reconstruction failures of the PF algorithm, events are required to have $\abs{\ptmiss(\text{PF}) - \ptmiss(\text{calorimeter})}/U\ <$ 0.5, where \ptmiss(\text{PF}) refers to the standard \ptmiss computed from PF candidates as defined in Sec.~\ref{objects}, while \ptmiss(\text{calorimeter}) is the \ptmiss calculated using only information from the calorimeters. To mitigate mismeasurement from a non-functioning HCAL section in 2018 data, events with jets in that region or with $\phi(\ptvecmiss)\in[-1.62,-0.62]$ at low \ptmiss are rejected.
 
-As shown in Table~\ref{sr_yields}, even after the full SR selection is applied, the selected data sample still has a large contamination from \Zjets, \Wjets, and \ttbar production. In order to predict and constrain these background processes, dedicated CRs are used. 
+As shown in Table~\ref{sr_yields}, even after the full SR selection is applied, the selected data sample still has a large contamination from \Zjets, \Wjets, and \ttbar production. In order to predict and constrain these background processes, dedicated control regions (CRs) are used. 
+
+\newpage
 
 \begin{table}[!htbp]
     \centering
@@ -333,11 +304,11 @@ As shown in Table~\ref{sr_yields}, even after the full SR selection is applied, 
         \hline\hline
          & 2016 & 2017 & 2018 \\
          \hline
-    H$\rightarrow b\bar{b}$            & 57.6 $\pm$ 0.3 & 72.0 $\pm$ 0.3       & 83.8 $\pm$ 0.3 \\
+    H$\rightarrow \bbbar$            & 57.6 $\pm$ 0.3 & 72.0 $\pm$ 0.3       & 83.8 $\pm$ 0.3 \\
     Z($\rightarrow \ell\ell$)+jets     & 56.8 $\pm$ 2.2 & 43.3 $\pm$ 2.0       & 37.1 $\pm$ 3.0 \\
     QCD multijet                       & 93.3 $\pm$ 25.8 & 154.9 $\pm$ 41.7    & 163.2 $\pm$ 64.6 \\
     VV                            & 718.0 $\pm$ 17.5 & 623.4 $\pm$ 17.8   & 606.4 $\pm$ 20.8 \\
-    Single t                           & 646.0 $\pm$ 10.9 & 567.4 $\pm$ 12.5   & 614.6 $\pm$ 12.8 \\
+    Single top                           & 646.0 $\pm$ 10.9 & 567.4 $\pm$ 12.5   & 614.6 $\pm$ 12.8 \\
     \ttbar                         & 5486.5 $\pm$ 199.7 & 5810.7 $\pm$ 60.0 & 6784.2 $\pm$ 133.7 \\
     \Wjets      & 3997.8 $\pm$ 38.5 & 2991.0 $\pm$ 40.2 & 2826.6 $\pm$ 50.5 \\
     \Zjets       & 7514.8 $\pm$ 29.2 & 7035.2 $\pm$ 33.3 & 6978.5 $\pm$ 38.8 \\
@@ -351,39 +322,44 @@ As shown in Table~\ref{sr_yields}, even after the full SR selection is applied, 
 A CR enriched in \Zjets production events is identified using the same requirements that define the SR, but inverting the criterion on the \textsc{DeepAK15} score. 
 
 Similarly, CRs enriched in \Wjets production events are identified using the full SR selection criteria with the exception of the muon or electron veto. More specifically, single-muon CRs are composed of events with exactly one tight muon, and single-electron CRs are composed of events with exactly one tight electron.
-As described in Sec.~\ref{objects}, the \ptmiss requirement that defines the SR is replaced by an identical requirement on $U$, that serves as a proxy for \ptmiss in these CRs. To suppress the larger contribution from QCD multijet events in the single-electron CRs due to jets faking electrons, the real \ptmiss in each event is required to be larger than 100 GeV. An additional set of single-lepton CRs is used in this search, populated with events that meet the aforementioned single-electron or single-muon requirements, but fail the criterion on the leading AK15 jet \textsc{DeepAK15} score.
 
-Dedicated single-lepton CRs are also used to constrain the background from \ttbar production. The same single-electron or single-muon selections are applied, but the veto on b-tagged AK4 jets that do not overlap with the leading AK15 jet is inverted. In this case, only CRs populated with events that satisfy the leading AK15 jet \textsc{DeepAK15} score requirement are used.
+At the HLT, events with high-\pt muons are also assigned large \ptmiss, therefore the same triggers based on \ptmiss and \mht are also used to collect data populating the single-muon CRs. The control samples with electrons are selected using two single-electron triggers: one that requires \(\pt>27\) (2016), 35 (2017), 32 (2018)\GeV, while the other requires \(\pt>105\) (2016), 115 (2017--2018)\GeV. Additionally, a single-photon trigger with \(\pt>200\GeV\) is used in 2017 and 2018. Single-electron triggers differ in their isolation requirements: While the lower threshold trigger requires electrons to be well isolated, the higher threshold trigger does not, which improves the efficiency at high \pt. Similarly, the single-photon trigger avoids reliance on the HLT track reconstruction and increases the overall efficiency for electrons with \pt > 200\GeV. During the 2016 and 2017 data taking, a gradual shift in the timing of the inputs of the ECAL L1 trigger in the region $\abs{\eta} > 2.0$ caused a specific trigger inefficiency, known as L1 pre-firing. Correction factors are computed from the data and applied to the acceptance evaluated by simulation for the 2016 and 2017 samples.
+
+Although the same requirement on U that defines the SR is used in all single-lepton CRs, to suppress the larger contribution from QCD multijet events in single-electron CRs due to jets faking electrons, the \ptmiss in each event is required to be larger than 100\GeV. An additional set of single-lepton CRs is used in this search, populated with events that meet the aforementioned single-electron or single-muon requirements, but fail the criterion on the leading AK15 jet \textsc{DeepAK15} score.
+
+Dedicated single-lepton CRs are also used to constrain the background from \ttbar production. The same single-electron or single-muon selections used to define the \Wjets production CRs are applied, but the veto on b-tagged AK4 jets that do not overlap with the leading AK15 jet is inverted. In this case, only CRs populated with events that satisfy the leading AK15 jet \textsc{DeepAK15} score requirement are used.
 
 
 \section{Background estimation}
-Background estimation and signal extraction are performed simultaneously, using a joint maximum likelihood (ML) fit across all SR and CRs. A likelihood function is constructed to model the expected background contributions in each bin of the two-dimensional U-vs-$m_\text{SD}$ variable of the SR and CRs, as well as the expected signal yield in each bin of the SR. The best fit background model, as well as the best fit signal strength modifier $\mu$ (which---for a given signal hypothesis---controls the signal normalization relative to the theoretical cross section), are obtained by maximizing a joint likelihood function of all SRs and CRs. 
+Background estimation and signal extraction are performed simultaneously, using a joint maximum likelihood (ML) fit across all SR and CRs for each year. A likelihood function is constructed to model the expected background contributions in each bin of the two-dimensional U-vs-$\mSD$ variable of the SR and CRs, as well as the expected signal yield in each bin of the SR. The best fit background model, as well as the best fit signal strength modifier $\mu$ (which---for a given signal hypothesis---controls the signal normalization relative to the theoretical cross section), are obtained by maximizing a joint likelihood function of all SRs and CRs. 
 
-Separate approaches are adopted to estimate the dominant backgrounds from \Zjets, \Wjets, and \ttbar productions and the subdominant backgrounds from single t, VV, H$\rightarrow b\bar{b}$, and QCD multijet productions. The predictions for the dominant \Zjets, \Wjets, and \ttbar backgrounds in SR are based on the yield of the same processes in each bin of the CRs. The per-bin yields for these processes in SR are defined as free parameters of the likelihood function. The yields in CRs are then defined relative to these parameters by introducing a set of per-bin transfer factors. This choice of transfer factors takes into account the correlations between the \Zjets and \Wjets background contributions in all regions. In all cases, the central values of the transfer factors are obtained from the ratios of the simulated U-vs-$m_\text{SD}$ spectra of the respective processes in the SR to those in CRs. The predictions for the subdominant single t, VV, H$\rightarrow b\bar{b}$, and QCD multijet backgrounds in all SR and CRs are taken directly from simulation.
+Separate approaches are adopted to estimate the dominant backgrounds from \Zjets, \Wjets, and \ttbar processes,and the subdominant backgrounds from the single top, VV, H$\rightarrow \bbbar$, and QCD multijet ones. 
+The predictions for the dominant backgrounds \Zjets, \Wjets, and \ttbar in SR are based on the yield of the same processes in each bin of the CRs. The per-bin yields for these processes in SR are defined as free parameters of the likelihood function. A different set of free parameters are used for each year of data-taking. The yields in the CRs are then defined relative to these parameters by introducing a set of per-bin transfer factors. This choice of transfer factors takes into account the correlations between the \Zjets and \Wjets background contributions in all regions. In all cases, the central values of the transfer factors are obtained from the ratios of the simulated U vs.$\mSD$ spectra of the respective processes in the SR to those in the CRs. The predictions for the subdominant single top, VV, H$\rightarrow \bbbar$, and QCD multijet backgrounds in all SR and the CRs are taken directly from simulation.
 
-The likelihood method relies on the accurate predictions of the ratios between the dominant backgrounds in the SRs and CRs, as well as on the absolute normalization and shape of the U-vs-$m_\text{SD}$ distributions for the subdominant backgrounds. To achieve the most accurate possible predictions for these quantities, weights are applied to each simulated event to take into account both experimental and theoretical effects not present in the MC samples. The experimental corrections are related to the trigger efficiencies, the identification and reconstruction efficiencies of charged leptons, the efficiencies of the \textsc{DeepJet} and \textsc{DeepAK15} algorithms, and the pileup distribution in simulation. Theoretical corrections are applied to the \Vjets processes in order to model the effects of NLO terms in the perturbative EW corrections~\cite{Lindert:2017olm}. The corrections are parameterized as a function of the generator-level boson \pt and are evaluated separately for \Wjets and \Zjets processes.
+The likelihood method relies on the accurate predictions of the ratios between the dominant backgrounds in the SRs and CRs, as well as on the absolute normalization and shape of the U-vs.-$\mSD$ distributions for the subdominant backgrounds. To achieve the most accurate possible predictions for these quantities, weights are applied to each simulated event to take into account both experimental and theoretical effects that are not present in the MC samples. The experimental corrections are related to the trigger efficiencies, the identification and reconstruction efficiencies of charged leptons, the efficiencies of the \textsc{DeepJet} and \textsc{DeepAK15} algorithms, and the pileup distribution in simulation. Theoretical corrections are applied to the \Zjets and \Wjets processes in order to model the effects of NLO terms in the perturbative EW corrections~\cite{Lindert:2017olm}. Corrections are parameterized as a function of the generator-level boson \pt and are evaluated separately for the \Wjets and \Zjets processes.
 
 \subsection{Systematic uncertainties}
 
-Systematic uncertainties are incorporated in the likelihood function as nuisance parameters. In the case of the \Zjets, \Wjets, and \ttbar processes, the nuisance parameters affect the values of the transfer factors in each bin of the U-vs-$m_\text{SD}$ variable and thus control the ratios of the contributions from different processes, as well as the ratios of the yields in the SRs to those in various CRs. For the subdominant background processes, the yields in each bin are directly parameterized in terms of the nuisance parameters. 
+Systematic uncertainties are incorporated into the likelihood function as nuisance parameters. In the case of the \Zjets, \Wjets, and \ttbar processes, the nuisance parameters affect the values of the transfer factors in each bin of the U-vs-$\mSD$ variable and thus control the ratios of the contributions from different processes, as well as the ratios of the yields in the SRs to those in various CRs. For the subdominant background processes, the yields in each bin are directly parameterized in terms of the nuisance parameters. 
 
 Uncertainties in the measurement of the integrated luminosity in each year of data taking are 0.6--2.0\%~\cite{CMS:2021xjt,CMS-PAS-LUM-17-004,CMS-PAS-LUM-18-002}. The uncertainties in the corrections for the L1 pre-firing effect in 2016 and 2017, as well as the uncertainties in the pileup correction are of the order of 1\%.
 %The overall experimental uncertainty is dominated by the uncertainties in the efficiency of identifying and reconstructing lepton and photon candidates, as well as the uncertainty in the trigger efficiency. 
 The uncertainties in the efficiencies of reconstructing and identifying electron candidates are 1\% and 2--3\%, respectively. For muons, the uncertainties in the identification efficiency are 1\%, with an additional 1\% uncertainty in the efficiency of the isolation criteria.
-A systematic uncertainty for each lepton/photon veto selection has been obtained by propagating the overall uncertainties in the identification of muons, electrons, photons, and taus, into the vetoed regions. While the uncertainties are found to be negligible for photon, muon, and electron vetoes, a 3\% uncertainty in the tau veto is included.
+A systematic uncertainty for each lepton/photon veto selection has been obtained by propagating the overall uncertainties in the identification of muons, electrons, photons, and taus into the vetoed regions. While the uncertainties are found to be negligible for the photon, muon and electron vetoes, a 3\% uncertainty in the tau veto is included.
 The uncertainties in the trigger efficiency are 1\% for the single electron trigger and 1--2\% for the \ptmiss trigger.
-The uncertainty in the modeling of \ptmiss in simulation~\cite{Khachatryan:2014gga} is dominated by the uncertainty in the jet energy corrections. The resulting bin migration affects the acceptance of the minimum requirement in \ptmiss. The resulting change in rate is estimated to be 5\%, and is included as a systematic uncertainty. 
-An additional systematic uncertainty is included to cover the effect of the uncertainties in the AK15 jet energy corrections on the AK15 jet \pt. Also in this case, the resulting bin migration affects the acceptance of the minimum requirements in AK15 jet \pt. This introduces an effect on the rate of the order of 4\%. 
+The uncertainty in the modeling of \ptmiss in simulation~\cite{Khachatryan:2014gga} is dominated by the uncertainty in the jet energy corrections. The resulting bin migration affects the acceptance of the minimum requirement in U. The resulting change in rate is estimated to be 5\%, and is included as a systematic uncertainty. 
+%An additional systematic uncertainty is included to cover the effect of the uncertainties in the AK15 jet energy corrections on the AK15 jet \pt. 
+The effect of the uncertainties in the AK15 jet energy corrections on the jet \pt is considered. In addition, in this case, the resulting bin migration affects the acceptance of the minimum requirements in the AK15 jet \pt. This introduces an effect on the rate of the order of 4\%. 
 The uncertainty in the \textsc{DeepJet} efficiency leads to a shape uncertainty applied to all processes in all regions. The uncertainty in the \textsc{DeepAK15} efficiency results in a shape uncertainty applied to the signal processes in SR. 
-Uncertainties of 100\% are assigned to the normalization of the QCD multijet background contributions in all of the regions. These uncertainties are correlated among the regions with the same source of fakes: one uncertainty is applied to QCD multijet events in the SR and in the CR enriched in \Zjets production events, a separate uncertainty is applied to QCD multijet events in the single-muon CRs, and another uncertainty is applied to the single-electron CRs.
-Additionally, uncertainties of 20\% are assigned to the cross section of VV, H$\rightarrow b\bar{b}$, and DY+jets productions. Similarly, 10\% uncertainties in the single t and \ttbar production cross sections are also assigned. 
+Uncertainties of 100\% are assigned to normalization of the QCD multijet background contributions in all regions. These uncertainties are correlated among the regions with the same source of fakes: an uncertainty is applied to QCD multijet events in the SR and in the CR enriched in \Zjets production events, a separate uncertainty is applied to QCD multijet events in single-muon CRs, and another uncertainty is applied to single-electron CRs.
+Additionally, the uncertainties of 20\% are assigned to the cross section of VV, H$\rightarrow \bbbar$, and DY+jets productions. Similarly, 10\% uncertainties in the single top and \ttbar production cross sections are also assigned. 
 %A 10\% uncertainty in the top-antitop quark pair production
 The theoretical uncertainties in the transfer factors related to higher-order effects in the QCD and EW perturbative expansions are calculated according to the prescription given in Ref.~\cite{Lindert:2017olm}, and implemented as described in Ref.~\cite{Sirunyan:2017jix}. 
 Bin-by-bin statistical uncertainties are incorporated following the Barlow-Beeston-lite approach~\cite{Conway:2011in}.
 %The uncertainty related to the modeling of PDFs is estimated using the replicas provided in the PDF4LHC15 PDF set~\cite{Butterworth:2015oua,Dulat:2015mca,Harland-Lang:2014zoa,Ball:2014uwa}. 
 %Additionally, uncertainties of 10\% each are assigned to the cross sections of the diboson and top quark processes, and a further 10\% normalization uncertainty is assigned to account for the differences in the \pt spectrum of simulated and observed top quark events~\cite{Czakon:2015owf}. For the diboson and $\Vgamma$ processes, additional uncertainties related to unknown mixed QCD-EW NLO corrections are estimated based on the product of the individual EW and QCD correction terms. These uncertainties range between 1 and 10\%, depending on the process and boson \pt.
 
-The likelihood functions obtained for the three data taking years are combined in order to maximize the statistical power of the search. The combination is performed by defining a combined likelihood describing all the regions in all datasets. For this purpose, the effects of all theoretical uncertainties are assumed to be correlated. Most experimental uncertainties are dominated by the inherent precision of auxiliary measurements specific to each dataset and are thus assumed to be uncorrelated among the different data taking years. The experimental uncertainties related to the determination of the integrated luminosity and to the \textsc{DeepJet} efficiency are partially correlated among the data taking years, which is taken into account by splitting the total uncertainty into its correlated and uncorrelated components. A summary of all the uncertainties considered for this analysis is reported in Table~\ref{tab:systematics}.
+The likelihood functions obtained for the three data-taking years are combined to maximize the statistical power of the search. The combination is performed by defining a combined likelihood that describes all the regions in all data sets. For this purpose, the effects of all theoretical uncertainties are assumed to be correlated. Most experimental uncertainties are dominated by the inherent precision of auxiliary measurements specific to each dataset and are thus assumed to be uncorrelated among the different data taking years. The experimental uncertainties related to the determination of the integrated luminosity and to the \textsc{DeepJet} efficiency are partially correlated among the data taking years, which is taken into account by splitting the total uncertainty into its correlated and uncorrelated components. A summary of all the uncertainties considered for this analysis is reported in Table~\ref{tab:systematics}.
 
 \newpage
 
@@ -440,13 +416,13 @@ The likelihood functions obtained for the three data taking years are combined i
         VV cross section
           & 20\% \\
 
-        H$\rightarrow b\bar{b}$ cross section
+        H$\rightarrow \bbbar$ cross section
           & 20\% \\
 
         DY+jets cross section
           & 20\% \\
 
-        Single t cross section
+        single top cross section
           & 10\% \\
 
         $t\bar{t}$ cross section
@@ -472,7 +448,7 @@ The likelihood functions obtained for the three data taking years are combined i
 
 \section{Results and interpretation}
 
-The ML fit is performed by combining the SR and CRs as well as the datasets corresponding to the years of data taking. The U-vs-$m_\text{SD}$ distributions in SR before and after the fit (``prefit'' and ``postfit'') urefor all three years combined are shown in Fig.~\ref{sr}. Good agreement is observed between the background-only postfit result and the data.
+The ML fit is performed by combining the SR and CRs as well as the datasets corresponding to the years of data taking. The U-vs.-$\mSD$ distributions in SR before and after the fit (``prefit'' and ``postfit'') for all three years combined are shown in Fig.~\ref{sr}. Good agreement is observed between the background-only postfit result and the data.
 
 \newpage
 
@@ -487,20 +463,20 @@ The ML fit is performed by combining the SR and CRs as well as the datasets corr
     \end{center}
 \end{figure}
 
-Exclusion limits on $\mu$ are presented for different signal hypotheses. All data sets and categories are included. The exclusion limits are calculated using the \CLs\ criterion ~\cite{CLS1,CLS2,Cowan:2010js}, and an asymptotic approximation to the distribution of the profiled likelihood ratio test statistic. 
+No signal is observed in the data; therefore, exclusion limits on $\mu$ are presented for different signal hypotheses. All data sets and categories are included. The exclusion limits are calculated using the \CLs\ criterion ~\cite{CLS1,CLS2,Cowan:2010js}, and an asymptotic approximation to the distribution of the profiled likelihood ratio test statistic. 
 %% Thiago: why do we even need this next sentence?
-%%Here, “CL” stands for “confidence level” . 
+%%Here, #CL# stands for #confidence level# . 
 %In this method, a signal-plus-background fit is performed for each signal hypothesis in addition to the background-only fit. In the signal fits, the nuisance parameters are profiled, and the resulting best fit nuisance parameters vary for the different signal hypotheses. Consequently, different nonzero best fit values for the signal strength can be obtained for different signals even if the background-only fit succeeds in modeling the data. In the exclusion limits, this feature is represented by differences between the observed and expected limits.
 
-Exclusion limits are calculated in the two-dimensional parameter space of the DM and mediator masses, \mdm and $m_{Z'}$, constrained by the fact that only scenarios in which the DM particle is more massive than the \darkHiggs boson are considered. The coupling between the mediator and SM quarks is set to a constant value of $\gq=0.25$, and the mediator-DM coupling is set to \gDM $= 1.0$. The resulting exclusion limits at 95 \% confidence level (CL) on $\mu$ are shown in Figs.~\ref{fig:mhs50_70_90}-\ref{fig:mhs110_130_150} for different hypotheses of the \darkHiggs boson mass. In the plots, darker shades correspond to smaller upper limits, i.e. more stringent constraints. The solid black line represents the observed 95~ \% CL exclusion contour, while the dashed and dotted lines indicate the median expected exclusion and its 68 \% and 95 \% confidence intervals, respectively. The parameter space inside the solid black boundary is excluded at 95 \% CL under the model assumptions. Values of the mediator mass of up to 2.5--4.5\TeV are excluded, depending on the mass of the \darkHiggs boson.
-%The excluded value of $m_{Z'}$ reduces with increasing values of \mdm, as the branching fraction for decays of the mediator into dark matter candidates is reduced.
+Exclusion limits are calculated in the two-dimensional parameter space of the DM and mediator masses, \mchi and \mzp, constrained by the fact that only scenarios in which the DM particle is more massive than the \darkHiggs boson are considered. The coupling between the mediator and the SM quarks is set to a constant value of $\gq=0.25$, and the mediator-DM coupling is set to $\gchi=1.0$. The resulting exclusion limits at the 95\% confidence level (CL) on $\mu$ are shown in Figs.~\ref{fig:mhs50}--\ref{fig:mhs150} for different hypotheses of the \darkHiggs boson mass. In the plots, darker shades correspond to smaller upper limits, i.e. more stringent constraints. The solid black line represents the observed 95\% CL exclusion contour, while the dashed and dotted lines indicate the median expected exclusion and its 68\% and 95\% confidence intervals, respectively. The parameter space inside the solid black boundary is excluded at the 95\% CL under the model assumptions. Values of the mediator mass of up to 2.5--4.5\TeV are excluded, depending on the mass of the \darkHiggs boson.
+%The excluded value of \mzp reduces with increasing values of \mdm, as the branching fraction for decays of the mediator into dark matter candidates is reduced.
 
 \newpage
 
 \begin{figure}[!htbp]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/results/mhs50_2D.png}
-        \caption{Expected and observed exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of $m_{Z'}$ for a \darkHiggs boson mass of 50 GeV. Only scenarios where the DM particle is more massive than \darkHiggs are considered. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded.}
+        \caption{Expected and observed exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of \mzp for a \darkHiggs boson mass of 50\GeV. Only scenarios where the DM particle is more massive than \darkHiggs are considered. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded.}
           \label{fig:mhs50}
     \end{center}
 \end{figure}
@@ -510,7 +486,7 @@ Exclusion limits are calculated in the two-dimensional parameter space of the DM
 \begin{figure}[!htbp]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/results/mhs70_2D.png}
-        \caption{Expected and observed exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of $m_{Z'}$ for a \darkHiggs boson mass of 70 GeV. Only scenarios where the DM particle is more massive than \darkHiggs are considered. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded.}
+        \caption{Expected and observed exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of \mzp for a \darkHiggs boson mass of 70\GeV. Only scenarios where the DM particle is more massive than \darkHiggs are considered. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded.}
           \label{fig:mhs70}
     \end{center}
 \end{figure}
@@ -520,7 +496,7 @@ Exclusion limits are calculated in the two-dimensional parameter space of the DM
 \begin{figure}[!htbp]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/results/mhs90_2D.png}
-        \caption{Expected and observed exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of $m_{Z'}$ for a \darkHiggs boson mass of 90 GeV. Only scenarios where the DM particle is more massive than \darkHiggs are considered. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded.}
+        \caption{Expected and observed exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of \mzp for a \darkHiggs boson mass of 90\GeV. Only scenarios where the DM particle is more massive than \darkHiggs are considered. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded.}
           \label{fig:mhs90}
     \end{center}
 \end{figure}
@@ -530,7 +506,7 @@ Exclusion limits are calculated in the two-dimensional parameter space of the DM
 \begin{figure}[!htbp]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/results/mhs110_2D.png}
-        \caption{Expected and observed exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of $m_{Z'}$ for a \darkHiggs boson mass of 110 GeV. Only scenarios where the DM particle is more massive than \darkHiggs are considered. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded.}
+        \caption{Expected and observed exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of \mzp for a \darkHiggs boson mass of 110\GeV. Only scenarios where the DM particle is more massive than \darkHiggs are considered. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded.}
           \label{fig:mhs110}
     \end{center}
 \end{figure}
@@ -540,7 +516,7 @@ Exclusion limits are calculated in the two-dimensional parameter space of the DM
 \begin{figure}[!htbp]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/results/mhs130_2D.png}
-        \caption{Expected and observed exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of $m_{Z'}$ for a \darkHiggs boson mass of 130 GeV. Only scenarios where the DM particle is more massive than \darkHiggs are considered. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded.}
+        \caption{Expected and observed exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of \mzp for a \darkHiggs boson mass of 130\GeV. Only scenarios where the DM particle is more massive than \darkHiggs are considered. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded.}
           \label{fig:mhs130}
     \end{center}
 \end{figure}
@@ -550,21 +526,20 @@ Exclusion limits are calculated in the two-dimensional parameter space of the DM
 \begin{figure}[!htbp]
     \begin{center}
         \includegraphics[width=0.99\textwidth]{figures/results/mhs150_2D.png}
-        \caption{Expected and observed exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of $m_{Z'}$ for a \darkHiggs boson mass of 150 GeV. Only scenarios where the DM particle is more massive than \darkHiggs are considered. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded.}
+        \caption{Expected and observed exclusion limits at 95\% CL on the signal strength $\mu=\sigma/\sigma_\text{theo}$ as a function of \mzp for a \darkHiggs boson mass of 150\GeV. Only scenarios where the DM particle is more massive than \darkHiggs are considered. The black solid line indicates the exclusion boundary $\mu=1$. Parameter combinations with larger values of $\mu$ are excluded.}
           \label{fig:mhs150}
     \end{center}
 \end{figure}
 
 \section{Summary}
-A search for physics beyond the standard model in events with a resonant b-quark pair and large missing transverse momentum has been presented. A data set of proton-proton collisions at a center-of-mass energy of 13\TeV, corresponding to an integrated luminosity of 138\fbinv is analyzed. A joint maximum likelihood fit over a combination of signal and control regions is used to constrain standard model 
+A search for physics beyond the standard model in events with a resonant pair of \PQb quarks and large missing transverse momentum has been presented. A data set of proton-proton collisions at a center-of-mass energy of 13\TeV, corresponding to an integrated luminosity of 138\fbinv is analyzed. A joint maximum likelihood fit over a combination of signal and control regions is used to constrain the standard model. 
 % (SM)
 background processes and to extract a possible signal. 
 %The data are found to be in good agreement with the fit results, with no evidence for a significant signal contribution. 
-The result is interpreted in terms of exclusion limits at 95\% confidence level on the parameters of a model of production of a \darkHiggs boson in association with dark matter particles. Values of the mediator mass of up to 2.5--4.5\TeV are excluded, depending on the mass of the \darkHiggs boson and assuming the couplings of $\gq=0.25$ between the mediator and quarks, and $g_{\chi}$=1.0 between the mediator and the DM particles. 
-%Assuming a fixed ratio $\mdm=$m_{Z'}$/3$, coupling values as low as $\gq=0.018$ and $\gchi=0.070$ can be excluded for $$m_{Z'}$=100\GeV$. In a similar model with a pseudoscalar spin-0 mediator, $m_{Z'}$ values less than $470\GeV$ are excluded. 
+The result is interpreted in terms of exclusion limits at the 95\% confidence level on the parameters of a model of production of a \darkHiggs boson in association with dark matter particles. Values of the mediator mass of up to 2.5--4.5\TeV are excluded, depending on the mass of the \darkHiggs boson and assuming couplings of $\gq=0.25$ between the mediator and quarks, and $g_{\chi}$=1.0 between the mediator and the DM particles. 
+%Assuming a fixed ratio $\mdm=\mzp/3$, coupling values as low as $\gq=0.018$ and $\gchi=0.070$ can be excluded for $\mzp=100\GeV$. In a similar model with a pseudoscalar spin-0 mediator, \mzp values less than $470\GeV$ are excluded. 
 
 %These constraints represent the most stringent bounds to date for \darkHiggs masses below 160 \GeV.
-
 
 \newpage
 
