@@ -131,20 +131,20 @@
 \newcommand{\Rpf}{\ensuremath{R_{\mathrm{p}/\mathrm{f}}}\xspace}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%  >>>>>>  latexdiff fix – keep this in HEAD only  <<<<<<  %
-%  Load ulem in the real preamble, then swallow any        %
-%  duplicate call that latexdiff writes after               %
-%  \begin{document}.  Wrapped in the special guards so      %
-%  latexdiff will not mark this as a “change”.              %
+%  Latexdiff-safe ulem load – final version                %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %DIF PREAMBLE
-\usepackage[normalem]{ulem}
+\usepackage[normalem]{ulem}   % real load needed for diff markup
 
+% 2-argument do-nothing macro  ⟨opt⟩  ⟨pkg⟩
 \makeatletter
-% gobble two arguments if an option [...] is present, else one
-\def\latexdiff@gobbleusepkg{\@ifnextchar[\@gobbletwo\@gobble}
-\let\usepackage     \latexdiff@gobbleusepkg
-\let\RequirePackage \latexdiff@gobbleusepkg
+\newcommand*\tdr@ignorepkg[2][]{}
+% when the body starts, turn *both* \usepackage and \RequirePackage
+% into the harmless 2-arg version above.
+\AtBeginDocument{%
+  \let\usepackage\tdr@ignorepkg
+  \let\RequirePackage\tdr@ignorepkg
+}
 \makeatother
 %DIF PREAMBLE END
 
