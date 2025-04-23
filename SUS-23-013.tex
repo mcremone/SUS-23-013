@@ -130,8 +130,22 @@
 \newcommand \Gchi{\ensuremath{\Gamma_{\chi}}\xspace}
 \newcommand{\Rpf}{\ensuremath{R_{\mathrm{p}/\mathrm{f}}}\xspace}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  >>>>>>  latexdiff fix – keep this in HEAD only  <<<<<<  %
+%  Load ulem in the real preamble, then swallow any        %
+%  duplicate call that latexdiff writes after               %
+%  \begin{document}.  Wrapped in the special guards so      %
+%  latexdiff will not mark this as a “change”.              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %DIF PREAMBLE
-\usepackage[normalem]{ulem}   % for strike-out in diffs
+\usepackage[normalem]{ulem}
+
+\makeatletter
+% gobble two arguments if an option [...] is present, else one
+\def\latexdiff@gobbleusepkg{\@ifnextchar[\@gobbletwo\@gobble}
+\let\usepackage     \latexdiff@gobbleusepkg
+\let\RequirePackage \latexdiff@gobbleusepkg
+\makeatother
 %DIF PREAMBLE END
 
 %%% See https://twiki.cern.ch/twiki/bin/view/CMS/Internal/PaperSubmissionPrepTables
