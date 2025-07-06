@@ -7,10 +7,10 @@
 \newcommand{\Zll}{\ensuremath{\PZ\to\Pell\Pell}\xspace}
 \newcommand{\Vqq}{\ensuremath{\PV\to\PQq\PQq}\xspace}
 \newcommand{\Wlv}{\ensuremath{\PW\to \Pell\PGn}\xspace}
-\newcommand{\Zlljets}{\ensuremath{\PZ(\Pell\Pell)+\text{jets}}\xspace}
+%\newcommand{\Zlljets}{\ensuremath{\PZ(\Pell\Pell)+\text{jets}}\xspace}
 \newcommand{\Zjets}{\ensuremath{\PZ+\text{jets}}\xspace}
 \newcommand{\Wjets}{\ensuremath{\PW+\text{jets}}\xspace}
-\newcommand{\Wlvjets}{\ensuremath{\PW(\Pell\PGn)+\text{jets}}\xspace}
+%\newcommand{\Wlvjets}{\ensuremath{\PW(\Pell\PGn)+\text{jets}}\xspace}
 \newcommand{\phojets}{\ensuremath{\PGg+\text{jets}}\xspace}
 \newcommand{\Vjets}{\ensuremath{\PV+\text{jets}}\xspace}
 \newcommand{\Vgamma}{\ensuremath{\PV\PGg}\xspace}
@@ -55,18 +55,20 @@
 \newcommand{\Wen}{\ensuremath{\PW\to\PGe\PGn}\xspace}
 \newcommand{\Wmn}{\ensuremath{\PW\to\PGm\PGn}\xspace}
 %%\newcommand{\Wlv}{\ensuremath{\PW\to\ell\PGn}\xspace}
-\newcommand{\Zeejets}{\ensuremath{\PZ(\PGe\PGe)+\textrm{jets}}\xspace}
-\newcommand{\Zmmjets}{\ensuremath{\PZ(\PGm\PGm)+\textrm{jets}}\xspace}
-\newcommand{\Zvvjets}{\ensuremath{\PZ(\PGn\PGn)+\textrm{jets}}\xspace}
+\newcommand{\Zeejets}{\ensuremath{\PZ(\to\PGe\PGe)+\textrm{jets}}\xspace}
+\newcommand{\Zmmjets}{\ensuremath{\PZ(\to\PGm\PGm)+\textrm{jets}}\xspace}
+\newcommand{\Zvvjets}{\ensuremath{\PZ(\to\PGn\PGn)+\textrm{jets}}\xspace}
+\newcommand{\DYjets}{\ensuremath{\text{DY}+\textrm{jets}}\xspace}
+%\newcommand{\Zvvjets}{Z($\rightarrow \nu\nu$)+jets\xspace}
 %%\newcommand{\Zjets}{\ensuremath{\PZ+\textrm{jets}}\xspace}
 %%\newcommand{\Vjets}{\ensuremath{\PV+\textrm{jets}}\xspace}
-%%\newcommand{\Zlljets}{\ensuremath{\PZ(\ell\ell)+\textrm{jets}}\xspace}
+\newcommand{\Zlljets}{\ensuremath{\PZ(\to\PGm\PGm)/\PZ(\to\Pe\Pe)+\text{jets}}\xspace}
 %%\newcommand{\Wjets}{\ensuremath{\PW+\textrm{jets}}\xspace}
-%%\newcommand{\Wlvjets}{\ensuremath{\PW(\ell\PGn)+\textrm{jets}}\xspace}
+\newcommand{\Wlvjets}{\ensuremath{\PW(\to\PGm\PGn)/\PW(\to\Pe\PGn)+\textrm{jets}}\xspace}
 %%\newcommand{\Wmvjets}{\ensuremath{\PW(\PGm\PGn)+\textrm{jets}}\xspace}
-\newcommand{\Wmvjets}{\ensuremath{\PW(\PGm\PGn)+\textrm{jets}}\xspace}
+\newcommand{\Wmvjets}{\ensuremath{\PW(\to\PGm\PGn)+\textrm{jets}}\xspace}
 \newcommand{\Wmnjets}{\Wmvjets}
-\newcommand{\Wevjets}{\ensuremath{\PW(\PGe\PGn)+\textrm{jets}}\xspace}
+\newcommand{\Wevjets}{\ensuremath{\PW(\to\PGe\PGn)+\textrm{jets}}\xspace}
 \newcommand{\Wenjets}{\Wevjets}
 \newcommand{\mSD}{\ensuremath{m_{\text{SD}}}\xspace}
 %%\newcommand{\phojets}{\ensuremath{\gamma+\textrm{jets}}\xspace}
@@ -234,43 +236,9 @@ Searches for \darkHiggs bosons produced in association with DM have already been
 
 \section{The CMS detector and event reconstruction}
 \label{objects}
-The CMS apparatus~\cite{CMS:2008xjf,CMS:2023gfb} is a multipurpose, nearly hermetic detector, designed to trigger on~\cite{CMS:2020cmk,CMS:2016ngn,CMS:2024aqx} and identify electrons, muons, photons, and (charged and neutral) hadrons~\cite{CMS:2020uim,CMS:2018rym,CMS:2014pgm}. Its central feature is a superconducting solenoid of 6\unit{m} internal diameter, providing a magnetic field of 3.8\unit{T}. Within the solenoid volume are a silicon pixel and strip tracker, a lead tungstate crystal electromagnetic calorimeter (ECAL), and a brass and scintillator hadron calorimeter (HCAL), each composed of a barrel and two endcap sections. Forward calorimeters extend the pseudorapidity coverage provided by the barrel and endcap detectors. Muons are reconstructed using gas-ionization detectors embedded in the steel flux-return yoke outside the solenoid. More detailed descriptions of the CMS detector, together with a definition of the coordinate system used and the relevant kinematic variables, can be found in Refs.~\cite{CMS:2008xjf,CMS:2023gfb}.
 
-The silicon tracker used in 2016 measured charged particles in the range $\abs{\eta} < 2.5$. For non-isolated particles of $1 < \pt < 10\GeV$ and $\abs{\eta} < 1.4$, the track resolutions were typically 1.5\% in \pt and 25--90 (45--150)\mum in the transverse (longitudinal) impact parameter~\cite{CMS:2014pgm}. At the beginning of 2017, a new pixel detector was installed~\cite{Phase1Pixel}; the upgraded tracker measured particles up to $\abs{\eta} = 3.0$ with typical resolutions of 1.5\% in \pt and 20--75\mum in the transverse impact parameter~\cite{DP-2020-049} for non-isolated particles of $1 < \pt < 10\GeV$. According to simulation studies~\cite{DP-2017-015}, similar improvements are expected in the longitudinal direction. The primary vertex (PV) is taken to be the vertex corresponding to the hardest scattering in the event, evaluated using tracking information alone, as described in Section 9.4.1 of Ref~\cite{CMS-TDR-15-02}. 
-
-In the region $\abs{\eta} < 1.74$, the HCAL cells have widths of 0.087 in pseudorapidity and 0.087 in azimuth ($\phi$). In the $\eta$-$\phi$ plane, and for $\abs{\eta} < 1.48$, HCAL cells map to $5{\times}5$ arrays of ECAL crystals to form calorimeter towers projecting radially outward from close to the nominal interaction point. For $\abs{\eta} > 1.74$, the coverage of the towers increases progressively to a maximum of 0.174 in $\Delta \eta$ and $\Delta \phi$. The forward hadron (HF) calorimeter uses steel as an absorber and quartz fibers as the sensitive material. The two halves of the HF are located 11.2\unit{m} from the interaction region, one at each end, and together they provide coverage in the range $3.0 < \abs{\eta} < 5.2$. They also serve as luminosity monitors.  
-
-Events of interest are selected using a two-tier trigger system. The first level (L1), composed of custom hardware processors, uses information from the calorimeters and muon detectors to select events at a rate of around 100\unit{kHz} within a fixed latency of 4\mus~\cite{CMS:2020cmk}. The second level, known as the high-level trigger (HLT), consists of a farm of processors running a version of the full event reconstruction software optimized for fast processing, and reduces the event rate to a few kHz before data storage~\cite{CMS:2016ngn,CMS:2024aqx}.
-
-A particle-flow (PF) algorithm~\cite{CMS:2017yfk} aims to reconstruct and identify each individual particle in an event, with an optimized combination of information from the various elements of the CMS detector. In this process, the identification of the PF candidate type (photon, electron, muon, and charged and neutral hadrons) plays an important role in the determination of the particle direction and energy. The energy of the photons is obtained from the ECAL measurement. The energy of electrons is determined from a combination of the electron momentum at the primary interaction vertex as determined by the tracker, the energy of the corresponding ECAL cluster, and the energy sum of all bremsstrahlung photons spatially compatible with originating from the electron track. The energy of muons is obtained from the curvature of the corresponding track. The energy of charged hadrons is determined from a combination of their momentum measured in the tracker and the matching ECAL and HCAL energy deposits, corrected for the response function of the calorimeters to hadronic showers. Finally, the energy of neutral hadrons is obtained from the corresponding corrected ECAL and HCAL energies. 
-
-In this search, electrons (photons) are required to have $\pt>10$ (15)\GeV and $\abs{\eta}<2.5$. Muons are required to have $\pt>10\GeV$ and $\abs{\eta}<2.4$. All leptons and photons are required to be isolated. Isolation is calculated by imposing thresholds on the energy of PF candidates within a certain distance $\Delta R = \sqrt(\Delta\phi^2 + \Delta\eta^2)$ with respect to the lepton/photon. Additional selection criteria are applied to define ``loose'' (``veto'') electrons (muons and photons)~\cite{CMS:2020uim,CMS:2018rym}, which are used to reject unwanted events. Similarly, ``tight'' leptons/photons are defined and used to select events in control data samples. 
-
-Hadronically decaying tau leptons are required to pass identification criteria using the hadron-plus-strips algorithm~\cite{Khachatryan:2015dfa}. In addition, a new algorithm for the identification of hadronic tau lepton decays, called \textsc{DeepTau}~\cite{deeptau}, is used. The \textsc{DeepTau} algorithm is based on a multi-classification technique that serves to discriminate genuine hadronic tau lepton decays from jets, electrons, and muons. In addition, the overlap between tau leptons and electrons or muons is further suppressed by removing tau leptons that lie within a distance $\Delta R\ < $ 0.4 of a well-reconstructed and isolated electron or muon.
-
-For each event, hadronic jets are clustered from the PF candidates using the infrared and collinear safe anti-\kt algorithm~\cite{Cacciari:2008gp, Cacciari:2011ma} with a distance parameter of 0.4 or 1.5. 
-Depending on the respective distance parameter, these jets are referred to as ``AK4'' or ``AK15'' jets.
-Jet momentum is determined as the vectorial sum of all particle momenta in the jet, and is found from simulation to be, on average, within 5 to 10\% of the true momentum over the whole \pt spectrum and detector acceptance. Jet energy corrections are derived from simulation to bring the measured response of jets to that of particle-level jets on average. In situ measurements of momentum balance in dijet, $\text{photon} + \text{jet}$, $\PZ + \text{jet}$, and multijet events are used to account for any residual differences in the jet energy scale between data and simulation~\cite{CMS:2016lmd}. The jet energy resolution typically amounts to 15--20\% at 30\GeV, 10\% at 100\GeV, and 5\% at 1\TeV~\cite{CMS:2016lmd}. Additional selection criteria are applied to each jet to remove jets potentially dominated by anomalous contributions from various subdetector components or reconstruction failures.
-
-Additional proton-proton interactions within the same or nearby bunch crossings (pileup) can contribute additional tracks and calorimetric energy depositions to the jet momentum. %%% AK4 jets are chs, are recommended for pre-legacy Run2
-To mitigate this effect in the AK4 jets, charged particles identified to be originating from pileup vertices are discarded, and an offset correction is applied to correct for remaining contributions. For AK15 jets, the pileup per particle identification algorithm (PUPPI) ~\cite{Sirunyan:2020foa,Bertolini:2014bba} is used to mitigate the effect of pileup at the reconstructed particle level, making use of local shape information, event pileup properties, and tracking information. A local shape variable is defined, which distinguishes between collinear and soft diffuse distributions of other particles surrounding the particle under consideration. The former is attributed to particles originating from the hard scatter, and the latter is attributed to particles originating from pileup interactions. Charged particles identified to be originating from pileup vertices are discarded. For each neutral particle, a local shape variable is computed using the surrounding charged particles compatible with the primary vertex within the tracker acceptance ($\abs{\eta} < 2.5$), and using both charged and neutral particles in the region outside of the tracker coverage. The momenta of the neutral particles are then rescaled according to their probability to originate from the primary interaction vertex deduced from the local shape variable, superseding the need for jet-based pileup corrections~\cite{Sirunyan:2020foa}. 
-
-
-The AK4 jets used in this search are further required to have a \pt larger than 30 GeV and $|\eta| < 2.5$. Jets with $\Delta R\ <$ 0.4 with respect to a well identified and isolated lepton or photon are removed. To identify jets originated by the hadronization of b quarks (hereafter referred to as ``b jets''), the \textsc{DeepJet} algorithm~\cite{Bols:2020bkb} is employed. A loose working point is used, defined for each year of data-taking as the minimum requirement in the \textsc{DeepJet} discriminator distribution, which returns a 10\% rate of misidentifying a jet originated by a light-flavor quark. The loose working point corresponds to an efficiency of correctly identifying jets originated by b quarks (i.e., b-tagging efficiency) of 90--95\%, depending on the \pt of the AK4 jet~\cite{CMS-DP-2023-005}.
-
-The AK15 jets used in this search are further required to have a \pt larger than 160 GeV and $|\eta| < 2.4$. Jets with $\Delta R <$ 1.5 with respect to a well-identified and isolated lepton or photon are removed. The modified mass drop tagger algorithm~\cite{Dasgupta:2013ihk,Butterworth:2008iy}, also known as the soft-drop (SD) algorithm, with the angular exponent $\beta = 0$, soft cutoff threshold $z_{\text{cut}} < 0.1$, and characteristic radius $R_{0} = 1.5$~\cite{Larkoski:2014wba}, is applied to remove soft, wide-angle radiation from the jet. 
-To identify AK15 jets that are consistent with the hadronization of a $b\bar{b}$ pair from the decay of a boosted massive resonance, the  \textsc{DeepAK15} - a deep neural network - is used.\cite{Sirunyan:2020lcu} More specifically, the ``mass-decorrelated'' (MD) version of \textsc{DeepAK15} is employed. In this variant, an adversarial training is performed in which a second neural network is made to extract the AK15 jet mass from the output of the \textsc{DeepAK15} graph neural network. A good performance of this second network yields to a penalty on the joint cost function of the two networks. Therefore, this method optimizes the ability to correctly identify the origin of an AK15 jet while systematically decorrelating the output score from the AK15 jet mass. This approach avoids shaping the AK15 jet mass distribution in background events. Since the strategy for this search relies on the identification of a peak in the AK15 jet mass distribution due to a resonance of unknown mass, the MD version of the tagger offers the best option. 
-
-%shape for background estimation, the MD version of the tagger offers the best option. Identification working points are defined for each year of data-taking and optimized for this specific search. 
-
-The missing transverse momentum vector \ptvecmiss is computed as the negative vector sum of the transverse momenta of all the PF candidates in an event, and its magnitude is denoted as \ptmiss. The \ptvecmiss is modified to account for corrections to the energy scale and resolution of the reconstructed AK4 jets in the event~\cite{Sirunyan:2019kia}.  Anomalous high-\ptmiss events can be due to a variety of reconstruction failures, detector malfunctions, or non-collision backgrounds. Such events are rejected by dedicated filters that are designed to eliminate more than 85-- 90\% of spurious high-\ptmiss events with a signal efficiency exceeding 99.9\%~\cite{Sirunyan:2019kia}. 
-
-%Together with the AK15 jet mass, 
-The hadronic recoil \recoil is defined as the vector sum of \ptvecmiss and the \ptvec of any identified leptons in the event. It represents the total transverse momentum of all the non-hadronic particles in each event. The signal events in this search contain only jets and no other reconstructed candidates, therefore \recoil is equivalent to \ptmiss of the event. Due to the presence of DM, large \recoil is expected and therefore its distribution is used, together with the AK15 jet mass, to distinguish signal from the background events. For the leading background processes, identified in Section~\ref{selection}, \recoil corresponds to the \pt of a vector boson. In those data samples of this search where no lepton is required, the lepton from the vector boson decay is missed and \recoil is once again equivalent to the \ptmiss of the event. In data samples where a lepton is required in the final state, the lepton from the vector-boson decay is identified and \recoil is equivalent to the magnitude of the vector sum of \ptvecmiss and the lepton \ptvec.
-
-%, is also used to distinguish the signal from the backgrounds. 
-%%%transverse momentum of the hadronic recoil, called U. For the leading background processes, this also corresponds to the transverse momentum of a vector boson. In the control data samples of this search where a lepton in the final state is required, \ptmiss is not equivalent to U anymore. At the same time, U still represents the transverse momentum of the vector boson from those background process that populate these samples. Since this search relies on prediction derived from data in control samples to constrain the main backgrounds, the U derived in the control samples can be used to model the transverse momentum of the vector boson. In the control data samples, the variable is computed subtracting from \ptvecmiss the $\ptvec$ of the lepton. %%%
-
+%\input{oldDetector}
+\input{newDetector}
 
 \section{Simulated samples}
 
@@ -279,7 +247,7 @@ The simulation of the interactions between the particles and the CMS detector is
 The NNPDF 3.0 next-to-next-to-leading order (NNLO)~\cite{Ball:2014uwa} and NNPDF 3.1 NNLO~\cite{Ball:2017nwa} parton distribution functions (PDFs) are used for the generation of all samples based on the year of data collection.
 The same reconstruction algorithms used for the data are applied to the simulated samples. 
 
-For the associated production of SM vector bosons and jets (\Vjets production), predictions with up to two partons in the final state are obtained at leading order (LO) in QCD using \MGvATNLO~\cite{Alwall:2014hca} with the MLM matching scheme~\cite{Mangano:2006rw} between the jets from the calculations of the matrix elements and the parton shower.
+For the associated production of SM vector bosons and jets (\Zvvjets, hereafter referred to as \Zjets; \Zlljets, collectively referred to as \DYjets; and \Wlvjets, , collectively referred to as \Wjets), predictions with up to two partons in the final state are obtained at leading order (LO) in QCD using \MGvATNLO~\cite{Alwall:2014hca} with the MLM matching scheme~\cite{Mangano:2006rw} between the jets from the calculations of the matrix elements and the parton shower.
 Samples of events with top quark pairs (\ttbar production) are generated at next-to-leading (NLO) in QCD with up to two additional partons in the matrix element calculations using \MGvATNLO and the FxFx jet matching scheme~\cite{Frederix:2012ps}. Their cross sections are normalized to the inclusive cross section of \ttbar production at NNLO in QCD~\cite{Czakon:2013goa}. 
 Events with electroweakly produced single top quarks (single top production) are simulated using \POWHEG 2.0~\cite{Alioli:2009je,Re:2010bp} and normalized to the inclusive cross section calculated at  
 %NNLO in QCD~\cite{Kidonakis:2010ux} for single top quarks produced in association with a \PW boson, and 
@@ -315,7 +283,7 @@ The SR trigger selections require $\ptmiss > 120\GeV$ and $\mht > 120\GeV$, wher
 
 Events in SR are selected with a requirement of  $\recoil > 250\GeV$. The soft-drop corrected mass ($\mSD$) of the leading AK15 jet in \pt must satisfy the requirement $\mSD\in[40,300]$. In order to preferentially select events where the leading AK15 jet originates from the hadronic decay of an \darkHiggs boson, the jet must satisfy a minimum requirement in the \textsc{DeepAK15} score. A different threshold is used for each year of data-taking in order to optimize the signal sensitivity.
 
-After this basic pre-selection, the main background processes in this search are from \Zvvjets (hereafter referred to as \Zjets), $\PW(\Pe\PGn)$/\Wmvjets (collectively referred to as \Wjets), \ttbar and QCD multijet production. The \Zjets process is the largest background and is irreducible. In contrast, the background from \Wjets and \ttbar processes is suppressed by rejecting events if they contain a well-reconstructed and isolated lepton. The “veto” working point (defined in Section ~\ref{objects}) is used in the identification of electrons, while the “loose” working point is used in the identification of muons. Similarly, events with hadronically decaying tau leptons are rejected. To help suppress electroweak backgrounds in which a photon is radiated from the initial state, events that contain a ``loose'' photon are also rejected. The \ttbar process is further suppressed by vetoing events with \PQb-tagged AK4 jets that do not overlap with the leading AK15 jet. Finally, to reject QCD multijet events with large \recoil arising from mismeasurements of the jet momenta, the azimuthal separation between the \recoilvec direction and each AK4 jet in the event is required to be larger than 0.5 radians. Similarly, the azimuthal angle between the \recoilvec direction and each AK15 jet in the event must be larger than 1.5 radians. 
+After this basic pre-selection, the main background processes in this search are from \Zjets, \Wjets, \ttbar, and QCD multijet production. The \Zjets process is the largest background and is irreducible. In contrast, the background from \Wjets and \ttbar processes is suppressed by rejecting events if they contain a well-reconstructed and isolated lepton. The “veto” working point (defined in Section ~\ref{objects}) is used in the identification of electrons, while the “loose” working point is used in the identification of muons. Similarly, events with hadronically decaying tau leptons are rejected. To help suppress electroweak backgrounds in which a photon is radiated from the initial state, events that contain a ``loose'' photon are also rejected. The \ttbar process is further suppressed by vetoing events with \PQb-tagged AK4 jets that do not overlap with the leading AK15 jet. Finally, to reject QCD multijet events with large \recoil arising from mismeasurements of the jet momenta, the azimuthal separation between the \recoilvec direction and each AK4 jet in the event is required to be larger than 0.5 radians. Similarly, the azimuthal angle between the \recoilvec direction and each AK15 jet in the event must be larger than 1.5 radians. 
 
 %\textcolor{red}{Additional backgrounds arise from single top quark and diboson (VV) production. In single top events, the W boson produced in the top quark decay further decays leptonically, resulting in genuine \ptmiss. Diboson events, including WW, WZ, and ZZ production, also contribute, particularly in cases where one boson decays leptonically (\Wlv, \Zvv) and the other hadronically, thus producing both jets and \ptmiss in the final state.}
 
@@ -323,6 +291,7 @@ To avoid events with anomalous \recoil due to reconstruction failures of the PF 
 
 As shown in Table~\ref{sr_yields}, even after the full SR selection is applied, the selected data sample still has a large contamination from \Zjets, \Wjets, and \ttbar production. In order to characterize and constrain these background processes, dedicated control regions (CRs) are used. 
 
+\newpage
 \begin{table}[!htbp]
     \centering
     \def\arraystretch{1}
@@ -334,7 +303,7 @@ As shown in Table~\ref{sr_yields}, even after the full SR selection is applied, 
          & 2016 & 2017 & 2018 \\
          \hline
     H$\rightarrow \bbbar$            & 57.6 $\pm$ 0.3 & 72.0 $\pm$ 0.3       & 83.8 $\pm$ 0.3 \\
-    Z($\rightarrow \ell\ell$)+jets     & 56.8 $\pm$ 2.2 & 43.3 $\pm$ 2.0       & 37.1 $\pm$ 3.0 \\
+    \DYjets     & 56.8 $\pm$ 2.2 & 43.3 $\pm$ 2.0       & 37.1 $\pm$ 3.0 \\
     QCD multijet                       & 93.3 $\pm$ 26 & 154.9 $\pm$ 42   & 163.2 $\pm$ 65 \\
     VV                            & 718.0 $\pm$ 18 & 623.4 $\pm$ 18   & 606.4 $\pm$ 21 \\
     Single top                           & 646.0 $\pm$ 11 & 567.4 $\pm$ 13   & 614.6 $\pm$ 13 \\
@@ -365,7 +334,7 @@ Dedicated single-lepton CRs are also used to constrain the background from \ttba
 Background estimation and signal extraction are performed simultaneously, using a joint maximum likelihood fit across the SR and all CRs for each year. A likelihood function is constructed to model the expected background contributions in each bin of the two-dimensional \recoil-vs.-$\mSD$ variable of the SR and CRs, as well as the expected signal yield in each bin of the SR. The best fit background model, as well as the best fit signal strength modifier $\mu$ (which---for a given signal hypothesis---controls the signal normalization relative to the theoretical cross section), are obtained by maximizing the joint likelihood function for the SR and the CRs.
 
 %Separate approaches are adopted to estimate the dominant backgrounds from \Zjets, \Wjets, and \ttbar processes,and the subdominant backgrounds from the single top, VV, H$\rightarrow \bbbar$, and QCD multijet ones. 
-The predictions for the dominant backgrounds \Zjets, \Wjets, and \ttbar in the SR are based on the yield of the same processes in each bin of the CRs. The per-bin yields for these processes in the SR are defined as free parameters of the likelihood function. A different set of free parameters are used for each year of data-taking. The yields in the CRs are then defined relative to these parameters by introducing a set of per-bin transfer factors. The choice of transfer factors takes into account the correlations among the \Zjets and \Wjets background contributions in all regions. In all cases, the central values of the transfer factors are obtained from the ratios of the simulated \recoil-vs.-$\mSD$ spectra of the respective processes in the SR to those in the CRs. The predictions for the subdominant single top, VV, H$\rightarrow \bbbar$, and QCD multijet backgrounds in the SR and the CRs are taken directly from simulation.
+The predictions for the dominant backgrounds \Zjets, \Wjets, and \ttbar in the SR are based on the yield of the same processes in each bin of the CRs. The per-bin yields for these processes in the SR are defined as free parameters of the likelihood function. A different set of free parameters are used for each year of data-taking. The yields in the CRs are then defined relative to these parameters by introducing a set of per-bin transfer factors. The choice of transfer factors takes into account the correlations among the \Zjets and \Wjets background contributions in all regions. In all cases, the central values of the transfer factors are obtained from the ratios of the simulated \recoil-vs.-$\mSD$ spectra of the respective processes in the SR to those in the CRs. The predictions for the subdominant single top, VV, H$\rightarrow \bbbar$, \DYjets, and QCD multijet backgrounds in the SR and the CRs are taken directly from simulation.
 
 To achieve the most accurate possible predictions of the ratios between the dominant backgrounds in the SR and the CRs, as well as of the absolute normalization and shape of the \recoil-vs.-$\mSD$ distributions for the subdominant backgrounds, weights are applied to each simulated event. These weights take into account both experimental and theoretical effects that are not present in the Monte Carlo simulated samples. The experimental corrections are related to the trigger efficiencies, the identification and reconstruction efficiencies of charged leptons, the efficiencies of the \textsc{DeepJet} and \textsc{DeepAK15} algorithms, and the pileup distribution in simulation. Theoretical corrections are applied to the \Zjets and \Wjets processes in order to model the effects of NLO terms in the perturbative EW corrections~\cite{Lindert:2017olm}. The corrections are parameterized as a function of the generator-level boson \pt and are evaluated separately for the \Wjets and \Zjets processes.
 
@@ -382,7 +351,7 @@ The uncertainty in the modeling of \ptmiss in simulation~\cite{Khachatryan:2014g
 
 
 Application of the above uncertainties leads to bin migrations, which in turn lead to a variation in the rate of events passing the minimum requirement on \recoil. The resulting change in rate is estimated to be 5\%, and is included as a systematic uncertainty. The corresponding bin migration effects in the jet \pt spectrum that result from the uncertainties in the AK15 jet energy corrections lead to an estimated 4\%  variation in the rate of events passing the minimum AK15 jet \pt requirement. The uncertainty in the \textsc{DeepJet} efficiency leads to a shape uncertainty which is applied to all processes in all regions. The uncertainty in the \textsc{DeepAK15} efficiency results in a shape uncertainty which is applied to the signal processes in SR. 
-Uncertainties of 100\% are assigned to normalization of the QCD multijet background contributions in all regions. These uncertainties are correlated among the regions with the same source of fakes. In order to account for these correlations, an uncertainty is applied to QCD multijet events in the SR and in the CR enriched in \Zjets events, while a separate uncertainty is applied to QCD multijet events in the single-muon CRs, and another uncertainty is applied to the single-electron CRs. Additionally, uncertainties of 20\% are assigned to the cross sections of VV, H$\rightarrow \bbbar$, and DY+jets production. Similarly, 10\% uncertainties in the single top and \ttbar production cross sections are also assigned. 
+Uncertainties of 100\% are assigned to normalization of the QCD multijet background contributions in all regions. These uncertainties are correlated among the regions with the same source of fakes. In order to account for these correlations, an uncertainty is applied to QCD multijet events in the SR and in the CR enriched in \Zjets events, while a separate uncertainty is applied to QCD multijet events in the single-muon CRs, and another uncertainty is applied to the single-electron CRs. Additionally, uncertainties of 20\% are assigned to the cross sections of VV, H$\rightarrow \bbbar$, and \DYjets production. Similarly, 10\% uncertainties in the single top and \ttbar production cross sections are also assigned. 
 %A 10\% uncertainty in the top-antitop quark pair production
 The theoretical uncertainties in the transfer factors related to higher-order effects in the QCD and EW perturbative expansions are calculated according to the prescription given in Ref.~\cite{Lindert:2017olm}, and implemented as described in Ref.~\cite{Sirunyan:2017jix}. 
 Bin-by-bin statistical uncertainties are incorporated following the Barlow-Beeston-lite approach~\cite{Conway:2011in}.
@@ -390,6 +359,7 @@ Bin-by-bin statistical uncertainties are incorporated following the Barlow-Beest
 %Additionally, uncertainties of 10\% each are assigned to the cross sections of the diboson and top quark processes, and a further 10\% normalization uncertainty is assigned to account for the differences in the \pt spectrum of simulated and observed top quark events~\cite{Czakon:2015owf}. For the diboson and $\Vgamma$ processes, additional uncertainties related to unknown mixed QCD-EW NLO corrections are estimated based on the product of the individual EW and QCD correction terms. These uncertainties range between 1 and 10\%, depending on the process and boson \pt.
 
 The likelihood functions obtained for the three data-taking years are combined to maximize the statistical power of the search. The combination is performed by defining a combined likelihood that describes all the regions in all data sets. For this purpose, the effects of all theoretical uncertainties are assumed to be correlated. Most experimental uncertainties are dominated by the inherent precision of auxiliary measurements specific to each data set and are thus assumed to be uncorrelated among the different data taking years. The experimental uncertainties related to the determination of the integrated luminosity and to the \textsc{DeepJet} efficiency are partially correlated among the data taking years, which is taken into account by splitting the total uncertainty into its correlated and uncorrelated components. A summary of all the uncertainties considered for this analysis is presented in Table~\ref{tab:systematics}.
+
 \newpage
 \begin{table}[!htbp]
 \centering
@@ -447,7 +417,7 @@ The likelihood functions obtained for the three data-taking years are combined t
         H$\rightarrow \bbbar$ cross section
           & 20\% \\
 
-        Z($\rightarrow \ell\ell$)+jets cross section
+        \DYjets cross section
           & 20\% \\
 
         Single top cross section
@@ -478,6 +448,7 @@ The likelihood functions obtained for the three data-taking years are combined t
 
 The ML fit is performed by combining the SR and CRs as well as the data sets corresponding to the years of data taking. The \recoil-vs.-$\mSD$ distributions in SR before and after the fit (``prefit'' and ``postfit'') for all three years combined are shown in Fig.~\ref{sr}. Good agreement is observed between the background-only postfit result and the data.
 
+\newpage
 
 \begin{figure}[!htbp]
     \begin{center}
@@ -566,6 +537,7 @@ The result is interpreted in terms of exclusion limits at the 95\% confidence le
 % !!! Anything you supply here WILL BE OVERWRITTEN, but you can include the current text as an example during internal review. See the Twiki for instructions for requesting an addition.
 %
 % Modify to match either US or UK English spelling for centre/center, programme/program. For PRL use the short version, for JINST normally use the long version. All others take the middle length version other than exceptional cases.
+
 
 %% **DO NOT REMOVE BIBLIOGRAPHY**
 \bibliography{SUS-23-013} % this will be replaced with {auto_generated} when processed by tdr, which is a combination of all .bib files in the directory.
