@@ -142,7 +142,7 @@
 \cmsNoteHeader{SUS-23-013}
 % >> Title: please make sure that the non-TeX equivalent is in PDFTitle below for papers. For PASs, PDFTitle can be used with plain TeX.
 
-\title{Search for dark matter produced in association with a dark Higgs boson decaying into a bottom quark pair in proton-proton collisions at \texorpdfstring{$\sqrt{s} = 13\TeV$}{sqrt(s) = 13 TeV}}
+\title{Search for dark matter produced in association with a dark Higgs boson decaying into a bottom quark pair in proton-proton collisions at $\sqrt{s}=13~\mathrm{TeV}$}
 
 % >> Authors
 %Author is always "The CMS Collaboration" for PAS and papers, so author, etc, below will be ignored in those cases
@@ -162,13 +162,7 @@
 % 2. **DO NOT use %**                  to comment out sections of the abstract: the extractor will still grab those lines (and they won't be comments any longer!).
 % 3. For PASs: **DO NOT use CMS tex macros.**...in the abstract: CDS MathJax processor used on the abstract doesn't understand them _and_ will only look within $$. The abstracts for papers are hand formatted so macros are okay.
 \abstract{
-    A search for dark matter produced in association with a dark Higgs boson decaying into a bottom quark pair has been performed in proton-proton collisions at a center-of-mass energy of 13\TeV collected with the CMS detector during the 2016--2018 data-taking period at the CERN LHC. The analyzed data sample corresponds to an integrated luminosity of 138\fbinv.
-    The results are interpreted in terms of a novel theoretical model of dark matter production that, together with a spin-1 gauge boson mediator, predicts the existence of a Higgs-boson-like particle in the dark sector (i.e., a dark Higgs boson). 
-    %The model simultaneously provides a mechanism to generate the masses of particles in the dark sector and a new annihilation channel that helps relax the constraints on dark matter relic abundance.  If such a dark Higgs boson mixes with the standard model Higgs boson, its decay into a bottom quark pair can be identified in hadronic jets. 
-    This search focuses on 
-    %final states where the dark matter mediator is produced in association with a dark Higgs boson, which gives rise to 
-    an experimental signature with large missing transverse momentum from dark matter production and a resonant structure in the invariant mass of the bottom quark pair from the dark Higgs boson decay. 
-    Limits at the 95\% confidence level on the signal strength for dark Higgs boson mass hypotheses below 160\GeV are set for the first time with CMS data. Values of the mediator mass up to 2.5--4.5\TeV are excluded depending on the dark Higgs boson mass.}
+    A search for dark matter produced in association with a dark Higgs boson decaying into a bottom quark pair has been performed in proton-proton collisions at a center-of-mass energy of $13~\mathrm{TeV}$ collected with the CMS detector during the 2016--2018 data-taking period at the CERN LHC. The analyzed data sample corresponds to an integrated luminosity of $138~\mathrm{fb}^{-1}$. The results are interpreted in terms of a novel theoretical model of dark matter production that, together with a spin-1 gauge boson mediator, predicts the existence of a Higgs-boson-like particle in the dark sector (i.e., a dark Higgs boson). This search focuses on an experimental signature with large missing transverse momentum from dark matter production and a resonant structure in the invariant mass of the bottom quark pair from the dark Higgs boson decay. Limits at the $95\%$ confidence level on the signal strength for dark Higgs boson mass hypotheses below 160\GeV are set for the first time with CMS data. Values of the mediator mass up to 2.5--4.5\TeV are excluded depending on the dark Higgs boson mass.}
 
 % >> PDF Metadata
 % Do not comment out the following hypersetup lines (metadata). They will disappear in NODRAFT mode and are needed by CDS.
@@ -281,9 +275,9 @@ The SR trigger selections require $\ptmiss > 120\GeV$ and $\mht > 120\GeV$, wher
 
 %At the HLT, events with high-\pt muons are therefore also assigned large \ptmiss, and the same trigger is used to collect data populating the single-muon CRs. The control samples with electrons are selected using two single-electron triggers: one that requires \(\pt>27\) (2016), 35 (2017), 32 (2018)\GeV, while the other requires \(\pt>105\) (2016), 115 (2017--2018)\GeV. Additionally, a single-photon trigger with \(\pt>200\GeV\) is used in 2017 and 2018. The single-electron triggers differ in their isolation requirements: while the lower threshold trigger requires electrons to be well isolated, the higher-threshold trigger does not, which improves the efficiency at high \pt. Similarly, the single-photon trigger avoids reliance on the HLT track reconstruction and increases the overall efficiency for electrons with $\pt>200\GeV$. During the 2016 and 2017 data taking, a gradual shift in the timing of the inputs of the ECAL L1 trigger in the region $\abs{\eta} > 2.0$ caused a specific trigger inefficiency, known as L1 pre-firing. Correction factors are computed from data and applied to the acceptance evaluated by simulation for the 2016 and 2017 samples.
 
-Events in SR are selected with a requirement of  $\recoil > 250\GeV$. The soft-drop corrected mass ($\mSD$) of the leading AK15 jet in \pt must satisfy the requirement $\mSD\in[40,300]$. In order to preferentially select events where the leading AK15 jet originates from the hadronic decay of an \darkHiggs boson, the jet must satisfy a minimum requirement in the \textsc{DeepAK15} score. A different threshold is used for each year of data-taking in order to optimize the signal sensitivity.
+Events in SR are selected with a requirement of  $\recoil > 250\GeV$. The soft-drop corrected mass ($\mSD$) of the leading AK15 jet in \pt must satisfy the requirement $\mSD\in[40,300]$. In order to preferentially select events where the leading AK15 jet originates from the hadronic decay of an \darkHiggs boson, the jet must satisfy a minimum requirement in the \textsc{DeepAK15} score. A different threshold is used for each year of data-taking in order to optimize the signal sensitivity. It corresponds to an average signal efficiency of 90--95\%. 
 
-After this basic pre-selection, the main background processes in this search are from \Zjets, \Wjets, \ttbar, and QCD multijet production. The \Zjets process is the largest background and is irreducible. In contrast, the background from \Wjets and \ttbar processes is suppressed by rejecting events if they contain a well-reconstructed and isolated lepton. The “veto” working point (defined in Section ~\ref{objects}) is used in the identification of electrons, while the “loose” working point is used in the identification of muons. Similarly, events with hadronically decaying tau leptons are rejected. To help suppress electroweak backgrounds in which a photon is radiated from the initial state, events that contain a ``loose'' photon are also rejected. The \ttbar process is further suppressed by vetoing events with \PQb-tagged AK4 jets that do not overlap with the leading AK15 jet. Finally, to reject QCD multijet events with large \recoil arising from mismeasurements of the jet momenta, the azimuthal separation between the \recoilvec direction and each AK4 jet in the event is required to be larger than 0.5 radians. Similarly, the azimuthal angle between the \recoilvec direction and each AK15 jet in the event must be larger than 1.5 radians. 
+After this basic pre-selection, the main background processes in this search are from \Zjets, \Wjets, \ttbar, and QCD multijet production. The \Zjets process is the largest background and is irreducible. In contrast, the background from \Wjets and \ttbar processes is suppressed by rejecting events if they contain a well-reconstructed and isolated lepton. The ``veto'' working point (defined in Section ~\ref{objects}) is used in the identification of electrons, while the ``loose'' working point is used in the identification of muons. Similarly, events with hadronically decaying tau leptons are rejected. To help suppress electroweak backgrounds in which a photon is radiated from the initial state, events that contain a ``loose'' photon are also rejected. The \ttbar process is further suppressed by vetoing events with \PQb-tagged AK4 jets that do not overlap with the leading AK15 jet. Non-overlapping AK4 jets are identified by imposing a requirement on the $\Delta R$ with the leading AK15 jet to be larger than 1.5. Finally, to reject QCD multijet events with large \recoil arising from mismeasurements of the jet momenta, the azimuthal separation between the \recoilvec direction and each AK4 jet in the event is required to be larger than 0.5 radians. Similarly, the azimuthal angle between the \recoilvec direction and each AK15 jet in the event must be larger than 1.5 radians. 
 
 %\textcolor{red}{Additional backgrounds arise from single top quark and diboson (VV) production. In single top events, the W boson produced in the top quark decay further decays leptonically, resulting in genuine \ptmiss. Diboson events, including WW, WZ, and ZZ production, also contribute, particularly in cases where one boson decays leptonically (\Wlv, \Zvv) and the other hadronically, thus producing both jets and \ptmiss in the final state.}
 
@@ -319,16 +313,50 @@ As shown in Table~\ref{sr_yields}, even after the full SR selection is applied, 
 \end{table}
 
 
-A CR enriched in \Zjets events is identified using the same requirements that define the SR, but inverting the criterion on the \textsc{DeepAK15} score. 
+A CR enriched in \Zjets events (ZCR) is identified using the same requirements that define the SR, but inverting the criterion on the \textsc{DeepAK15} score. 
 
-Similarly, CRs enriched in \Wjets events are identified using the full set of SR selection criteria with the exception of the muon or electron veto. More specifically, single-muon CRs are composed of events with exactly one tight muon, and single-electron CRs are composed of events with exactly one tight electron.
+Similarly, CRs enriched in \Wjets events are identified using the full set of SR selection criteria with the exception of the muon or electron veto. More specifically, single-muon CRs are composed of events with exactly one tight muon (WMPCR), and single-electron CRs are composed of events with exactly one tight electron (WEPCR).
 
-In the HLT, events with high-\pt muons are also assigned large \ptmiss, therefore the same triggers based on \ptmiss and \mht are also used to select events that populate the single-muon CRs. The control samples with electrons are selected using two single-electron triggers: one that requires \(\pt>27\) (2016), 35 (2017), 32 (2018)\GeV, while the other requires \(\pt>105\) (2016), 115 (2017--2018)\GeV. Additionally, a single-photon trigger with \(\pt>200\GeV\) is used in 2017 and 2018. Single-electron triggers differ in their isolation requirements: While the lower threshold trigger requires electrons to be well isolated, the higher threshold trigger does not, which improves the efficiency at high \pt. Similarly, the single-photon trigger avoids reliance on the HLT track reconstruction and increases the overall efficiency for electrons with \pt $>$ 200\GeV. During the 2016 and 2017 data taking, a gradual shift in the timing of the inputs of the ECAL L1 trigger in the region $\abs{\eta} > 2.0$ caused a specific trigger inefficiency, known as L1 pre-firing. Correction factors are computed from the data and applied to the acceptance evaluated by simulation for the 2016 and 2017 samples.
+In the HLT, events with high-\pt muons are also assigned large \ptmiss, therefore the same triggers based on \ptmiss and \mht are also used to select events that populate the single-muon CRs. The control samples with electrons are selected using two single-electron triggers: one that requires \(\pt>27\) (2016), 35 (2017), 32 (2018)\GeV, while the other requires \(\pt>105\) (2016), 115 (2017--2018)\GeV. Additionally, a single-photon trigger with \(\pt>200\GeV\) is used in 2017 and 2018. Single-electron triggers differ in their isolation requirements: while the lower threshold trigger requires electrons to be well isolated, the higher threshold trigger does not, which improves the efficiency at high \pt. Similarly, the single-photon trigger avoids reliance on the HLT track reconstruction and increases the overall efficiency for electrons with \pt $>$ 200\GeV. During the 2016 and 2017 data taking, a gradual shift in the timing of the inputs of the ECAL L1 trigger in the region $\abs{\eta} > 2.0$ caused a specific trigger inefficiency, known as L1 pre-firing. Correction factors are computed from the data and applied to the acceptance evaluated by simulation for the 2016 and 2017 samples.
 
-Although the same requirement on \recoil that defines the SR is used in all single-lepton CRs, the \ptmiss in each event in these regions is required to be larger than 100\GeV in order to suppress the larger contribution from QCD multijet events due to jets faking electrons in these regions. An additional set of single-lepton CRs is used for events that meet the aforementioned single-electron or single-muon requirements, but fail to meet the \textsc{DeepAK15} score criterion on the leading AK15 jet.
+Although the same requirement on \recoil that defines the SR is used in all single-lepton CRs, the \ptmiss in each event in these regions is required to be larger than 100\GeV in order to suppress the larger contribution from QCD multijet events due to jets faking electrons in these regions. An additional set of single-lepton CRs is used for events that meet the aforementioned single-electron (WEFCR) or single-muon (WMFCR) requirements, but fail to meet the \textsc{DeepAK15} score criterion on the leading AK15 jet. 
+%These CRs are collectively labeled WFCRs, as opposed to the ones populated by events that pass the \textsc{DeepAK15} requirement, which are labeled WPCRs.  
 
-Dedicated single-lepton CRs are also used to constrain the background from \ttbar production. The same single-electron or single-muon selections used to define the \Wjets production CRs are applied, but the veto on b-tagged AK4 jets that do not overlap with the leading AK15 jet is inverted. In this case, only CRs populated with events that satisfy the leading AK15 jet \textsc{DeepAK15} score requirement are used.
+Dedicated single-lepton CRs are also used to constrain the background from \ttbar production. The same single-electron (TTECR) or single-muon (TTMCR) selections used to define the \Wjets production CRs are applied, but the veto on b-tagged AK4 jets that do not overlap with the leading AK15 jet is inverted. In this case, only CRs populated with events that satisfy the leading AK15 jet \textsc{DeepAK15} score requirement are used.
 
+Table~\ref{tab:selection} summarizes the requirements that define the SR and CRs.
+\begin{table}[!htbp]
+    \centering
+    
+    \def\arraystretch{1}
+
+    \caption{Summary of requirements that define the different analysis regions.}
+    \label{tab:selection}
+    \footnotesize
+    
+   \begin{tabular}{l c c c c c c c c}
+        \hline\hline
+         Selection & SR & ZCR & WMPCR & WEPCR & WMFCR & WEFCR & TTMCR & TTECR  \\
+          \hline
+          %Trigger & \ptmiss & \ptmiss & \ptmiss & single-e & \ptmiss & single-e & \ptmiss & single-e \\
+      \ptmiss+\mht trigger & \checkmark & \checkmark & \checkmark & $\times$ & \checkmark & $\times$ & \checkmark & $\times$ \\
+      Single-electron trigger & $\times$ & $\times$ & $\times$ & \checkmark & $\times$ & \checkmark & $\times$ & \checkmark \\
+      U $>$ 250 GeV & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
+      $\abs{\ptmiss(\text{PF}) - \ptmiss(\text{calo})}/\recoil\ <$ 0.5 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
+       AK15 \pt $>$ 160 GeV & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
+    AK15 \mSD $\in$ [40, 300] GeV & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
+    min $\Delta\phi(\vec{U},\vec{AK4s})$ $>$ 0.5  & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
+    min $\Delta\phi(\vec{U},\vec{AK15s})$ $>$ 1.5  & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark \\
+    \ptmiss $>$ 100 GeV  & $\times$ & $\times$ & $\times$ & \checkmark & $\times$ & \checkmark & $\times$ & \checkmark \\
+    \# of muons & 0 & 0 & 1 & 0 & 1 & 0 & 1 & 0 \\
+    \# of electrons & 0 & 0 & 0 & 1 & 0 & 1 & 0 & 1 \\
+    \# of photons & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+    \# of taus & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+    \# of extra b-tagged AK4s & 0 & 0 & 0 & 0 & 0 & 0 & $\geq$ 1 & $\geq$ 1 \\
+    \textsc{DeepAK15} requirement & pass & fail & pass & pass & fail & fail & pass & pass \\
+      \hline\hline
+    \end{tabular}
+\end{table}
 
 \section{Background estimation}
 Background estimation and signal extraction are performed simultaneously, using a joint maximum likelihood fit across the SR and all CRs for each year. A likelihood function is constructed to model the expected background contributions in each bin of the two-dimensional \recoil-vs.-$\mSD$ variable of the SR and CRs, as well as the expected signal yield in each bin of the SR. The best fit background model, as well as the best fit signal strength modifier $\mu$ (which---for a given signal hypothesis---controls the signal normalization relative to the theoretical cross section), are obtained by maximizing the joint likelihood function for the SR and the CRs.
@@ -360,12 +388,11 @@ Bin-by-bin statistical uncertainties are incorporated following the Barlow-Beest
 
 The likelihood functions obtained for the three data-taking years are combined to maximize the statistical power of the search. The combination is performed by defining a combined likelihood that describes all the regions in all data sets. For this purpose, the effects of all theoretical uncertainties are assumed to be correlated. Most experimental uncertainties are dominated by the inherent precision of auxiliary measurements specific to each data set and are thus assumed to be uncorrelated among the different data taking years. The experimental uncertainties related to the determination of the integrated luminosity and to the \textsc{DeepJet} efficiency are partially correlated among the data taking years, which is taken into account by splitting the total uncertainty into its correlated and uncorrelated components. A summary of all the uncertainties considered for this analysis is presented in Table~\ref{tab:systematics}.
 
-\newpage
 \begin{table}[!htbp]
 \centering
     \def\arraystretch{1.2}
     \caption{
-       Summary of statistical and systematic uncertainties included in the analysis. The value given for each rate uncertainty is the maximum value. Uncertainties in the shape of the distributions are instead labeled as such. 
+       Summary of statistical and systematic uncertainties included in the analysis. The value given for each rate uncertainty is the pre-fit maximum value. Uncertainties in the shape of the distributions are instead labeled as such. 
     }
     \label{tab:systematics}
     \begin{tabular}{l c c c}
@@ -376,10 +403,10 @@ The likelihood functions obtained for the three data-taking years are combined t
           & 0.6--2\% \\
 
         Pileup
-          & $\mathcal{O}(1\%)$ \\
+          & 1\% \\
 
         L1 pre-firing
-          & $\mathcal{O}(1\%)$ \\
+          & 1\% \\
 
         \ptmiss trigger efficiency
           & 1--2\% \\
@@ -446,9 +473,8 @@ The likelihood functions obtained for the three data-taking years are combined t
 
 \section{Results and interpretation}
 
-The ML fit is performed by combining the SR and CRs as well as the data sets corresponding to the years of data taking. The \recoil-vs.-$\mSD$ distributions in SR before and after the fit (``prefit'' and ``postfit'') for all three years combined are shown in Fig.~\ref{sr}. Good agreement is observed between the background-only postfit result and the data.
+The Maximum likelihood fit is performed by combining the SR and CRs as well as the data sets corresponding to the years of data taking. The \recoil-vs.-$\mSD$ distributions in SR before and after the fit (``prefit'' and ``postfit'') for all three years combined are shown in Fig.~\ref{sr}. Good agreement is observed between the background-only postfit result and the data.
 
-\newpage
 
 \begin{figure}[!htbp]
     \begin{center}
