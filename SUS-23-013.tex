@@ -226,7 +226,7 @@ Events with electroweakly produced single top quarks (single top production) are
 
 NLO in QCD~\cite{Aliev:2010zk,Kant:2014oha}.
 
-The associated production of vector bosons (VV production) is simulated at NLO in QCD using \PYTHIA, and normalized to the cross sections at NNLO precision for $\PW\PW$ production~\cite{Gehrmann:2014fva}, and at NLO precision for $\PW\PZ$ and $\PZ\PZ$ production~\cite{Campbell:1999ah}. Several production mechanisms of SM H bosons decaying into a pair of \PQb quarks (H$\rightarrow \bbbar$ production) are also produced at LO with the \POWHEG generator. Samples of QCD multijet production events are generated at LO using \MGvATNLO.
+The associated production of vector bosons (VV production) is simulated at NLO in QCD using \PYTHIA, and normalized to the cross sections at NNLO precision for $\PW\PW$ production~\cite{Gehrmann:2014fva}, and at NLO precision for $\PW\PZ$ and $\PZ\PZ$ production~\cite{Campbell:1999ah}. Several production mechanisms of SM H bosons decaying into a pair of \PQb quarks ($\PH \to \bbbar$ production) are also produced at LO with the \POWHEG generator. Samples of QCD multijet production events are generated at LO using \MGvATNLO.
 
 Simulated samples of \darkHiggs boson production are generated with \MGvATNLO~\cite{MADGRAPH} at LO, including up to one additional parton in the matrix element calculations, with the MLM matching scheme. Separate samples are generated for different mass hypotheses for the $\PZpr$ boson, $\chi$ particles, and \darkHiggs bosons.
 
@@ -265,7 +265,7 @@ As shown in Table~\ref{sr_yields}, even after the full SR selection is applied, 
         \hline\hline
          & 2016 & 2017 & 2018 \\
          \hline
-    H$\rightarrow \bbbar$            & 57.6 $\pm$ 0.3 & 72.0 $\pm$ 0.3       & 83.8 $\pm$ 0.3 \\
+    $\PH \to \bbbar$            & 57.6 $\pm$ 0.3 & 72.0 $\pm$ 0.3       & 83.8 $\pm$ 0.3 \\
     \DYjets     & 56.8 $\pm$ 2.2 & 43.3 $\pm$ 2.0       & 37.1 $\pm$ 3.0 \\
     QCD multijet                       & 93.3 $\pm$ 26 & 154.9 $\pm$ 42   & 163.2 $\pm$ 65 \\
     VV                            & 718.0 $\pm$ 18 & 623.4 $\pm$ 18   & 606.4 $\pm$ 21 \\
@@ -330,7 +330,7 @@ Dedicated single-lepton CRs are also used to constrain the background from \ttba
 Background estimation and signal extraction are performed simultaneously, using a joint maximum likelihood fit across the SR and all CRs for each year. A likelihood function is constructed to model the expected background contributions in each bin of the two-dimensional \recoil-vs.-$\mSD$ variable of the SR and CRs, as well as the expected signal yield in each bin of the SR. The best fit background model, as well as the best fit signal strength modifier $\mu$ (which---for a given signal hypothesis---controls the signal normalization relative to the theoretical cross section), are obtained by maximizing the joint likelihood function for the SR and the CRs.
 
 
-The predictions for the dominant backgrounds \Zjets, \Wjets, and \ttbar in the SR are based on the yield of the same processes in each bin of the CRs. The per-bin yields for these processes in the SR are defined as free parameters of the likelihood function. A different set of free parameters is used for each year of data-taking. The yields in the CRs are then defined relative to these parameters by introducing a set of per-bin transfer factors. The choice of transfer factors takes into account the correlations among the \Zjets and \Wjets background contributions in all regions. In all cases, the central values of the transfer factors are obtained from the ratios of the simulated \recoil-vs.-$\mSD$ spectra of the respective processes in the SR to those in the CRs. The predictions for the subdominant single top, VV, H$\rightarrow \bbbar$, \DYjets, and QCD multijet backgrounds in the SR and the CRs are taken directly from simulation.
+The predictions for the dominant backgrounds \Zjets, \Wjets, and \ttbar in the SR are based on the yield of the same processes in each bin of the CRs. The per-bin yields for these processes in the SR are defined as free parameters of the likelihood function. A different set of free parameters is used for each year of data-taking. The yields in the CRs are then defined relative to these parameters by introducing a set of per-bin transfer factors. The choice of transfer factors takes into account the correlations among the \Zjets and \Wjets background contributions in all regions. In all cases, the central values of the transfer factors are obtained from the ratios of the simulated \recoil-vs.-$\mSD$ spectra of the respective processes in the SR to those in the CRs. The predictions for the subdominant single top, VV, $\PH \to \bbbar$, \DYjets, and QCD multijet backgrounds in the SR and the CRs are taken directly from simulation.
 
 To achieve the most accurate possible predictions of the ratios between the dominant backgrounds in the SR and the CRs, as well as of the absolute normalization and shape of the \recoil-vs.-$\mSD$ distributions for the subdominant backgrounds, weights are applied to each simulated event. These weights take into account both experimental and theoretical effects that are not present in the Monte Carlo simulated samples. The experimental corrections are related to the trigger efficiencies, the identification and reconstruction efficiencies of charged leptons, the efficiencies of the \textsc{DeepJet} and \textsc{DeepAK15} algorithms, and the pileup distribution in simulation. Theoretical corrections are applied to the \Zjets and \Wjets processes in order to model the effects of NLO terms in the perturbative EW corrections~\cite{DMTheory}. The corrections are parameterized as a function of the generator-level boson \pt and are evaluated separately for the \Wjets and \Zjets processes.
 
@@ -346,7 +346,7 @@ The uncertainty in the modeling of \ptmiss in simulation~\cite{Khachatryan:2014g
 
 
 Application of the above uncertainties leads to bin migrations, which in turn lead to a variation in the rate of events passing the minimum requirement on \recoil. The resulting change in rate is estimated to be 5\%, and is included as a systematic uncertainty. The corresponding bin migration effects in the jet \pt spectrum that result from the uncertainties in the AK15 jet energy corrections lead to an estimated 4\%  variation in the rate of events passing the minimum AK15 jet \pt requirement. The uncertainty in the \textsc{DeepJet} efficiency leads to a shape uncertainty which is applied to all processes in all regions. The uncertainty in the \textsc{DeepAK15} efficiency results in a shape uncertainty which is applied to the signal processes in SR. 
-Uncertainties of 100\% are assigned to normalization of the QCD multijet background contributions in all regions. These uncertainties are correlated among the regions with the same source of fakes. In order to account for these correlations, an uncertainty is applied to QCD multijet events in the SR and in the CR enriched in \Zjets events, while a separate uncertainty is applied to QCD multijet events in the single-muon CRs, and another uncertainty is applied to the single-electron CRs. Additionally, uncertainties of 20\% are assigned to the cross sections of VV, H$\rightarrow \bbbar$, and \DYjets production. Similarly, 10\% uncertainties in the single top and \ttbar production cross sections are also assigned. 
+Uncertainties of 100\% are assigned to normalization of the QCD multijet background contributions in all regions. These uncertainties are correlated among the regions with the same source of fakes. In order to account for these correlations, an uncertainty is applied to QCD multijet events in the SR and in the CR enriched in \Zjets events, while a separate uncertainty is applied to QCD multijet events in the single-muon CRs, and another uncertainty is applied to the single-electron CRs. Additionally, uncertainties of 20\% are assigned to the cross sections of VV, $\PH \to \bbbar$, and \DYjets production. Similarly, 10\% uncertainties in the single top and \ttbar production cross sections are also assigned. 
 
 The theoretical uncertainties in the transfer factors related to higher-order effects in the QCD and EW perturbative expansions are calculated according to the prescription given in Ref.~\cite{DMTheory}, and implemented as described in Ref.~\cite{Sirunyan:2017jix}. 
 Bin-by-bin statistical uncertainties are incorporated following the Barlow-Beeston-lite approach~\cite{Conway:2011in}.
@@ -407,7 +407,7 @@ The likelihood functions obtained for the three data-taking years are combined. 
         VV cross section
           & 20\% \\
 
-        H$\rightarrow \bbbar$ cross section
+        $\PH \to \bbbar$ cross section
           & 20\% \\
 
         \DYjets cross section
